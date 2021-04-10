@@ -332,7 +332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -30, y: 37}
+  m_AnchoredPosition: {x: -40, y: 45}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &462591289
@@ -720,7 +720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -120, y: 75}
+  m_AnchoredPosition: {x: -140, y: 95}
   m_SizeDelta: {x: 0, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1537688469
@@ -744,7 +744,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    m_FontSize: 11
+    m_FontSize: 13
     m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 1
@@ -755,12 +755,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.3
-  m_Text: "After tinkering with your CPU, you have shrunk \ndown and transported
-    into a micro universe \nexisting within your monster gaming PC. \n\nTo escape,
-    you must sort your massively \ncluttered file directory, while surviving the
-    \nmenacing lurking within.\n\nMastering the various data sorts is your only \nhope
-    of defeating the malware and escape from \nthe PC prison, before it destroys
-    your prized \ngaming PC along with you in it."
+  m_Text: "After tinkering with your CPU, you have shrunk down \nand transported
+    into a micro universe existing \nwithin your monster gaming PC. \n\nTo escape,
+    you must sort your massively cluttered \nfile directory, while surviving the
+    menacing lurking \nwithin.\n\nMastering the various data sorts is your only \nhope
+    of defeating the malware and escape from the \nPC prison, before it destroys
+    your prized gaming PC \nalong with you in it."
 --- !u!222 &1537688470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edde674bee029c841971a8149bb40440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPaused: 0.09
+  letterPaused: 0.05
   message: 
   messageDisplay: {fileID: 0}
 --- !u!1 &1968544081
