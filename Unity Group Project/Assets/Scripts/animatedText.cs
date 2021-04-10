@@ -15,6 +15,8 @@ public class animatedText : MonoBehaviour
     //Text for the message to display
     public Text messageDisplay;
 
+    public AudioSource typingAudio;
+
     //Start is called before the first frame update
     //Use this for initialization 
     void Start(){
@@ -29,11 +31,30 @@ public class animatedText : MonoBehaviour
 
         //Call the function and expect yield to return
         StartCoroutine (TypeText ());
+
+        if (typingAudio == null)
+            typingAudio = GetComponent<AudioSource>();
+
+        PlayForTime(23.5f);
     }
+
+    public void PlayForTime(float time){
+        GetComponent<AudioSource>().Play();
+        Invoke("StopAudio", time);
+    }
+
+    private void StopAudio(){
+        GetComponent<AudioSource>().Stop();
+    }
+
+   
+    
+
 
     IEnumerator TypeText(){
         //Split each char into a char array
         foreach (char letter in message.ToCharArray()){
+          
             //Add 1 letter each
             messageDisplay.text += letter;
             yield return 0;
