@@ -6,11 +6,11 @@ public class CadetController : MonoBehaviour
 {
 	[SerializeField] float movement;
 	[SerializeField] Rigidbody2D rigid;
-	[SerializeField] float speed = 5f;
+	[SerializeField] float speed = 2f;
 	[SerializeField] bool isFacingRight = true;
 	[SerializeField] float jumpForce = 250f;
 	[SerializeField] LayerMask whatIsGround;
-	[SerializeField] float groundDistance = 1.5f;
+	[SerializeField] float groundDistance = 0.3f;
 	[SerializeField] bool grounded;
 	
     // Start is called before the first frame update
@@ -54,29 +54,50 @@ public class CadetController : MonoBehaviour
 	
 	void Jump()
 	{
-		if (isOnGround())
+		if (grounded)
 		{
 			rigid.velocity = new Vector2 (rigid.velocity.x, 0);
 			rigid.AddForce(new Vector2(0, jumpForce));
+			grounded = false;
 		}
 		
 	}
-	bool isOnGround()
+
+	//make sure u replace "floor" with your gameobject name.on which player is standing
+	void OnCollisionEnter2D(Collision2D collider)
 	{
-		Vector2 position = transform.position;
-		Vector2 direction = Vector2.down;
-		
-		Debug.DrawRay(position, direction, Color.green);
-		
-		RaycastHit2D hit = Physics2D.Raycast(position, direction, groundDistance, whatIsGround);
-		if (hit.collider == null)
-		{
-			grounded = false;			
-		}
-		else
+		if (collider.gameObject.tag == "Ground")
 		{
 			grounded = true;
 		}
-		return grounded;
 	}
+
+	//consider when character is jumping .. it will exit collision.
+	void OnCollisionExit2D(Collision2D collider)
+	{
+		if (collider.gameObject.tag == "Ground")
+		{
+			grounded = false;
+		}
+	}
+
+	/*	bool isOnGround()
+		{
+			Vector2 position = transform.position;
+			Vector2 direction = Vector2.down;
+
+			Debug.DrawRay(position, direction, Color.green);
+
+			RaycastHit2D hit = Physics2D.Raycast(position, direction, groundDistance, whatIsGround);
+			if (hit.collider == null)
+			{
+				grounded = false;			
+			}
+			else
+			{
+				grounded = true;
+			}
+			return grounded;
+		}
+	*/
 }

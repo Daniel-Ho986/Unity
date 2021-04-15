@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 8cdd847ab4f914d4cb3d23e9eb98958d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3112992731687410906
+    second: Swing01
+  - first:
+      213: -6796027618181921070
+    second: RopeSmall
+  - first:
+      213: -632514546528222623
+    second: RopeMedium
+  - first:
+      213: -3481291243706905559
+    second: RopeLarge
+  - first:
+      213: 7463284147226817773
+    second: SkullDecoBlack
+  - first:
+      213: 2431332968282582451
+    second: SkullDecoRed
+  - first:
+      213: 8504380184942139882
+    second: WoodenSwingBase
+  - first:
+      213: 1973562401019718802
+    second: CannonWheelFront
+  - first:
+      213: -860020704994670451
+    second: CannonWheelBack
+  - first:
+      213: 6084355521004319360
+    second: CannonRoot
+  - first:
+      213: 8193792764292979959
+    second: CannonBarrel
+  - first:
+      213: -3372628981263526927
+    second: CannonBalls
+  - first:
+      213: 456117211064905978
+    second: SkullLarge
+  - first:
+      213: -2527621135759914716
+    second: Swing01Bloody
+  - first:
+      213: 2160948748613884670
+    second: Spikes
+  - first:
+      213: -2479615447504402491
+    second: WoodenSpikes01
+  - first:
+      213: -8124706615479672075
+    second: WoodenSpikes02
+  - first:
+      213: -3504470977897274362
+    second: WoodenSpikes03
+  - first:
+      213: 5778521319000198238
+    second: WoodenSpikes04
+  - first:
+      213: -6904215040071366006
+    second: CannonBall
+  - first:
+      213: -6068584270617021639
+    second: SawBase
+  - first:
+      213: 1022807057320075967
+    second: ChainLink
+  - first:
+      213: 9063309129100470303
+    second: Chain01
+  - first:
+      213: -1908118830493422253
+    second: Chain02
+  - first:
+      213: 3950095107486512808
+    second: Chain03
+  - first:
+      213: 6308089987502242498
+    second: Chain04
+  - first:
+      213: -3957099063395814597
+    second: FloorTile01
+  - first:
+      213: 8789966295853031308
+    second: FloorTilleBlackSkull
+  - first:
+      213: -3168033761558031744
+    second: FloorTilleRedSkull
+  - first:
+      213: 1415754202311050417
+    second: FloorTileSquare
+  - first:
+      213: 8923023952551630215
+    second: MetalicSwingRoot
+  - first:
+      213: 2747713198920722561
+    second: MaceRed
+  - first:
+      213: -2211236013474135625
+    second: MaceBlack
+  - first:
+      213: 2779881214940103730
+    second: Swing02Bloody
+  - first:
+      213: 7777946582219308557
+    second: Swing02
+  - first:
+      213: -1822428086603964771
+    second: WoodenConector
+  - first:
+      213: 2899114194929477999
+    second: SawBloody
+  - first:
+      213: -8003346854188952629
+    second: SawClean
+  - first:
+      213: -5718407300970070396
+    second: death trap asset sheet_1
+  - first:
+      213: 6171627171077176408
+    second: death trap asset sheet_12
+  - first:
+      213: -8312372367727429927
+    second: death trap asset sheet_15
+  - first:
+      213: 247177735364350332
+    second: death trap asset sheet_19
+  - first:
+      213: -8297233087134058992
+    second: death trap asset sheet_20
+  - first:
+      213: -8528851622869113017
+    second: death trap asset sheet_21
+  - first:
+      213: 1312803852268746614
+    second: death trap asset sheet_29
+  - first:
+      213: 6262833771165887510
+    second: death trap asset sheet_30
+  - first:
+      213: 5513893115603571313
+    second: death trap asset sheet_31
+  - first:
+      213: 4466667866825477795
+    second: death trap asset sheet_34
+  - first:
+      213: -3480400572708315700
+    second: death trap asset sheet_35
+  - first:
+      213: -4626986503269289134
+    second: death trap asset sheet_41
+  - first:
+      213: 6824642450933062267
+    second: death trap asset sheet_43
+  - first:
+      213: -8835620914029580332
+    second: death trap asset sheet_45
+  - first:
+      213: -6286191423597695680
+    second: death trap asset sheet_50
+  - first:
+      213: -2854597796183654752
+    second: death trap asset sheet_52
+  - first:
+      213: -8399785911151925829
+    second: death trap asset sheet_53
+  - first:
+      213: -1559362701609169621
+    second: death trap asset sheet_54
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: death trap asset sheet_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2023
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ebda07bd224a0b0800000000000000
+      internalID: -5718407300970070396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1558
+        width: 31
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c3432a63606a550800000000000000
+      internalID: 6171627171077176408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_15
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1546
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d675d45f5584ac80800000000000000
+      internalID: -8312372367727429927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_19
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1533
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7117c837d62e6300800000000000000
+      internalID: 247177735364350332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_20
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1493
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016b1c6c77e4adc80800000000000000
+      internalID: -8297233087134058992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_21
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1508
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7476fd403ae63a980800000000000000
+      internalID: -8528851622869113017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1436
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773e3ae524083210800000000000000
+      internalID: 1312803852268746614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_30
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1473
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ca9a9022e0ae650800000000000000
+      internalID: 6262833771165887510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_31
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1473
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172d5052398458c40800000000000000
+      internalID: 5513893115603571313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_34
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1448
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec8cb62caccfd30800000000000000
+      internalID: 4466667866825477795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_35
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1418
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd97ab7e1223bfc0800000000000000
+      internalID: -3480400572708315700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_41
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1218
+        width: 494
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2537b144a44a9cfb0800000000000000
+      internalID: -4626986503269289134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_43
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1101
+        width: 494
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a9aee862006be50800000000000000
+      internalID: 6824642450933062267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_45
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 987
+        width: 494
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df21418791916580800000000000000
+      internalID: -8835620914029580332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 560
+        width: 386
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d2a56b436f2c8a0800000000000000
+      internalID: -6286191423597695680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_52
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 41
+        width: 451
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae3cddbd6e6268d0800000000000000
+      internalID: -2854597796183654752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_53
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 73
+        width: 165
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb56570c737fd6b80800000000000000
+      internalID: -8399785911151925829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death trap asset sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 91
+        width: 316
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d879e72e70c5ae0800000000000000
+      internalID: -1559362701609169621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 299791c8168a5d44d9b898a282a31646
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
