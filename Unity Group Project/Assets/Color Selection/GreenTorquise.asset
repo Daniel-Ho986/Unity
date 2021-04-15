@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GreenTorquise
   m_EditorClassIdentifier: 
   colorMode: 3
-  topLeft: {r: 0.7145597, g: 0.9056604, b: 0.12388753, a: 1}
-  topRight: {r: 0.7137255, g: 0.90588236, b: 0.1254902, a: 1}
-  bottomLeft: {r: 0.15690637, g: 0.8113208, b: 0.7725161, a: 1}
-  bottomRight: {r: 0.15686275, g: 0.8117647, b: 0.77254903, a: 1}
+  topLeft: {r: 0.9487807, g: 0.9716981, b: 0.9487807, a: 1}
+  topRight: {r: 0.96862745, g: 0.972549, b: 0.96862745, a: 1}
+  bottomLeft: {r: 0.9490196, g: 0.972549, b: 0.9490196, a: 1}
+  bottomRight: {r: 0.9490196, g: 0.972549, b: 0.9490196, a: 1}
