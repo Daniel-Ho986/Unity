@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class NumberScript : MonoBehaviour, IClick
 {
+    public int number;
+
+
+    void Start()
+    {
+        number = gameObject.GetComponent<NumberScript>().GetNumber();
+    }
+    
+
+    public int GetNumber() { return number; }
+
     public void onClickAction()
     {
         //Do nothing on click

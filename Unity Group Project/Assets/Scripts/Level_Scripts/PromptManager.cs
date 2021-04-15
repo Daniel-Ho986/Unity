@@ -10,6 +10,8 @@ public class PromptManager : MonoBehaviour
     public Animator question1_animator;
     public Animator question2_animator;
     public Animator question3_animator;
+    public Animator swapIt_animator;
+    public Animator question4_animator;
     public Animator combatStart_animator;
     public Animator actionConfirm_animator;
 
@@ -76,6 +78,30 @@ public class PromptManager : MonoBehaviour
     public void HideTextBoxQuestion3()
     {
         question3_animator.SetBool("isVisible", false);
+    }
+
+
+    //TextBox_SwapIt Methods--
+    public void ShowTextBoxSwapIt()
+    {
+        swapIt_animator.SetBool("isVisible", true);
+    }
+
+    public void HideTextBoxSwapIt()
+    {
+        swapIt_animator.SetBool("isVisible", false);
+    }
+
+
+    //TextBox_Question4 Methods--
+    public void ShowTextBoxQuestion4()
+    {
+        question4_animator.SetBool("isVisible", true);
+    }
+
+    public void HideTextBoxQuestion4()
+    {
+        question4_animator.SetBool("isVisible", false);
     }
 
 
