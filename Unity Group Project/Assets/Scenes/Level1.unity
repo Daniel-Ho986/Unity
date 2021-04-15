@@ -1364,7 +1364,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -1752,7 +1752,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: WIP
+          m_StringArgument: Platform1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &592189003
@@ -2458,7 +2458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 747682873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -213.62999, y: -192.61, z: 645.4754}
+  m_LocalPosition: {x: -213.65, y: -192.59, z: 645.4754}
   m_LocalScale: {x: 7.7245474, y: 8.047548, z: 1}
   m_Children: []
   m_Father: {fileID: 530999541}
@@ -2770,7 +2770,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912790721}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -399.9975, y: -224.5861, z: 0}
+  m_LocalPosition: {x: -400.02, y: -224.64, z: 0}
   m_LocalScale: {x: 2.8951056, y: 2.8228028, z: 1.2987013}
   m_Children: []
   m_Father: {fileID: 1594990067}
@@ -2851,7 +2851,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941719661}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -211.33, y: -192.68001, z: 645.4754}
+  m_LocalPosition: {x: -211.39, y: -192.68001, z: 645.4754}
   m_LocalScale: {x: 3.1655426, y: 3.4791455, z: 1}
   m_Children: []
   m_Father: {fileID: 349415400}
