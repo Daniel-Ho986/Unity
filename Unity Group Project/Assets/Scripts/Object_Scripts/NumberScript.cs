@@ -2,35 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NumberScript : MonoBehaviour, IClick
-{
-    public int number;
+public interface NumberScript
+{ 
+    int GetNumber();
+    bool GetLeftMouseDown();
+    bool GetRightMouseDown();
+    bool GetMiddleMouseDown();
+    void SetLeftMouseDown(bool truthValue);
+    void SetRightMouseDown(bool truthValue);
+    void SetMiddleMouseDown(bool truthValue);
 
+    void onClickAction();
 
-    void Start()
-    {
-        number = gameObject.GetComponent<NumberScript>().GetNumber();
-    }
-    
+    void onHoldAction(float xPos, float yPos);
 
-    public int GetNumber() { return number; }
-
-    public void onClickAction()
-    {
-        //Do nothing on click
-    }
-
-    public void onHoldAction(float xPos, float yPos, bool isPressedDown)
-    {
-        if (isPressedDown)
-        {
-            transform.position = new Vector2(xPos, yPos);
-        }
-    }
-
-    public void onDropAction(float xPos, float yPos)
-    {
-        transform.position = new Vector2(xPos, yPos);
-    }
+    void onDropAction(float xPos, float yPos);
 
 }

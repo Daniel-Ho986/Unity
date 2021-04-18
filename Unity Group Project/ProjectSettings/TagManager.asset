@@ -7,13 +7,10 @@ TagManager:
   - Background
   - MemorySpace
   - Enemy
-
   - Reticle
   - DataValue
-
-  - GameMusic
-  - Ground
-
+  - ResourceBar
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -23,9 +20,9 @@ TagManager:
   - UI
   - 
   - 
-  - Background
   - Ground
-  - 
+  - Wall
+  - Ceiling
   - 
   - 
   - 
@@ -50,10 +47,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 17169081
-    locked: 0
-  - name: Foreground
-    uniqueID: 4045131231
     locked: 0

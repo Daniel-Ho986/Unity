@@ -9,7 +9,6 @@ public class CursorController : MonoBehaviour
     public Texture2D cursor;
     public Texture2D cursorHold;
     public Texture2D cursorClick;
-    private CursorControls controls;
     private Camera mainCamera;
 
     //Space bar boolean flags--
@@ -20,7 +19,6 @@ public class CursorController : MonoBehaviour
 
     private void Awake()
     {
-        controls = new CursorControls();
         ChangeCursor(cursor);
         Cursor.lockState = CursorLockMode.Confined;
         mainCamera = Camera.main;
@@ -32,22 +30,18 @@ public class CursorController : MonoBehaviour
 
     private void OnEnable()
     {
-        controls.Enable();
+
     }
 
     private void OnDisable()
     {
-        controls.Disable();
+
     }
 
     // Start is called before the first frame update
     private void Start()
     {
-        controls.Mouse.Click.started += _ => StartedClick();
-        controls.Mouse.Click.performed += _ => EndedClick();
 
-        controls.Mouse.Hold.started += _ => StartedHold();
-        controls.Mouse.Hold.canceled += _ => EndedHold();
     }
 
     private void StartedClick()
@@ -64,19 +58,19 @@ public class CursorController : MonoBehaviour
     private void StartedHold()
     {
         ChangeCursor(cursorHold);
-        HoldObject();
+        //HoldObject();
         DetectObject();
     }
 
     private void EndedHold()
     {
         ChangeCursor(cursor);
-        DropObject();
+        //DropObject();
     }
 
     private void DetectObject()
     {
-        Ray ray = mainCamera.ScreenPointToRay(controls.Mouse.Position.ReadValue<Vector2>());
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
         RaycastHit2D hits2D = Physics2D.GetRayIntersection(ray);
         if (hits2D.collider != null)
@@ -85,6 +79,7 @@ public class CursorController : MonoBehaviour
         }
     }
 
+    /*
     private void HoldObject()
     {
         Vector2 mousePosition = controls.Mouse.Position.ReadValue<Vector2>();
@@ -120,7 +115,9 @@ public class CursorController : MonoBehaviour
 
 
     }
+    */
 
+    /*
     private void DropObject()
     {
         Vector2 mousePosition = controls.Mouse.Position.ReadValue<Vector2>();
@@ -141,6 +138,7 @@ public class CursorController : MonoBehaviour
         isPressedDown = false;//No longer holding down the space bar
         isReleased = true;//The space bar has been released
     }
+    */
 
     private void ChangeCursor(Texture2D cursorType)
     {
@@ -148,6 +146,7 @@ public class CursorController : MonoBehaviour
         Cursor.SetCursor(cursorType, hotspot, CursorMode.Auto);
     }
 
+    /*
     // Update is called once per frame
     void Update()
     {
@@ -162,4 +161,5 @@ public class CursorController : MonoBehaviour
         }
 
     }
+    */
 }

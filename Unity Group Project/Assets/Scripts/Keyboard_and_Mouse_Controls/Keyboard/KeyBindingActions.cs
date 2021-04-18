@@ -9,6 +9,8 @@
     Down1,
     Down2,
     Select1,
-    Select2
+    Select2,
+    Jump1,
+    Jump2
 }
 

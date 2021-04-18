@@ -8,6 +8,67 @@ public class InputManager : MonoBehaviour
 
     [SerializeField] private KeyBindings keyBindings;
 
+    private Camera mainCamera;
+    private GameObject dataValue;
+
+    void Start()
+    {
+        mainCamera = Camera.main;
+    }
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("Left mouse button is clicked...");
+            if (dataValue != null)
+            {
+                if (dataValue.tag == "DataValue")
+                {
+                    dataValue.GetComponent<NumberScript>().SetLeftMouseDown(false);
+                    dataValue.GetComponent<NumberScript>().onDropAction(Input.mousePosition.x,
+                                                                        Input.mousePosition.y);
+                    dataValue = null;
+                }
+
+            }
+            else { DetectObject(); }
+        }
+        if (dataValue != null)
+        {
+            if (dataValue.tag == "DataValue")
+            {
+                if (dataValue.GetComponent<NumberScript>().GetLeftMouseDown() == true)
+                {
+                    Debug.Log("Left mouse button is down on a DataValue...");
+                    dataValue.GetComponent<NumberScript>().onHoldAction(Input.mousePosition.x,
+                                                                        Input.mousePosition.y);
+                }
+            }
+        }
+        else
+        {
+            //Do nothing
+        }
+    }
+
+    private void DetectObject()
+    {
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+
+        RaycastHit2D hits2D = Physics2D.GetRayIntersection(ray);
+        if (hits2D.collider != null)
+        {
+            Debug.Log("Hit 2D Collider" + hits2D.collider.tag);
+            if (hits2D.collider.tag == "DataValue")
+            {
+                dataValue = hits2D.collider.gameObject;
+                dataValue.GetComponent<NumberScript>().SetLeftMouseDown(true);
+                Debug.Log("DataValue was clicked: " + dataValue.GetComponent<NumberScript>().GetNumber());
+            }
+        }
+    }
+
     private void Awake()
     {
         if (instance == null)
