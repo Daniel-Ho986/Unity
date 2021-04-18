@@ -33,3 +33,7 @@ MonoBehaviour:
     keyCode: 101
   - keyBindingAction: 9
     keyCode: 13
+  - keyBindingAction: 10
+    keyCode: 32
+  - keyBindingAction: 11
+    keyCode: 303

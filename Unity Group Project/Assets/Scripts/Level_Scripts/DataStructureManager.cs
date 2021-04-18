@@ -102,7 +102,54 @@ public class DataStructureManager : MonoBehaviour
                 currentValues[0] = space0.GetComponent<BoxScript>().GetNumber();
             }
         }
-            
+        if (space1 != null && space1.GetComponent<BoxScript>().GetNumber() != null)
+        {
+            if (currentValues[1] == space1.GetComponent<BoxScript>().GetNumber())
+            {
+                //Do nothing
+            }
+            else if (currentValues[1] != space1.GetComponent<BoxScript>().GetNumber())
+            {
+                Debug.Log("Changing the value of index 1 in currentValues[]...");
+                currentValues[1] = space1.GetComponent<BoxScript>().GetNumber();
+            }
+        }
+        if (space2 != null && space2.GetComponent<BoxScript>().GetNumber() != null)
+        {
+            if (currentValues[2] == space2.GetComponent<BoxScript>().GetNumber())
+            {
+                //Do nothing
+            }
+            else if (currentValues[2] != space2.GetComponent<BoxScript>().GetNumber())
+            {
+                Debug.Log("Changing the value of index 2 in currentValues[]...");
+                currentValues[2] = space2.GetComponent<BoxScript>().GetNumber();
+            }
+        }
+        if (space3 != null && space3.GetComponent<BoxScript>().GetNumber() != null)
+        {
+            if (currentValues[3] == space3.GetComponent<BoxScript>().GetNumber())
+            {
+                //Do nothing
+            }
+            else if (currentValues[3] != space3.GetComponent<BoxScript>().GetNumber())
+            {
+                Debug.Log("Changing the value of index 3 in currentValues[]...");
+                currentValues[3] = space3.GetComponent<BoxScript>().GetNumber();
+            }
+        }
+        if (space4 != null && space4.GetComponent<BoxScript>().GetNumber() != null)
+        {
+            if (currentValues[4] == space4.GetComponent<BoxScript>().GetNumber())
+            {
+                //Do nothing
+            }
+            else if (currentValues[4] != space4.GetComponent<BoxScript>().GetNumber())
+            {
+                Debug.Log("Changing the value of index 4 in currentValues[]...");
+                currentValues[4] = space4.GetComponent<BoxScript>().GetNumber();
+            }
+        }
     }
 
     
