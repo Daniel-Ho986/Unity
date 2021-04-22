@@ -288,9 +288,9 @@ TextureImporter:
       name: Keyboard Black_4
       rect:
         serializedVersion: 2
-        x: 16
+        x: 81
         y: 208
-        width: 192
+        width: 14
         height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
