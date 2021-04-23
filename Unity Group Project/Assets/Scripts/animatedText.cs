@@ -35,7 +35,7 @@ public class animatedText : MonoBehaviour
         if (typingAudio == null)
             typingAudio = GetComponent<AudioSource>();
 
-        PlayForTime(6.7f);
+        PlayForTime(11.0f);
     }
 
     public void PlayForTime(float time){
