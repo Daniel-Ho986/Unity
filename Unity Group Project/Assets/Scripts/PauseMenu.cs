@@ -22,4 +22,9 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(scenename);
     }
+
+    public void Selection(string scenename){
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(scenename);
+    }
 }
