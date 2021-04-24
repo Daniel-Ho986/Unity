@@ -8,49 +8,60 @@ public class InputManager : MonoBehaviour
 
     [SerializeField] private KeyBindings keyBindings;
 
+    private bool mouseControlsActive;
+
     private Camera mainCamera;
     private GameObject dataValue;
 
     void Start()
     {
+        mouseControlsActive = false;
+
         mainCamera = Camera.main;
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (mouseControlsActive)
         {
-            Debug.Log("Left mouse button is clicked...");
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("Left mouse button is clicked...");
+                if (dataValue != null)
+                {
+                    if (dataValue.tag == "DataValue")
+                    {
+                        dataValue.GetComponent<NumberScript>().SetLeftMouseDown(false);
+                        dataValue.GetComponent<NumberScript>().onDropAction(Input.mousePosition.x,
+                                                                            Input.mousePosition.y);
+                        dataValue = null;
+                    }
+
+                }
+                else { DetectObject(); }
+            }
             if (dataValue != null)
             {
                 if (dataValue.tag == "DataValue")
                 {
-                    dataValue.GetComponent<NumberScript>().SetLeftMouseDown(false);
-                    dataValue.GetComponent<NumberScript>().onDropAction(Input.mousePosition.x,
-                                                                        Input.mousePosition.y);
-                    dataValue = null;
+                    if (dataValue.GetComponent<NumberScript>().GetLeftMouseDown() == true)
+                    {
+                        Debug.Log("Left mouse button is down on a DataValue...");
+                        dataValue.GetComponent<NumberScript>().onHoldAction(Input.mousePosition.x,
+                                                                            Input.mousePosition.y);
+                    }
                 }
-
             }
-            else { DetectObject(); }
-        }
-        if (dataValue != null)
-        {
-            if (dataValue.tag == "DataValue")
+            else
             {
-                if (dataValue.GetComponent<NumberScript>().GetLeftMouseDown() == true)
-                {
-                    Debug.Log("Left mouse button is down on a DataValue...");
-                    dataValue.GetComponent<NumberScript>().onHoldAction(Input.mousePosition.x,
-                                                                        Input.mousePosition.y);
-                }
+                //Do nothing
             }
-        }
-        else
-        {
-            //Do nothing
         }
     }
+
+
+    public void EnableMouseControls() { mouseControlsActive = true; }
+    public void DisableMouseControls() { mouseControlsActive = false; }
 
     private void DetectObject()
     {
