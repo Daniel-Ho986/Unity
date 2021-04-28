@@ -11,6 +11,12 @@ TagManager:
   - DataValue
   - ResourceBar
   - Platform
+  - Wall
+  - BubbleEmote
+  - MenuOption
+  - Button
+  - AttackOption
+  - Reward
   layers:
   - Default
   - TransparentFX

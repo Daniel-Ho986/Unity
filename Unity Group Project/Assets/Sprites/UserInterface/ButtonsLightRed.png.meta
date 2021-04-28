@@ -1,0 +1,2420 @@
+fileFormatVersion: 2
+guid: be74ccd5cb92c47a08ad360ab3822360
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8121573772289189672
+    second: ButtonsLightRed_0
+  - first:
+      213: 1295134533627844968
+    second: ButtonsLightRed_1
+  - first:
+      213: 207130553647076603
+    second: ButtonsLightRed_2
+  - first:
+      213: -7002216054095146555
+    second: ButtonsLightRed_3
+  - first:
+      213: -8716710122444765728
+    second: ButtonsLightRed_4
+  - first:
+      213: 5556787684493852360
+    second: ButtonsLightRed_5
+  - first:
+      213: -3560082996714840326
+    second: ButtonsLightRed_6
+  - first:
+      213: 149580650622813779
+    second: ButtonsLightRed_7
+  - first:
+      213: -4447640779125498812
+    second: ButtonsLightRed_8
+  - first:
+      213: 6378280786626636678
+    second: ButtonsLightRed_9
+  - first:
+      213: -9133784942909537452
+    second: ButtonsLightRed_10
+  - first:
+      213: 5732432736733546821
+    second: ButtonsLightRed_11
+  - first:
+      213: 9101829119252397902
+    second: ButtonsLightRed_12
+  - first:
+      213: -4821576207401492420
+    second: ButtonsLightRed_13
+  - first:
+      213: 6393123918539373816
+    second: ButtonsLightRed_14
+  - first:
+      213: 7063523043737851617
+    second: ButtonsLightRed_15
+  - first:
+      213: 2173264398351605522
+    second: ButtonsLightRed_16
+  - first:
+      213: -794729636248177089
+    second: ButtonsLightRed_17
+  - first:
+      213: -7143946631351141027
+    second: ButtonsLightRed_18
+  - first:
+      213: -4937503353027098349
+    second: ButtonsLightRed_19
+  - first:
+      213: 8340549344324238794
+    second: ButtonsLightRed_20
+  - first:
+      213: -916763893461088333
+    second: ButtonsLightRed_21
+  - first:
+      213: -4045198600508930620
+    second: ButtonsLightRed_22
+  - first:
+      213: 5475824120667485362
+    second: ButtonsLightRed_23
+  - first:
+      213: 2881417341997471693
+    second: ButtonsLightRed_24
+  - first:
+      213: -8969509600304937685
+    second: ButtonsLightRed_25
+  - first:
+      213: 4965911711991509425
+    second: ButtonsLightRed_26
+  - first:
+      213: -8520791037416663298
+    second: ButtonsLightRed_27
+  - first:
+      213: -1680829190547955826
+    second: ButtonsLightRed_28
+  - first:
+      213: -2467766548640417950
+    second: ButtonsLightRed_29
+  - first:
+      213: -4931624232829773741
+    second: ButtonsLightRed_30
+  - first:
+      213: 3682316463034470722
+    second: ButtonsLightRed_31
+  - first:
+      213: 6850525224928005770
+    second: ButtonsLightRed_32
+  - first:
+      213: -8016930602007844229
+    second: ButtonsLightRed_33
+  - first:
+      213: -1818887694571320182
+    second: ButtonsLightRed_34
+  - first:
+      213: -562893744548431586
+    second: ButtonsLightRed_35
+  - first:
+      213: 7120110759759145521
+    second: ButtonsLightRed_36
+  - first:
+      213: -7887144011510000398
+    second: ButtonsLightRed_37
+  - first:
+      213: 3646922848573631039
+    second: ButtonsLightRed_38
+  - first:
+      213: 8183351294295297570
+    second: ButtonsLightRed_39
+  - first:
+      213: -7014777124102483288
+    second: ButtonsLightRed_40
+  - first:
+      213: -5812673512436618185
+    second: ButtonsLightRed_41
+  - first:
+      213: -6948917535223905455
+    second: ButtonsLightRed_42
+  - first:
+      213: 8933408301972777283
+    second: ButtonsLightRed_43
+  - first:
+      213: -544990794919261237
+    second: ButtonsLightRed_44
+  - first:
+      213: 4904386110920643868
+    second: ButtonsLightRed_45
+  - first:
+      213: 7707611990956616836
+    second: ButtonsLightRed_46
+  - first:
+      213: -3275915130924349980
+    second: ButtonsLightRed_47
+  - first:
+      213: -103208193975685456
+    second: ButtonsLightRed_48
+  - first:
+      213: -2374842234123585755
+    second: ButtonsLightRed_49
+  - first:
+      213: -5810003605926449026
+    second: ButtonsLightRed_50
+  - first:
+      213: -2706654805067863022
+    second: ButtonsLightRed_51
+  - first:
+      213: -7674359036430777467
+    second: ButtonsLightRed_52
+  - first:
+      213: -62579763392422317
+    second: ButtonsLightRed_53
+  - first:
+      213: -9183804410968240990
+    second: ButtonsLightRed_54
+  - first:
+      213: 3918139901605845113
+    second: ButtonsLightRed_55
+  - first:
+      213: -5588901757208955948
+    second: ButtonsLightRed_56
+  - first:
+      213: -5561694721295114240
+    second: ButtonsLightRed_57
+  - first:
+      213: -4088731014979781425
+    second: ButtonsLightRed_58
+  - first:
+      213: 6282656950457962649
+    second: ButtonsLightRed_59
+  - first:
+      213: -2880240589786650540
+    second: ButtonsLightRed_60
+  - first:
+      213: -5551042884999763075
+    second: ButtonsLightRed_61
+  - first:
+      213: -2065338577021291738
+    second: ButtonsLightRed_62
+  - first:
+      213: -7288911784149593162
+    second: ButtonsLightRed_63
+  - first:
+      213: -2559936920643627648
+    second: ButtonsLightRed_64
+  - first:
+      213: -6864252229240747472
+    second: ButtonsLightRed_65
+  - first:
+      213: -5712276869434159511
+    second: ButtonsLightRed_66
+  - first:
+      213: -868597994969043695
+    second: ButtonsLightRed_67
+  - first:
+      213: -8326869282448224956
+    second: ButtonsLightRed_68
+  - first:
+      213: -5891333019430071923
+    second: ButtonsLightRed_69
+  - first:
+      213: -3951714958810061796
+    second: ButtonsLightRed_70
+  - first:
+      213: 3436364714404093754
+    second: ButtonsLightRed_71
+  - first:
+      213: -256942214371484588
+    second: ButtonsLightRed_72
+  - first:
+      213: 3815422656861646789
+    second: ButtonsLightRed_73
+  - first:
+      213: 4970950087877115220
+    second: ButtonsLightRed_74
+  - first:
+      213: -3623619107921413917
+    second: ButtonsLightRed_75
+  - first:
+      213: -4736954215346747910
+    second: ButtonsLightRed_76
+  - first:
+      213: -8700643439743568589
+    second: ButtonsLightRed_77
+  - first:
+      213: -5149370079922961964
+    second: ButtonsLightRed_78
+  - first:
+      213: -3078160552805831659
+    second: ButtonsLightRed_79
+  - first:
+      213: -2037483527927713432
+    second: ButtonsLightRed_80
+  - first:
+      213: 7451296136511530082
+    second: ButtonsLightRed_81
+  - first:
+      213: -361015786571007969
+    second: ButtonsLightRed_82
+  - first:
+      213: -576971532833848979
+    second: ButtonsLightRed_83
+  - first:
+      213: 2485642660327015910
+    second: ButtonsLightRed_84
+  - first:
+      213: 7999825330267907192
+    second: ButtonsLightRed_85
+  - first:
+      213: 3612824219483985454
+    second: ButtonsLightRed_86
+  - first:
+      213: -4850681338446232555
+    second: ButtonsLightRed_87
+  - first:
+      213: -1657124185349331660
+    second: ButtonsLightRed_88
+  - first:
+      213: 8981630576891831327
+    second: ButtonsLightRed_89
+  - first:
+      213: -2037992320036917157
+    second: ButtonsLightRed_90
+  - first:
+      213: 2770475137038281880
+    second: ButtonsLightRed_91
+  - first:
+      213: 3280446568322104651
+    second: ButtonsLightRed_92
+  - first:
+      213: -8473953819214849551
+    second: ButtonsLightRed_93
+  - first:
+      213: -8290991811440708897
+    second: ButtonsLightRed_94
+  - first:
+      213: 3262614541102359476
+    second: ButtonsLightRed_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ButtonsLightRed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8d29d1faf5a4f80800000000000000
+      internalID: -8121573772289189672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8699a351ffd39f110800000000000000
+      internalID: 1295134533627844968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf493402420efd200800000000000000
+      internalID: 207130553647076603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c11f1f199123de90800000000000000
+      internalID: -7002216054095146555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5c0a5a356080780800000000000000
+      internalID: -8716710122444765728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce758a35fcad1d40800000000000000
+      internalID: 5556787684493852360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe57e9606b089ec0800000000000000
+      internalID: -3560082996714840326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35605a92fca631200800000000000000
+      internalID: 149580650622813779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 484
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cdea7a64ec642c0800000000000000
+      internalID: -4447640779125498812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_9
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b6494f494348850800000000000000
+      internalID: 6378280786626636678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 484
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c01fbcf64e3180800000000000000
+      internalID: -9133784942909537452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549c2dbc331bd8f40800000000000000
+      internalID: 5732432736733546821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_12
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f78534c51305e70800000000000000
+      internalID: 9101829119252397902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_13
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30eb543cf1561db0800000000000000
+      internalID: -4821576207401492420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_14
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 484
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcb799e450f8b850800000000000000
+      internalID: 6393123918539373816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 468
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6d7ccb8cca60260800000000000000
+      internalID: 7063523043737851617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 468
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f10c2b47cf82e10800000000000000
+      internalID: 2173264398351605522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 468
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36b3f24b9d88f4f0800000000000000
+      internalID: -794729636248177089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 468
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d77f7936a9bdc90800000000000000
+      internalID: -7143946631351141027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_19
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 468
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31905854cd67a7bb0800000000000000
+      internalID: -4937503353027098349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_20
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 468
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd301440759fb370800000000000000
+      internalID: 8340549344324238794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_21
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 468
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7095b98100743f0800000000000000
+      internalID: -916763893461088333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 452
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c502c22e419cd7c0800000000000000
+      internalID: -4045198600508930620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_23
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 452
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4b6ec86090efb40800000000000000
+      internalID: 5475824120667485362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_24
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 452
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7d86f5ec9dcf720800000000000000
+      internalID: 2881417341997471693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_25
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 452
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b254e508a86e58380800000000000000
+      internalID: -8969509600304937685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_26
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 452
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1b43b34667ae440800000000000000
+      internalID: 4965911711991509425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 452
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6927152b110c980800000000000000
+      internalID: -8520791037416663298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 452
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f1841b1ce7ca8e0800000000000000
+      internalID: -1680829190547955826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26732b7166bb0cdd0800000000000000
+      internalID: -2467766548640417950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358197c93e95f8bb0800000000000000
+      internalID: -4931624232829773741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2411eb930573a1330800000000000000
+      internalID: 3682316463034470722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ecfac7564f11f50800000000000000
+      internalID: 6850525224928005770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a2d5ec7142eb090800000000000000
+      internalID: -8016930602007844229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c4fb6574302c6e0800000000000000
+      internalID: -1818887694571320182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b6e52f133038f0800000000000000
+      internalID: -562893744548431586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a61e41307bfc260800000000000000
+      internalID: 7120110759759145521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_37
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 436
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4d8953f4c3b8290800000000000000
+      internalID: -7887144011510000398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 436
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aac7032097c9230800000000000000
+      internalID: 3646922848573631039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 436
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e44b815aa119170800000000000000
+      internalID: 8183351294295297570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_40
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 436
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2d55b1f5186ae90800000000000000
+      internalID: -7014777124102483288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_41
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 436
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ca4efbc3c355fa0800000000000000
+      internalID: -5812673512436618185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_42
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1530f73915c709f90800000000000000
+      internalID: -6948917535223905455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_43
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349ec98f487d9fb70800000000000000
+      internalID: 8933408301972777283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_44
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbcafe62cdcf68f0800000000000000
+      internalID: -544990794919261237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_45
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 404
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15d8ceee21ef0440800000000000000
+      internalID: 4904386110920643868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_46
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ca283e440f6fa60800000000000000
+      internalID: 7707611990956616836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e54de28b8c9982d0800000000000000
+      internalID: -3275915130924349980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_48
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 404
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be6b24c1b4519ef0800000000000000
+      internalID: -103208193975685456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527f77d029dda0fd0800000000000000
+      internalID: -2374842234123585755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70f30dc088be5fa0800000000000000
+      internalID: -5810003605926449026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c63569bc7007ad0800000000000000
+      internalID: -2706654805067863022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5830cbaed133f7590800000000000000
+      internalID: -7674359036430777467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eddd8690ca12ff0800000000000000
+      internalID: -62579763392422317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac829dcb829c8080800000000000000
+      internalID: -9183804410968240990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97810873b77006630800000000000000
+      internalID: 3918139901605845113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3f00d867b3072b0800000000000000
+      internalID: -5588901757208955948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_57
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 388
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0002a0c3e14e0d2b0800000000000000
+      internalID: -5561694721295114240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 388
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccf10e0ec8e147c0800000000000000
+      internalID: -4088731014979781425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_59
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 388
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9909fa1a53b703750800000000000000
+      internalID: 6282656950457962649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_60
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 388
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458ea1a91745708d0800000000000000
+      internalID: -2880240589786650540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_61
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 388
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b21a228ebb6f2b0800000000000000
+      internalID: -5551042884999763075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6233cbfb1817653e0800000000000000
+      internalID: -2065338577021291738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3da92c95598da90800000000000000
+      internalID: -7288911784149593162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08511ad0fe6497cd0800000000000000
+      internalID: -2559936920643627648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a0c6347f64db0a0800000000000000
+      internalID: -6864252229240747472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e42b2c37ae9b0b0800000000000000
+      internalID: -5712276869434159511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11de041c9be12f3f0800000000000000
+      internalID: -868597994969043695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dcf885184017c80800000000000000
+      internalID: -8326869282448224956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81575b15d7cd3ea0800000000000000
+      internalID: -5891333019430071923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14678a9e20b829c0800000000000000
+      internalID: -3951714958810061796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f1eb8408b60bf20800000000000000
+      internalID: 3436364714404093754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cd598da682f6cf0800000000000000
+      internalID: -256942214371484588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf273201ba13f430800000000000000
+      internalID: 3815422656861646789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45dbc1884cc5cf440800000000000000
+      internalID: 4970950087877115220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8b60fbe9156bdc0800000000000000
+      internalID: -3623619107921413917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c7f41d35f24eb0800000000000000
+      internalID: -4736954215346747910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33570c8b3ea114780800000000000000
+      internalID: -8700643439743568589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1ca21e133c988b0800000000000000
+      internalID: -5149370079922961964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_79
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c6368394d2845d0800000000000000
+      internalID: -3078160552805831659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861b822c68769b3e0800000000000000
+      internalID: -2037483527927713432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264a2058b52586760800000000000000
+      internalID: 7451296136511530082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18702b0e0a6dfaf0800000000000000
+      internalID: -361015786571007969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d610de3a27f2ef7f0800000000000000
+      internalID: -576971532833848979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5495f74d6ce7220800000000000000
+      internalID: 2485642660327015910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8746ac3c0c6150f60800000000000000
+      internalID: 7999825330267907192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26554e6c74532230800000000000000
+      internalID: 3612824219483985454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 180
+        width: 128
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514cb4fc50beeacb0800000000000000
+      internalID: -4850681338446232555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 180
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4356b8f4556b009e0800000000000000
+      internalID: -1657124185349331660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_89
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 180
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ac674c6925ac70800000000000000
+      internalID: 8981630576891831327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50b93d58c897b3e0800000000000000
+      internalID: -2037992320036917157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 132
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ce7326574b27620800000000000000
+      internalID: 2770475137038281880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 132
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dfc79f5cc768d20800000000000000
+      internalID: 3280446568322104651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f952aaf5e7766a80800000000000000
+      internalID: -8473953819214849551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2776300ea70fc80800000000000000
+      internalID: -8290991811440708897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsLightRed_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 84
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b32e6993a2274d20800000000000000
+      internalID: 3262614541102359476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

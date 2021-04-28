@@ -17,8 +17,14 @@ public class DataStructureManager : MonoBehaviour
     private int currentIteration;
     private int iterationStage;
     private int[] iterations;
+    private bool[] iterationStatuses;
     private bool isSorted;
     private bool isVisible;
+    private bool isBubbled0;
+    private bool isBubbled1;
+    private bool isBubbled2;
+    private bool isBubbled3;
+    private bool isBubbled4;
 
 
     //Question-Answer Arrays and Positions:
@@ -51,11 +57,18 @@ public class DataStructureManager : MonoBehaviour
         currentIteration = 1; //The main loop iteration number of the sorting algorithm
         iterationStage = 1; //The nested loop iteration number of the sorting algorithm
         iterations = new int[] { 1, 2, 3, 4 }; //An array of all the main loop iterations
+        iterationStatuses = new bool[] { false, false, false, false }; //Iteration solved states
         isSorted = false;
         isVisible = true;
 
+        isBubbled0 = false;
+        isBubbled1 = false;
+        isBubbled2 = false;
+        isBubbled3 = false;
+        isBubbled4 = false;
 
-        question1and3Answers = new int[] { 5, 5, 5, 5, 4, 4, 4, 3, 3, 2 };
+
+    question1and3Answers = new int[] { 5, 5, 5, 5, 4, 4, 4, 3, 3, 2 };
         question2Answers = new int[] {     4, 3, 2, 1, 3, 2, 1, 2, 1, 1 };
         question4Answers = new bool[] { true, true, true, false, true, true, false, true, false, false };
 
@@ -82,6 +95,7 @@ public class DataStructureManager : MonoBehaviour
           { 3, 2, 1, 4, 5 },
           { 2, 3, 1, 4, 5 },
           { 2, 1, 3, 4, 5 },
+          { 1, 2, 3, 4, 5 }
         };
         iterationPhasesPosition = 0;
 }
@@ -150,7 +164,159 @@ public class DataStructureManager : MonoBehaviour
                 currentValues[4] = space4.GetComponent<BoxScript>().GetNumber();
             }
         }
-    }
+
+
+        //When a number is bubbled to its correct position, set a boolean flag true
+        //  to indicate is has reached the correct position--
+        if (isSorted == false && space0.tag == "MemorySpace")
+        {
+            if (space0.GetComponent<BoxScript>().GetNumber() == solutionValues[0])
+            {
+                int size = 5;
+                int[] phaseArray = new int[size];
+                for (int i = 0; i < size; i++)
+                {
+                    //Note: The first index of iterationPhases2D is the solved state when
+                    //        1 is bubbled to the end of the data structure
+                    //        --> Therefore, 9 is the first index
+                    phaseArray[i] = iterationPhases2D[9, i];
+                }
+
+                bool correctlyBubbled = true;
+                for (int i = 0; i < size; i++)
+                {
+                    if (phaseArray[i] != currentValues[i]) { correctlyBubbled = false; }
+                }
+
+                if (correctlyBubbled)
+                {
+                    Debug.Log("NUMBER HAS BEEN BUBBLED!!! - Iteration Completed...");
+                    isBubbled0 = true;
+                    isSorted = true;
+                    //iterationStatuses[4] = true;
+                }
+
+                
+            }
+        }
+
+        if (iterationStatuses[3] == false && space1.tag == "MemorySpace")
+        {
+            if (space1.GetComponent<BoxScript>().GetNumber() == solutionValues[1])
+            {
+                int size = 5;
+                int[] phaseArray = new int[size];
+                for (int i = 0; i < size; i++)
+                {
+                    //Note: The first index of iterationPhases2D is the solved state when
+                    //        2 is bubbled to the end of the data structure
+                    //        --> Therefore, 9 is the first index
+                    phaseArray[i] = iterationPhases2D[9, i];
+                }
+
+                bool correctlyBubbled = true;
+                for (int i = 0; i < size; i++)
+                {
+                    if (phaseArray[i] != currentValues[i]) { correctlyBubbled = false; }
+                }
+
+                if (correctlyBubbled)
+                {
+                    Debug.Log("NUMBER HAS BEEN BUBBLED!!! - Iteration Completed...");
+                    isBubbled1 = true;
+                    iterationStatuses[3] = true;
+                }
+            }
+        }
+        if (iterationStatuses[2] == false && space2.tag == "MemorySpace")
+        {
+            if (space2.GetComponent<BoxScript>().GetNumber() == solutionValues[2])
+            {
+                int size = 5;
+                int[] phaseArray = new int[size];
+                for (int i = 0; i < size; i++)
+                {
+                    //Note: The first index of iterationPhases2D is the solved state when
+                    //        3 is bubbled to the end of the data structure
+                    //        --> Therefore, 8 is the first index
+                    phaseArray[i] = iterationPhases2D[8, i];
+                }
+
+                bool correctlyBubbled = true;
+                for (int i = 0; i < size; i++)
+                {
+                    if (phaseArray[i] != currentValues[i]) { correctlyBubbled = false; }
+                }
+
+                if (correctlyBubbled)
+                {
+                    Debug.Log("NUMBER HAS BEEN BUBBLED!!! - Iteration Completed...");
+                    isBubbled2 = true;
+                    iterationStatuses[2] = true;
+                }
+            }
+        }
+
+        if (iterationStatuses[1] == false && space3.tag == "MemorySpace")
+        {
+            if (space3.GetComponent<BoxScript>().GetNumber() == solutionValues[3])
+            {
+                int size = 5;
+                int[] phaseArray = new int[size];
+                for (int i = 0; i < size; i++)
+                {
+                    //Note: The first index of iterationPhases2D is the solved state when
+                    //        4 is bubbled to the end of the data structure
+                    //        --> Therefore, 6 is the first index
+                    phaseArray[i] = iterationPhases2D[6, i];
+                }
+
+                bool correctlyBubbled = true;
+                for (int i = 0; i < size; i++)
+                {
+                    if (phaseArray[i] != currentValues[i]) { correctlyBubbled = false; }
+                }
+
+                if (correctlyBubbled)
+                {
+                    Debug.Log("NUMBER HAS BEEN BUBBLED!!! - Iteration Completed...");
+                    isBubbled3 = true;
+                    iterationStatuses[1] = true;
+                }
+            }
+        }
+
+        if (iterationStatuses[0] == false && space4.tag == "MemorySpace")
+        {
+            if (space4.GetComponent<BoxScript>().GetNumber() == solutionValues[4])
+            {
+                int size = 5;
+                int[] phaseArray = new int[size];
+                for (int i = 0; i < size; i++)
+                {
+                    //Note: The first index of iterationPhases2D is the solved state when
+                    //        5 is bubbled to the end of the data structure
+                    //        --> Therefore, 3 is the first index
+                    phaseArray[i] = iterationPhases2D[3, i];
+                }
+
+                bool correctlyBubbled = true;
+                for (int i = 0; i < size; i++)
+                {
+                    if (phaseArray[i] != currentValues[i]) { correctlyBubbled = false; }
+                }
+
+                if (correctlyBubbled)
+                {
+                    Debug.Log("NUMBER HAS BEEN BUBBLED!!! - Iteration Completed...");
+                    isBubbled4 = true;
+                    iterationStatuses[0] = true;
+                }
+            }
+        }
+
+
+    }//End of Update()
 
     
     public int[] GetCurrentPhaseValues()
@@ -159,6 +325,9 @@ public class DataStructureManager : MonoBehaviour
         int[] phaseValues = new int[size];
         for (int i = 0; i < 5; i++)
         {
+            //ERROR THROWN: IndexOutOfRangeException: Index was outside the bounds of the array.
+            //  - DataStructureManager.GetCurrentPhaseValues () (at DataStructureManager.cs:219)
+            //  - LevelStartCoroutine:Update() (at LevelStartCoroutine.cs:893)
             phaseValues[i] = iterationPhases2D[iterationPhasesPosition, i];
         }
         return phaseValues;
@@ -421,10 +590,6 @@ public class DataStructureManager : MonoBehaviour
         }
         else if (stageNum == 4)
         {
-            iterationStage = 5;
-        }
-        else if (stageNum == 5)
-        {
             iterationStage = 0;
         }
         else if (stageNum == 0)
@@ -485,6 +650,32 @@ public class DataStructureManager : MonoBehaviour
     public int[] GetIterationList()
     {
         return iterations;
+    }
+
+    //GetIterationPhaseStatus():
+    //  - returns the boolean flag "isBubbled" to indicate whether the current
+    //      iteration phase has been completed or not
+    public bool GetIterationStatus(int iteration)
+    {
+        //Check if a valid iteration num was passed--
+        bool validNum = false;
+        for (int i = 0; i < iterations.Length; i++)
+        {
+            if (iteration == iterations[i]) { validNum = true; }
+        }
+
+        //If a valid iteration num was passed, check if the iteration is solved--
+        if (validNum && iterationStatuses[iteration - 1] == true)
+        {
+            Debug.Log("A valid number for current iteration was provided: " + iteration);
+            return iterationStatuses[iteration - 1];
+        }
+        //If not a valid iteration num OR iteration not solved yet, return false
+        else
+        {
+            Debug.Log("INVALID iteration number provided; GetIterationStatus() returns false...");
+            return false;
+        }
     }
 
     //GetCompletionStatus():
