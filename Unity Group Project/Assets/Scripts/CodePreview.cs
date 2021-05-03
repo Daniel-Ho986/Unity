@@ -21,7 +21,7 @@ public class CodePreview : MonoBehaviour
     }
 
     public void setSelectionJava(){
-        code.text = "void sort(int arr[]){ \n   int n = arr.length; \n\n   // One by one move boundary of unsorted subarray \n   for (int i = 0; i < n - 1; i++){ \n\n   // Find the minimum element in unsorted array \n   int min_idx = i; \n   for (int j = i + 1; j < n; j++) \n         if (arr[j] < arr[min_idx]) \n            min_idx = j; \n\n      // Swap the found minimum element with the first element \n      int temp = arr[min_idx]; \n      arr[min_idx] = arr[i]; \n      arr[i] = temp; \n   } \n}";
+        code.text = "void sort(int arr[]){ \n   int n = arr.length; \n\n   // One by one move boundary of unsorted subarray \n   for (int i = 0; i < n - 1; i++){ \n\n      // Find the minimum element in unsorted array \n      int min_idx = i; \n      for (int j = i + 1; j < n; j++) \n         if (arr[j] < arr[min_idx]) \n            min_idx = j; \n\n      // Swap the found minimum element with the first element \n      int temp = arr[min_idx]; \n      arr[min_idx] = arr[i]; \n      arr[i] = temp; \n   } \n}";
     }
 
     public void setSelectionPython(){
