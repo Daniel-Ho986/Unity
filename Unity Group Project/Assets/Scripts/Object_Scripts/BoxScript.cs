@@ -43,7 +43,7 @@ public class BoxScript : MonoBehaviour
     //Trigger methods
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Something entered a box: " + other.tag);
+        //Debug.Log("Something entered a box: " + other.tag);
         if (other.gameObject.tag == "Reticle")
         {
             selectReticle = other.gameObject;
@@ -69,6 +69,6 @@ public class BoxScript : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Something left a box: " + other.tag);
+        //Debug.Log("Something left a box: " + other.tag);
     }
 }

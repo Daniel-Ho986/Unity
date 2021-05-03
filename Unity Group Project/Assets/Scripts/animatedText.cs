@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
+
 public class animatedText : MonoBehaviour
 {
     //Time taken for each letter to appear 
@@ -14,6 +15,7 @@ public class animatedText : MonoBehaviour
 
     //Text for the message to display
     public Text messageDisplay;
+    
 
     public AudioSource typingAudio;
 
@@ -35,7 +37,7 @@ public class animatedText : MonoBehaviour
         if (typingAudio == null)
             typingAudio = GetComponent<AudioSource>();
 
-        PlayForTime(12.0f);
+        PlayForTime(6.0f);
     }
 
     public void PlayForTime(float time){

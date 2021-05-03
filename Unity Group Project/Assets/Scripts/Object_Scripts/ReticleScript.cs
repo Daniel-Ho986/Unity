@@ -91,7 +91,7 @@ public class ReticleScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Reticle just entered the following: " + other.tag);
+        //Debug.Log("Reticle just entered the following: " + other.tag);
         currentMemorySpace = other.gameObject;
         if (currentMemorySpace.tag == "MemorySpace")
         {
@@ -117,11 +117,11 @@ public class ReticleScript : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log("Reticle is staying in the following: " + other.tag);
+        //Debug.Log("Reticle is staying in the following: " + other.tag);
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Reticle just left the following: " + other.tag);
+        //Debug.Log("Reticle just left the following: " + other.tag);
     }
 }

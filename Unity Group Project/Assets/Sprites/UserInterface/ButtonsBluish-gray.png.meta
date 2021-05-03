@@ -1,0 +1,2420 @@
+fileFormatVersion: 2
+guid: 60fcfd40e93b24e28a5088217b7cb750
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5686458703576551621
+    second: ButtonsBluish-gray_0
+  - first:
+      213: 8358096375719927447
+    second: ButtonsBluish-gray_1
+  - first:
+      213: -1420372614555212241
+    second: ButtonsBluish-gray_2
+  - first:
+      213: -5738486624376719814
+    second: ButtonsBluish-gray_3
+  - first:
+      213: -6806585455197692172
+    second: ButtonsBluish-gray_4
+  - first:
+      213: 2254384502086225045
+    second: ButtonsBluish-gray_5
+  - first:
+      213: -4905375700580986821
+    second: ButtonsBluish-gray_6
+  - first:
+      213: 6722760834728569348
+    second: ButtonsBluish-gray_7
+  - first:
+      213: 2976740701335372817
+    second: ButtonsBluish-gray_8
+  - first:
+      213: 1614389557104598895
+    second: ButtonsBluish-gray_9
+  - first:
+      213: -329048462216446890
+    second: ButtonsBluish-gray_10
+  - first:
+      213: 2731941517307457358
+    second: ButtonsBluish-gray_11
+  - first:
+      213: -869254695216539225
+    second: ButtonsBluish-gray_12
+  - first:
+      213: -941097941884439049
+    second: ButtonsBluish-gray_13
+  - first:
+      213: -8290526329791023985
+    second: ButtonsBluish-gray_14
+  - first:
+      213: 7427126659154983150
+    second: ButtonsBluish-gray_15
+  - first:
+      213: -7973358661739187237
+    second: ButtonsBluish-gray_16
+  - first:
+      213: 4468759318559844755
+    second: ButtonsBluish-gray_17
+  - first:
+      213: 3080478442667130197
+    second: ButtonsBluish-gray_18
+  - first:
+      213: -8223942161188562943
+    second: ButtonsBluish-gray_19
+  - first:
+      213: -9098194921516191565
+    second: ButtonsBluish-gray_20
+  - first:
+      213: -308055408161601954
+    second: ButtonsBluish-gray_21
+  - first:
+      213: 5395570433011135115
+    second: ButtonsBluish-gray_22
+  - first:
+      213: -1937786381022322098
+    second: ButtonsBluish-gray_23
+  - first:
+      213: -475958602108088858
+    second: ButtonsBluish-gray_24
+  - first:
+      213: 2269204011249873357
+    second: ButtonsBluish-gray_25
+  - first:
+      213: 4992324054828444383
+    second: ButtonsBluish-gray_26
+  - first:
+      213: -4327991364152272510
+    second: ButtonsBluish-gray_27
+  - first:
+      213: 8749971092120058872
+    second: ButtonsBluish-gray_28
+  - first:
+      213: 8853137594941523980
+    second: ButtonsBluish-gray_29
+  - first:
+      213: -4709276115230862921
+    second: ButtonsBluish-gray_30
+  - first:
+      213: 6172853888383012445
+    second: ButtonsBluish-gray_31
+  - first:
+      213: 2331789305082028554
+    second: ButtonsBluish-gray_32
+  - first:
+      213: -5731148723322925712
+    second: ButtonsBluish-gray_33
+  - first:
+      213: -3810893367308484294
+    second: ButtonsBluish-gray_34
+  - first:
+      213: 7746099972278217808
+    second: ButtonsBluish-gray_35
+  - first:
+      213: 8179927716542018100
+    second: ButtonsBluish-gray_36
+  - first:
+      213: 1884283495487522408
+    second: ButtonsBluish-gray_37
+  - first:
+      213: 1153320666994005638
+    second: ButtonsBluish-gray_38
+  - first:
+      213: 7608208027791506293
+    second: ButtonsBluish-gray_39
+  - first:
+      213: 2096992103878688126
+    second: ButtonsBluish-gray_40
+  - first:
+      213: 4648624936034478889
+    second: ButtonsBluish-gray_41
+  - first:
+      213: -6589633263195459046
+    second: ButtonsBluish-gray_42
+  - first:
+      213: -6987816346163279854
+    second: ButtonsBluish-gray_43
+  - first:
+      213: -7395072656498783925
+    second: ButtonsBluish-gray_44
+  - first:
+      213: -7434614385717415284
+    second: ButtonsBluish-gray_45
+  - first:
+      213: -3431131766755533020
+    second: ButtonsBluish-gray_46
+  - first:
+      213: 5870181712495910213
+    second: ButtonsBluish-gray_47
+  - first:
+      213: 760168636976489400
+    second: ButtonsBluish-gray_48
+  - first:
+      213: 1195842370138787694
+    second: ButtonsBluish-gray_49
+  - first:
+      213: 2929288996070345877
+    second: ButtonsBluish-gray_50
+  - first:
+      213: 2513532518175845814
+    second: ButtonsBluish-gray_51
+  - first:
+      213: 7106036647179804563
+    second: ButtonsBluish-gray_52
+  - first:
+      213: -6741356780202862469
+    second: ButtonsBluish-gray_53
+  - first:
+      213: -768948216025961981
+    second: ButtonsBluish-gray_54
+  - first:
+      213: 4618647328131794847
+    second: ButtonsBluish-gray_55
+  - first:
+      213: -2587037614039962341
+    second: ButtonsBluish-gray_56
+  - first:
+      213: 8962739145641163923
+    second: ButtonsBluish-gray_57
+  - first:
+      213: -8847693419160282144
+    second: ButtonsBluish-gray_58
+  - first:
+      213: -4620297068064964710
+    second: ButtonsBluish-gray_59
+  - first:
+      213: -7601025921319601300
+    second: ButtonsBluish-gray_60
+  - first:
+      213: -2032803098091812237
+    second: ButtonsBluish-gray_61
+  - first:
+      213: 6200820995279712672
+    second: ButtonsBluish-gray_62
+  - first:
+      213: -1278348483879223572
+    second: ButtonsBluish-gray_63
+  - first:
+      213: -222051232656710097
+    second: ButtonsBluish-gray_64
+  - first:
+      213: 6628820452738998010
+    second: ButtonsBluish-gray_65
+  - first:
+      213: 2679120926265323846
+    second: ButtonsBluish-gray_66
+  - first:
+      213: 8109136044453437452
+    second: ButtonsBluish-gray_67
+  - first:
+      213: -6985920635712987832
+    second: ButtonsBluish-gray_68
+  - first:
+      213: -5868318781250629224
+    second: ButtonsBluish-gray_69
+  - first:
+      213: -6949037320458581844
+    second: ButtonsBluish-gray_70
+  - first:
+      213: -3134304314647685259
+    second: ButtonsBluish-gray_71
+  - first:
+      213: 3607333858876391188
+    second: ButtonsBluish-gray_72
+  - first:
+      213: -3767813798238273489
+    second: ButtonsBluish-gray_73
+  - first:
+      213: -5757589334273637063
+    second: ButtonsBluish-gray_74
+  - first:
+      213: -1242812058409649773
+    second: ButtonsBluish-gray_75
+  - first:
+      213: -1002450676934725685
+    second: ButtonsBluish-gray_76
+  - first:
+      213: -7466522977302156291
+    second: ButtonsBluish-gray_77
+  - first:
+      213: 1332232202242281335
+    second: ButtonsBluish-gray_78
+  - first:
+      213: -2606749774463254754
+    second: ButtonsBluish-gray_79
+  - first:
+      213: 1909318437628019130
+    second: ButtonsBluish-gray_80
+  - first:
+      213: 8821883674881120275
+    second: ButtonsBluish-gray_81
+  - first:
+      213: 7221341605208887191
+    second: ButtonsBluish-gray_82
+  - first:
+      213: -3363503774591227400
+    second: ButtonsBluish-gray_83
+  - first:
+      213: -5742482862915266216
+    second: ButtonsBluish-gray_84
+  - first:
+      213: 4486055844634454349
+    second: ButtonsBluish-gray_85
+  - first:
+      213: -4025503291554763079
+    second: ButtonsBluish-gray_86
+  - first:
+      213: -1321022050970818370
+    second: ButtonsBluish-gray_87
+  - first:
+      213: -3903795403813997273
+    second: ButtonsBluish-gray_88
+  - first:
+      213: -3410558666769678085
+    second: ButtonsBluish-gray_89
+  - first:
+      213: 6033043927039700397
+    second: ButtonsBluish-gray_90
+  - first:
+      213: 8076176920320639363
+    second: ButtonsBluish-gray_91
+  - first:
+      213: -5476991268460245832
+    second: ButtonsBluish-gray_92
+  - first:
+      213: 4703188514359804264
+    second: ButtonsBluish-gray_93
+  - first:
+      213: 448843190090717651
+    second: ButtonsBluish-gray_94
+  - first:
+      213: -4710464287089535444
+    second: ButtonsBluish-gray_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0db90101c5aee40800000000000000
+      internalID: 5686458703576551621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e1441ee5cedf370800000000000000
+      internalID: 8358096375719927447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f266ebce1a2d94ce0800000000000000
+      internalID: -1420372614555212241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 468
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36f1b5a1dccc50b0800000000000000
+      internalID: -5738486624376719814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fed99167962a81a0800000000000000
+      internalID: -6806585455197692172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ccef9a2ce294f10800000000000000
+      internalID: 2254384502086225045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3099054aca9cebb0800000000000000
+      internalID: -4905375700580986821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 468
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aa7e74c5b0c4d50800000000000000
+      internalID: 6722760834728569348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 484
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ca8b75e18f4920800000000000000
+      internalID: 2976740701335372817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_9
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd150bfb6776610800000000000000
+      internalID: 1614389557104598895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 484
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c33bfba2cfe6bf0800000000000000
+      internalID: -329048462216446890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fa046e55ec9e520800000000000000
+      internalID: 2731941517307457358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_12
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a91740d579cfe3f0800000000000000
+      internalID: -869254695216539225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_13
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 484
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f57023786c80f2f0800000000000000
+      internalID: -941097941884439049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_14
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 484
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8478c76a3222fc80800000000000000
+      internalID: -8290526329791023985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 468
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee834cc8854721760800000000000000
+      internalID: 7427126659154983150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 468
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd37044ba80f85190800000000000000
+      internalID: -7973358661739187237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_17
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 468
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399e9797ce8340e30800000000000000
+      internalID: 4468759318559844755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 468
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d3c6192de00ca20800000000000000
+      internalID: 3080478442667130197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_19
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 468
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085ffc3d20bedd80800000000000000
+      internalID: -8223942161188562943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_20
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 468
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0b3c55ce7bcb180800000000000000
+      internalID: -9098194921516191565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_21
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 468
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c3690d3199bbf0800000000000000
+      internalID: -308055408161601954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_22
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 452
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82ba3cc8bae0ea40800000000000000
+      internalID: 5395570433011135115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_23
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 452
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e422394ad899b15e0800000000000000
+      internalID: -1937786381022322098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_24
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 452
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed4e815c2e0569f0800000000000000
+      internalID: -475958602108088858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_25
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 452
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1b0758605dd7f10800000000000000
+      internalID: 2269204011249873357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_26
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 452
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaefa3074c484540800000000000000
+      internalID: 4992324054828444383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 452
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289deb4f8c2efe3c0800000000000000
+      internalID: -4327991364152272510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 452
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbb0c459542e6970800000000000000
+      internalID: 8749971092120058872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0845269cb9acda70800000000000000
+      internalID: 8853137594941523980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1de62f25a45aeb0800000000000000
+      internalID: -4709276115230862921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e457308e16aa550800000000000000
+      internalID: 6172853888383012445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 420
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a022874c40e2c5020800000000000000
+      internalID: 2331789305082028554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d476fd99ed670b0800000000000000
+      internalID: -5731148723322925712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a318fa46cacfc1bc0800000000000000
+      internalID: -3810893367308484294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c6e4a52ecaf7b60800000000000000
+      internalID: 7746099972278217808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 420
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432fbd84be0f48170800000000000000
+      internalID: 8179927716542018100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_37
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 436
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8664aa41bd1562a10800000000000000
+      internalID: 1884283495487522408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 436
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6865b4c390b610010800000000000000
+      internalID: 1153320666994005638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 436
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bb9c924e8c59960800000000000000
+      internalID: 7608208027791506293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_40
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 436
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dfc7845330a1d10800000000000000
+      internalID: 2096992103878688126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_41
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 436
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bab56ffbb338040800000000000000
+      internalID: 4648624936034478889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_42
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12f223e57bec84a0800000000000000
+      internalID: -6589633263195459046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_43
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21805436e0a460f90800000000000000
+      internalID: -6987816346163279854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_44
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b498f25899c6f5990800000000000000
+      internalID: -7395072656498783925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_45
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 404
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82fd414b91f2d890800000000000000
+      internalID: -7434614385717415284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_46
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f5af846db2260d0800000000000000
+      internalID: -3431131766755533020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 404
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d105c7a23177150800000000000000
+      internalID: 5870181712495910213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_48
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 404
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b360680959ac8a00800000000000000
+      internalID: 760168636976489400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fcb7fbc4c789010800000000000000
+      internalID: 1195842370138787694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ccb3762dce6a820800000000000000
+      internalID: 2929288996070345877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bda34d028cd1e220800000000000000
+      internalID: 2513532518175845814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 372
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f5f046ea6bd9260800000000000000
+      internalID: 7106036647179804563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7856d3c9b3e172a0800000000000000
+      internalID: -6741356780202862469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a2a1deba52455f0800000000000000
+      internalID: -768948216025961981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f974a18364bb81040800000000000000
+      internalID: 4618647328131794847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 372
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1de29a2ffef81cd0800000000000000
+      internalID: -2587037614039962341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_57
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 388
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cfd6e24cb026c70800000000000000
+      internalID: 8962739145641163923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 388
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebd36d56bda63580800000000000000
+      internalID: -8847693419160282144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_59
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 388
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7535cb4861efb0800000000000000
+      internalID: -4620297068064964710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_60
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 388
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b753f423bb38690800000000000000
+      internalID: -7601025921319601300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_61
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 388
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a8cef3a580ac3e0800000000000000
+      internalID: -2032803098091812237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a17e6387ddbd0650800000000000000
+      internalID: 6200820995279712672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee383fa3d4624ee0800000000000000
+      internalID: -1278348483879223572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f262f83949d1becf0800000000000000
+      internalID: -222051232656710097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 324
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe1a5da41d4efb50800000000000000
+      internalID: 6628820452738998010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6413c50b9462e2520800000000000000
+      internalID: 2679120926265323846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a6f4b440798070800000000000000
+      internalID: 8109136044453437452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d914fd1360d0f90800000000000000
+      internalID: -6985920635712987832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_69
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 324
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8919dcef82b8f8ea0800000000000000
+      internalID: -5868318781250629224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca84227ef5f009f90800000000000000
+      internalID: -6949037320458581844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577537305d6b084d0800000000000000
+      internalID: -3134304314647685259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ff09c3803df0230800000000000000
+      internalID: 3607333858876391188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 276
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f204130305906bbc0800000000000000
+      internalID: -3767813798238273489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935ca08610fe810b0800000000000000
+      internalID: -5757589334273637063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399bbef7405a0cee0800000000000000
+      internalID: -1242812058409649773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfa478ab649612f0800000000000000
+      internalID: -1002450676934725685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 276
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbec9659e4916890800000000000000
+      internalID: -7466522977302156291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fccf4212a0d7210800000000000000
+      internalID: 1332232202242281335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_79
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb9ca24e6f2dbd0800000000000000
+      internalID: -2606749774463254754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab10ce5c0034f7a10800000000000000
+      internalID: 1909318437628019130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 228
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3185b134670ad6a70800000000000000
+      internalID: 8821883674881120275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f893cfdeb573460800000000000000
+      internalID: 7221341605208887191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9edca332f6251d0800000000000000
+      internalID: -3363503774591227400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_84
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859da2bd24a9e40b0800000000000000
+      internalID: -5742482862915266216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 228
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d496006c50ca14e30800000000000000
+      internalID: 4486055844634454349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be66b8951a8228c0800000000000000
+      internalID: -4025503291554763079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 180
+        width: 128
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb82d679179caade0800000000000000
+      internalID: -1321022050970818370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_88
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 180
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7253ddf63cee2d9c0800000000000000
+      internalID: -3903795403813997273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_89
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 180
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0409566f24ba0d0800000000000000
+      internalID: -3410558666769678085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad6789bc7da9b350800000000000000
+      internalID: 6033043927039700397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 132
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3818bee9e18541070800000000000000
+      internalID: 8076176920320639363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 132
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcc28da571ddf3b0800000000000000
+      internalID: -5476991268460245832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8610d160905154140800000000000000
+      internalID: 4703188514359804264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9d539d08c9a3600800000000000000
+      internalID: 448843190090717651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonsBluish-gray_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 84
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c265dd020b111aeb0800000000000000
+      internalID: -4710464287089535444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
