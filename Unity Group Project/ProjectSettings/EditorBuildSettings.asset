@@ -36,11 +36,29 @@ EditorBuildSettings:
     path: Assets/Scenes/TransitionToLevel2.unity
     guid: 812bb13f0ba321f4080b5be96154cc47
   - enabled: 1
+    path: Assets/Scenes/TransitionToPlatform1.unity
+    guid: da150eba3a58fa6469b2a45fb38acd1f
+  - enabled: 1
     path: Assets/Scenes/Platform1.unity
     guid: 94257855818d70947b3abe8ac07fc643
   - enabled: 1
+    path: Assets/Scenes/TransitionToShop1.unity
+    guid: 08260f92174ce8249af9552cf7f6465e
+  - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: 81934d141655b7d4b8c27666a59b4d72
+  - enabled: 1
+    path: Assets/Scenes/TransitionToLevel3.unity
+    guid: 21f6b0ea661443946908eebf54e731bf
+  - enabled: 1
+    path: Assets/Scenes/TransitionToLevel4.unity
+    guid: c1cbe3b0feb45cc48a4e6ba6bb16eec8
+  - enabled: 1
+    path: Assets/Scenes/TransitionToPlatform2.unity
+    guid: 2691b7ca8753d374e938733a69191373
+  - enabled: 1
+    path: Assets/Scenes/TransitionToShop2.unity
+    guid: a1b430d0c57b2db47bdf3c5fa5dc76fc
   - enabled: 1
     path: Assets/Scenes/WIP.unity
     guid: 7c47c9a647367f34da5e40282ff5c097
