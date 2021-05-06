@@ -26,6 +26,7 @@ public class spike : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             playerObj.transform.position = initialpoint;
+            PersistentData.Instance.SetHealth(PersistentData.Instance.GetHealth() - 1);
         }
     }
 }

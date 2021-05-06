@@ -33,9 +33,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Platform1.unity
     guid: 94257855818d70947b3abe8ac07fc643
   - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 81934d141655b7d4b8c27666a59b4d72
+  - enabled: 1
     path: Assets/Scenes/WIP.unity
     guid: 7c47c9a647367f34da5e40282ff5c097
   - enabled: 0
     path: Assets/Scenes/SelectionIntro.unity
     guid: 2ddb69d813d7fc34b8f12859ab24e4bf
+  - enabled: 1
+    path: Assets/Scenes/HighScore.unity
+    guid: c0a79b3983ebdc54c91f166094c996f5
   m_configObjects: {}
