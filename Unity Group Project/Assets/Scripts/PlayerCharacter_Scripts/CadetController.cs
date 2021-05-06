@@ -12,34 +12,98 @@ public class CadetController : MonoBehaviour
 	[SerializeField] LayerMask whatIsGround;
 	[SerializeField] float groundDistance = 0.3f;
 	[SerializeField] bool grounded;
-	
-    // Start is called before the first frame update
-    void Start()
+
+	[SerializeField] public bool doublejump = false;
+	[SerializeField] int jumpcount = 1;
+
+	private Rigidbody2D rb;
+	[SerializeField] public bool dash = false;
+	[SerializeField] float dashSpeed;
+	[SerializeField] float dashTime;
+	[SerializeField] float startDashTime;
+	[SerializeField] int direction;
+	[SerializeField] bool canDash = true;
+	// Start is called before the first frame update
+	void Start()
     {
         if (rigid == null)
 		{
 			rigid = GetComponent<Rigidbody2D>();
 		}
-    }
+	}
 
     // Update is called once per frame
     void Update()
     {
         movement = Input.GetAxis("Horizontal");
-		if(Input.GetButtonDown("Jump"))
+		if(Input.GetButtonDown("Jump") && jumpcount > 0)
 		{
 			Jump();
 		}
-		
-    }
+
+
+		rigid.velocity = new Vector2(movement * speed, rigid.velocity.y);
+		if (movement < 0 && isFacingRight || movement > 0 && !isFacingRight)
+		{
+			Flip();
+		}
+
+
+
+
+
+		if (dash)
+        {
+			if (direction == 0)
+			{
+				if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+				{
+					if (!isFacingRight)
+					{
+						direction = 1;
+					}
+					else if (isFacingRight)
+					{
+						direction = 2;
+					}
+					canDash = false;
+				}
+			}
+			else
+			{
+				if (dashTime <= 0)
+				{
+					direction = 0;
+					dashTime = startDashTime;
+					rigid.velocity = Vector2.zero;
+				}
+				else
+				{
+					dashTime -= Time.deltaTime;
+
+					if (direction == 1)
+					{
+						rigid.velocity = Vector2.left * dashSpeed;
+					}
+					else if (direction == 2)
+					{
+						rigid.velocity = Vector2.right * dashSpeed;
+					}
+				}
+			}
+		}
+	}
 	
 	//called potentially multiple times per frame, best for physics for smooth behavior
 	void FixedUpdate()
 	{
-		rigid.velocity = new Vector2(movement*speed, rigid.velocity.y);
-		if (movement < 0 && isFacingRight || movement > 0 && !isFacingRight)
+		if (grounded && doublejump)
 		{
-			Flip();
+			jumpcount = 2;
+		}
+		else if (grounded)
+		{
+			jumpcount = 1;
 		}
 	}
 	
@@ -54,12 +118,10 @@ public class CadetController : MonoBehaviour
 	
 	void Jump()
 	{
-		if (grounded)
-		{
-			rigid.velocity = new Vector2 (rigid.velocity.x, 0);
-			rigid.AddForce(new Vector2(0, jumpForce));
-			grounded = false;
-		}
+		rigid.velocity = new Vector2 (rigid.velocity.x, 0);
+		rigid.AddForce(new Vector2(0, jumpForce));
+		grounded = false;
+		jumpcount -= 1;
 		
 	}
 
@@ -78,6 +140,14 @@ public class CadetController : MonoBehaviour
 		if (collider.gameObject.tag == "Ground")
 		{
 			grounded = false;
+		}
+	}
+
+	void OnCollisionStay2D(Collision2D collider)
+    {
+		if (collider.gameObject.tag == "Ground")
+		{
+			canDash = true;
 		}
 	}
 
