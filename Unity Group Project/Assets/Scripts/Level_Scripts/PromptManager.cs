@@ -15,6 +15,15 @@ public class PromptManager : MonoBehaviour
     public Animator combatStart_animator;
     public Animator actionConfirm_animator;
 
+    public GameObject feedbackMessage_Correct;
+    public GameObject feedbackMessage_Wrong;
+    public GameObject feedbackMessage_Victory;
+
+    public Animator resultsChart_animator;
+    public Animator button_Ok_animator;
+    public Animator resultsStats_animator;
+    public Animator endOfLevelMenu_animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -129,4 +138,88 @@ public class PromptManager : MonoBehaviour
     }
 
 
+    //Custom Feedback Message Methods--
+
+    //Feedback Message - Correct
+    public void ShowFeedbackCorrect()
+    {
+        feedbackMessage_Correct.SetActive(true);
+    }
+    public void HideFeedbackCorrect()
+    {
+        feedbackMessage_Correct.SetActive(false);
+    }
+
+    //Feedback Message - Wrong
+    public void ShowFeedbackWrong()
+    {
+        feedbackMessage_Wrong.SetActive(true);
+    }
+    public void HideFeedbackWrong()
+    {
+        feedbackMessage_Wrong.SetActive(false);
+    }
+
+    //Feedback Message - Victory
+    public void ShowFeedbackVictory()
+    {
+        feedbackMessage_Victory.SetActive(true);
+    }
+    public void HideFeedbackVictory()
+    {
+        feedbackMessage_Victory.SetActive(false);
+    }
+
+    //Feedback Message - Sorted
+
+
+    //Feedback Message - Enemy Defeated
+
+
+    //Feedback Message - Defeat
+
+
+
+    //End Results Chart Methods--
+    public void ShowEndResults()
+    {
+        resultsChart_animator.SetBool("isVisible", true);
+        StartCoroutine(ShowResultsStatsCoroutine());
+        StartCoroutine(ShowButtonOkCoroutine());
+    }
+    public void HideEndResults()
+    {
+        button_Ok_animator.SetBool("isVisible", false);
+        resultsStats_animator.SetBool("isVisible", false);
+        StartCoroutine(HideEndResultsCoroutine());
+    }
+
+    IEnumerator ShowResultsStatsCoroutine()
+    {
+        yield return new WaitForSeconds(1.0f);
+        resultsStats_animator.SetBool("isVisible", true);
+    }
+
+    IEnumerator ShowButtonOkCoroutine()
+    {
+        yield return new WaitForSeconds(5.0f);
+        button_Ok_animator.SetBool("isVisible", true); 
+    }
+
+    IEnumerator HideEndResultsCoroutine()
+    {
+        yield return new WaitForSeconds(0.3f);
+        resultsChart_animator.SetBool("isVisible", false);
+    }
+
+
+    //EndOfLevel Menu Methods--
+    public void ShowEndOfLevelMenu()
+    {
+        endOfLevelMenu_animator.SetBool("isVisible", true);
+    }
+    public void HideEndOfLevelMenu()
+    {
+        endOfLevelMenu_animator.SetBool("isVisible", false);
+    }
 }
