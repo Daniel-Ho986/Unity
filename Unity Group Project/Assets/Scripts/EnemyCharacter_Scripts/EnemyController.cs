@@ -32,6 +32,10 @@ public class EnemyController : MonoBehaviour
     public bool attackActivated;
     public bool endedAttack;
 
+    public float attacksPerformed;
+    public float attacksLanded;
+    public float attacksMissed;
+
     //Appearance Variables:
     public Color enemyColor;
 
@@ -70,6 +74,9 @@ public class EnemyController : MonoBehaviour
         attackActivated = false;
         endedAttack = false;
 
+        attacksPerformed = 0.0f;
+        attacksMissed = 0.0f;
+
         phrase1 = "Don't you go touching my data!!!";
         phrase2 = "You're messing up my data >:(";
         phrase3 = "No, no, NO!!! Hands off I say!!!";
@@ -104,6 +111,7 @@ public class EnemyController : MonoBehaviour
                 {
                     fireSpinAttack.GetComponent<FireSpinScript>().ActivateAttack();
                     attackActivated = true;
+                    attacksPerformed += 1;
                 }
                 else if (attackActivated == true)
                 {
@@ -197,10 +205,17 @@ public class EnemyController : MonoBehaviour
 
     public bool AttackHasEnded() { return endedAttack; }
 
+    public float GetAttacksPerformed() { return attacksPerformed; }
+    public float GetAttacksMissed() { return attacksMissed; }
+
+    public void IncrementAttacksLanded() { attacksLanded += 1; }
+    public void CalculateAttacksMissed() { attacksMissed = attacksPerformed - attacksLanded; }
+
     IEnumerator WaitForAttackEndCoroutine()
     {
         yield return new WaitForSeconds(5.0f);
         endedAttack = true;
+        CalculateAttacksMissed();
     }
 
     IEnumerator ResetEndedAttackCoroutine()
