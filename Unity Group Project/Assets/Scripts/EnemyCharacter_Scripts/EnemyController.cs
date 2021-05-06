@@ -176,6 +176,10 @@ public class EnemyController : MonoBehaviour
                 Vector3 adjustment = new Vector3(lostHealth, 0, 0);
                 healthBar.transform.localScale = hbarScale - adjustment;
             }
+            else if (healthRatio < 0)
+            {
+                healthBar.transform.localScale = new Vector3(0, 0, 0);
+            }
         }
     }
 

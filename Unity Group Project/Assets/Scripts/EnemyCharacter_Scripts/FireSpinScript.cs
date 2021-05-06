@@ -23,8 +23,8 @@ public class FireSpinScript : MonoBehaviour
     {
         ogPosition = gameObject.GetComponent<Transform>().position;
 
-        movementSpeed = 0.085f;
-        damageValue = 1.0f;
+        //movementSpeed = 0.085f;
+        //damageValue = 1.0f;
 
         attackSpawned = false;
         attackStarted = false;

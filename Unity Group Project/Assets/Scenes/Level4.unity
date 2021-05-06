@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 97594680}
   - component: {fileID: 97594682}
   m_Layer: 0
-  m_Name: Robot_Enemy1
+  m_Name: Robot_Enemy4
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1071,7 +1071,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 997929454327966748, guid: d421870a8d45148e38943a8b3711e52f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5424528, g: 1, b: 0.753873, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -1109,8 +1109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1973846893}
   energyBar: {fileID: 1965206205}
-  currentHealth: 20
-  maxHealth: 20
+  currentHealth: 40
+  maxHealth: 40
   currentEnergy: 0
   maxEnergy: 0
   tookDamage: 0
@@ -1282,7 +1282,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: TransitionToPlatform1
+          m_StringArgument: Platform1
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &107564011
@@ -6874,8 +6874,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCharacter: {fileID: 580847210}
   enemyCharacter: {fileID: 97594677}
-  movementSpeed: 0.085
-  damageValue: 1
+  movementSpeed: 0.11
+  damageValue: 3
   attackSpawned: 0
   attackStarted: 0
   attackEnded: 0
@@ -7079,7 +7079,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: TransitionToPlatform1
+          m_StringArgument: Platform1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &592189003
@@ -10126,7 +10126,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
-  m_Sprite: {fileID: 21300000, guid: 88b04f84bc8fd43c5b0a2abe4042e5ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c233f1bb87f4446ea91c8bec456452a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11889,7 +11889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074742363}
   m_Layer: 0
-  m_Name: ResourceBar_Enemy1
+  m_Name: ResourceBar_Enemy4
   m_TagString: ResourceBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23426,7 +23426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2117521890}
   m_Layer: 0
-  m_Name: BubbleEmotes_Enemy1
+  m_Name: BubbleEmotes_Enemy4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
