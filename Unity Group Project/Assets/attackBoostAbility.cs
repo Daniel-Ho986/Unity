@@ -9,13 +9,14 @@ public class attackBoostAbility : MonoBehaviour
     [SerializeField] int cost;
     [SerializeField] string description;
     [SerializeField] Text descriptionAndCost;
+    [SerializeField] bool inRange;
 
 
     // Start is called before the first frame update
     void Start()
     {
         cost = 5;
-        description = "Attack Boost";
+        description = "Boost attack by 1";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
     }
@@ -24,6 +25,17 @@ public class attackBoostAbility : MonoBehaviour
     void Update()
     {
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
+
+        if (inRange && Input.GetKeyDown(KeyCode.E))
+        {
+            if (PersistentData.Instance.GetCoin() >= cost)
+            {
+                PersistentData.Instance.SetDamage(PersistentData.Instance.GetDamage() + 1);
+                PersistentData.Instance.SetCoin(PersistentData.Instance.GetCoin() - cost);
+                descriptionAndCost.gameObject.SetActive(false);
+                gameObject.GetComponent<Renderer>().enabled = false;
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -31,12 +43,8 @@ public class attackBoostAbility : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             descriptionAndCost.gameObject.SetActive(true);
+            inRange = true;
 
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-
-
-            }
         }
     }
 
@@ -45,6 +53,8 @@ public class attackBoostAbility : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             descriptionAndCost.gameObject.SetActive(false);
+            inRange = false;
+
         }
     }
 }

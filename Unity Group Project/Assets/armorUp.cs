@@ -15,7 +15,7 @@ public class armorUp : MonoBehaviour
     void Start()
     {
         cost = 5;
-        description = "Armor Up";
+        description = "(Still in progress)Armor Up";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
     }
