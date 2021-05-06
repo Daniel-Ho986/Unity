@@ -68,7 +68,7 @@ public class DataStructureManager : MonoBehaviour
         isBubbled4 = false;
 
 
-    question1and3Answers = new int[] { 5, 5, 5, 5, 4, 4, 4, 3, 3, 2 };
+        question1and3Answers = new int[] { 5, 5, 5, 5, 4, 4, 4, 3, 3, 2 };
         question2Answers = new int[] {     4, 3, 2, 1, 3, 2, 1, 2, 1, 1 };
         question4Answers = new bool[] { true, true, true, false, true, true, false, true, false, false };
 

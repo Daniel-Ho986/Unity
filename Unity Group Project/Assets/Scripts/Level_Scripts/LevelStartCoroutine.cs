@@ -21,11 +21,18 @@ public class LevelStartCoroutine : MonoBehaviour
     private bool subStepIsEnding;
     private bool firstTimeSortCoroutine;
     private bool firstTimeBattleCoroutine;
+    private bool firstTimeVictoryCoroutine;
     private bool isTimeToFight;
     private bool isTimeToSolve;
     private bool isTimeToCelebrate;
     private bool isWaitingForChoice;
     private bool isWaitingForConfirm;
+    private bool hasCheckedAnswer;
+    private bool givingFeedback;
+
+    private bool endResultsExited;
+    private bool isChoosingReward;
+    private bool exitingLevel;
 
     private bool isFirstSwap;
     private bool isSubStep1;
@@ -94,8 +101,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
                 dataManager.SetVisible();
                 dataManager.GetComponent<ReticleController>().SetActive();
+                dataManager.GetComponent<ReticleController>().EnableControls();
+                battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Exclaim");
+                battleManager.playerCharacter.GetComponent<PlayerController>().StartEmote("Ellipses");
                 isWaitingForChoice = true;
                 isWaitingForConfirm = false;
+                hasCheckedAnswer = false;
+                givingFeedback = false;
             }
 
 
@@ -123,9 +135,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 //      can be viewed and answered
                 int answerToCheck = selectReticle.GetComponent<ReticleScript>().GetAnswerInt();
                 bool isCorrectAnswer = dataManager.GetAnswerForComparison(answerToCheck, mainSubStep);
-                if (isCorrectAnswer == true)
+                if (isCorrectAnswer == true && hasCheckedAnswer == false)
                 {
-                    subStepIsEnding = true;
+                    hasCheckedAnswer = true;
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
+                    givingFeedback = true;
+                    StartCoroutine(CorrectAnswer1Coroutine());
+                    //included in above statement: subStepIsEnding = true;
                 }
 
                 //  - If the choice is incorrect, show that the choice was incorrect
@@ -134,8 +150,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 //  - Make the enemy attack the player and allow the player to dodge
                 //  - Then, "subStepIsStarting" = true so that the current question
                 //      can be viewed and answered again
-                else if (isCorrectAnswer == false)
+                else if (isCorrectAnswer == false && hasCheckedAnswer == false)
                 {
+                    hasCheckedAnswer = true;
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
+                    givingFeedback = true;
+                    StartCoroutine(WrongAnswer1Coroutine());
+                    /*included in above statement:
                     dataManager.GetComponent<ReticleController>().SetInactive();
                     inputManager.DisableMouseControls();
                     dataManager.SetInvisible();
@@ -149,6 +170,7 @@ public class LevelStartCoroutine : MonoBehaviour
                     {
                         subStepIsStarting = true;
                     }
+                    */
                 }
 
             }
@@ -168,6 +190,8 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForConfirm = true; //Prevents update from calling repeatedly
                 isWaitingForChoice = false;
+                //Temporarily disable control of the select reticle's movement and selection--
+                dataManager.GetComponent<ReticleController>().DisableControls();
                 promptManager.ShowTextBoxActionConfirm();
             }
             //When the player decides not to make their temporary choice the final answer choice,
@@ -178,6 +202,11 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForChoice = true; //Prevents update from calling repeatedly
                 isWaitingForConfirm = false;
+                //Give the player control over the select reticle once again--
+                if (givingFeedback == false)
+                {
+                    dataManager.GetComponent<ReticleController>().EnableControls();
+                }
                 promptManager.HideTextBoxActionConfirm();
             }
 
@@ -224,8 +253,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
                 dataManager.SetVisible();
                 dataManager.GetComponent<ReticleController>().SetActive();
+                dataManager.GetComponent<ReticleController>().EnableControls();
+                battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Exclaim");
+                battleManager.playerCharacter.GetComponent<PlayerController>().StartEmote("Ellipses");
                 isWaitingForChoice = true;
                 isWaitingForConfirm = false;
+                hasCheckedAnswer = false;
+                givingFeedback = false;
             }
 
 
@@ -253,9 +287,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 //      can be viewed and answered
                 int answerToCheck = selectReticle.GetComponent<ReticleScript>().GetAnswerInt();
                 bool isCorrectAnswer = dataManager.GetAnswerForComparison(answerToCheck, mainSubStep);
-                if (isCorrectAnswer == true)
+                if (isCorrectAnswer == true && hasCheckedAnswer == false)
                 {
-                    subStepIsEnding = true;
+                    hasCheckedAnswer = true;
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
+                    givingFeedback = true;
+                    StartCoroutine(CorrectAnswer2Coroutine());
+                    //included in above statement: subStepIsEnding = true;
                 }
 
                 //  - If the choice is incorrect, show that the choice was incorrect
@@ -264,8 +302,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 //  - Make the enemy attack the player and allow the player to dodge
                 //  - Then, "subStepIsStarting" = true so that the current question
                 //      can be viewed and answered again
-                else if (isCorrectAnswer == false)
+                else if (isCorrectAnswer == false && hasCheckedAnswer == false)
                 {
+                    hasCheckedAnswer = true;
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
+                    givingFeedback = true;
+                    StartCoroutine(WrongAnswer2Coroutine());
+                    /*included in above statement:
                     dataManager.GetComponent<ReticleController>().SetInactive();
                     inputManager.DisableMouseControls();
                     dataManager.SetInvisible();
@@ -279,6 +322,7 @@ public class LevelStartCoroutine : MonoBehaviour
                     {
                         subStepIsStarting = true;
                     }
+                    */
                 }
 
             }
@@ -298,6 +342,8 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForConfirm = true; //Prevents update from calling repeatedly
                 isWaitingForChoice = false;
+                //Temporarily disable control of the select reticle's movement and selection--
+                dataManager.GetComponent<ReticleController>().DisableControls();
                 promptManager.ShowTextBoxActionConfirm();
             }
             //When the player decides not to make their temporary choice the final answer choice,
@@ -308,6 +354,11 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForChoice = true; //Prevents update from calling repeatedly
                 isWaitingForConfirm = false;
+                //Give the player control over the select reticle once again--
+                if (givingFeedback == false)
+                {
+                    dataManager.GetComponent<ReticleController>().EnableControls();
+                }
                 promptManager.HideTextBoxActionConfirm();
             }
 
@@ -352,8 +403,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
                 dataManager.SetVisible();
                 dataManager.GetComponent<ReticleController>().SetActive();
+                dataManager.GetComponent<ReticleController>().EnableControls();
+                battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Exclaim");
+                battleManager.playerCharacter.GetComponent<PlayerController>().StartEmote("Ellipses");
                 isWaitingForChoice = true;
                 isWaitingForConfirm = false;
+                hasCheckedAnswer = false;
+                givingFeedback = false;
             }
 
             //TO_DO: Enable the player to answer question2
@@ -380,9 +436,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 //      can be viewed and answered
                 int answerToCheck = selectReticle.GetComponent<ReticleScript>().GetAnswerInt();
                 bool isCorrectAnswer = dataManager.GetAnswerForComparison(answerToCheck, mainSubStep);
-                if (isCorrectAnswer == true)
+                if (isCorrectAnswer == true && hasCheckedAnswer == false)
                 {
-                    subStepIsEnding = true;
+                    hasCheckedAnswer = true;
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
+                    givingFeedback = true;
+                    StartCoroutine(CorrectAnswer3Coroutine());
+                    //included in above statement: subStepIsEnding = true;
                 }
 
                 //  - If the choice is incorrect, show that the choice was incorrect
@@ -391,8 +451,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 //  - Make the enemy attack the player and allow the player to dodge
                 //  - Then, "subStepIsStarting" = true so that the current question
                 //      can be viewed and answered again
-                else if (isCorrectAnswer == false)
+                else if (isCorrectAnswer == false && hasCheckedAnswer == false)
                 {
+                    hasCheckedAnswer = true;
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
+                    givingFeedback = true;
+                    StartCoroutine(WrongAnswer3Coroutine());
+                    /*included in above statement:
                     dataManager.GetComponent<ReticleController>().SetInactive();
                     inputManager.DisableMouseControls();
                     dataManager.SetInvisible();
@@ -406,6 +471,7 @@ public class LevelStartCoroutine : MonoBehaviour
                     {
                         subStepIsStarting = true;
                     }
+                    */
                 }
 
             }
@@ -425,6 +491,8 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForConfirm = true; //Prevents update from calling repeatedly
                 isWaitingForChoice = false;
+                //Temporarily disable control of the select reticle's movement and selection--
+                dataManager.GetComponent<ReticleController>().DisableControls();
                 promptManager.ShowTextBoxActionConfirm();
             }
             //When the player decides not to make their temporary choice the final answer choice,
@@ -435,6 +503,11 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForChoice = true; //Prevents update from calling repeatedly
                 isWaitingForConfirm = false;
+                //Give the player control over the select reticle once again--
+                if (givingFeedback == false)
+                {
+                    dataManager.GetComponent<ReticleController>().EnableControls();
+                }
                 promptManager.HideTextBoxActionConfirm();
             }
 
@@ -480,6 +553,8 @@ public class LevelStartCoroutine : MonoBehaviour
                 //Enable the use of mouse controls for swapping--
                 inputManager.EnableMouseControls();
                 //removed statement: dataManager.GetComponent<ReticleController>().SetActive();
+                battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Exclaim");
+                battleManager.playerCharacter.GetComponent<PlayerController>().StartEmote("Ellipses");
                 isWaitingForChoice = true;
                 isWaitingForConfirm = false;
             }
@@ -509,6 +584,7 @@ public class LevelStartCoroutine : MonoBehaviour
                 bool isCorrectAnswer = dataManager.GetAnswerForComparison(answerArray, mainSubStep);
                 if (isCorrectAnswer == true)
                 {
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
                     inputManager.DisableMouseControls();
                     subStepIsEnding = true;
                 }
@@ -521,6 +597,7 @@ public class LevelStartCoroutine : MonoBehaviour
                 //      can be viewed and answered again
                 else if (isCorrectAnswer == false)
                 {
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
                     //not necessary: dataManager.GetComponent<ReticleController>().SetInactive();
                     inputManager.DisableMouseControls();
                     dataManager.SetInvisible();
@@ -553,6 +630,8 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForConfirm = true; //Prevents update from calling repeatedly
                 isWaitingForChoice = false;
+                //Disable the use of mouse controls while waiting for answer confirmation--
+                inputManager.DisableMouseControls();
                 promptManager.ShowTextBoxActionConfirm();
             }
             //When the player decides not to make their temporary choice the final answer choice,
@@ -563,6 +642,8 @@ public class LevelStartCoroutine : MonoBehaviour
             {
                 isWaitingForChoice = true; //Prevents update from calling repeatedly
                 isWaitingForConfirm = false;
+                //Enable the use of mouse controls once again so the player can continue swapping--
+                inputManager.EnableMouseControls();
                 promptManager.HideTextBoxActionConfirm();
             }
 
@@ -572,6 +653,7 @@ public class LevelStartCoroutine : MonoBehaviour
                 Debug.Log("Ending step 3 of current iteration...");
                 subStepIsEnding = false;
                 promptManager.HideTextBoxSwapIt();
+                inputManager.DisableMouseControls();
                 dataManager.IncrementIterationStageFrom(mainSubStep);
                 mainSubStep = dataManager.GetIterationStage(); //The current step in iteration
 
@@ -606,6 +688,8 @@ public class LevelStartCoroutine : MonoBehaviour
                 //We don't want the player to have control over the reticle for this question...
                 dataManager.GetComponent<ReticleController>().SetInactive();
                 //removed statement: dataManager.GetComponent<ReticleController>().SetActive();
+                battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Exclaim");
+                battleManager.playerCharacter.GetComponent<PlayerController>().StartEmote("Ellipses");
                 isWaitingForChoice = true;
                 isWaitingForConfirm = false;
             }
@@ -635,6 +719,7 @@ public class LevelStartCoroutine : MonoBehaviour
                 bool isCorrectAnswer = dataManager.GetAnswerForComparison(answerToCheck, mainSubStep);
                 if (isCorrectAnswer == true)
                 {
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
                     iterationPhaseSolved = dataManager.GetIterationStatus(mainStep);
                     subStepIsEnding = true;
                 }
@@ -647,6 +732,7 @@ public class LevelStartCoroutine : MonoBehaviour
                 //      can be viewed and answered again
                 else if (isCorrectAnswer == false)
                 {
+                    battleManager.playerCharacter.GetComponent<PlayerController>().EndEmote("Ellipses");
                     dataManager.GetComponent<ReticleController>().SetInactive();
                     inputManager.DisableMouseControls();
                     dataManager.SetInvisible();
@@ -814,9 +900,14 @@ public class LevelStartCoroutine : MonoBehaviour
         subStepIsEnding = false;
         firstTimeSortCoroutine = true;
         firstTimeBattleCoroutine = true;
+        firstTimeVictoryCoroutine = false;
         isTimeToFight = false;
         isTimeToSolve = true;
         isTimeToCelebrate = false;
+
+        endResultsExited = false;
+        isChoosingReward = false;
+        exitingLevel = false;
 
         mainStep = 0;
         mainSubStep = 0;
@@ -889,8 +980,9 @@ public class LevelStartCoroutine : MonoBehaviour
             //  - Show some prompt indicating the battle has ended
             //  - Show some prompt indicating the solving phase is starting again
             enemyBattleTurnOver = false;
-            //Disable player movement afte enemy has finished their turn--
+            //Disable player movement after enemy has finished their turn--
             battleManager.playerCharacter.GetComponent<PlayerController>().MovementEnabled(false);
+            //battleManager.playerCharacter.GetComponent<PlayerController>().combatEnded = true;
 
             //Check if enemy health has reached 0 or below 0:
             //  - If enemy health is at or below 0, have enemy explode and exit the scene
@@ -940,11 +1032,17 @@ public class LevelStartCoroutine : MonoBehaviour
                 //  - Or, if the player loses, show the game over screen
                 isTimeToSolve = false;
                 isTimeToFight = false;
-                if (enemyDefeated == true) { isTimeToCelebrate = true; }
+                if (enemyDefeated == true)
+                {
+                    isTimeToCelebrate = true;
+                    firstTimeVictoryCoroutine = true;
+                }
                 else { firstTimeBattleCoroutine = true; }
             }
         }
     }//End of BattleCoroutine()
+
+
 
 
     IEnumerator ResetBattleEntryFlagCoroutine()
@@ -953,12 +1051,209 @@ public class LevelStartCoroutine : MonoBehaviour
         firstTimeBattleCoroutine = true;
     }
 
+    IEnumerator CorrectAnswer1Coroutine()
+    {
+        dataManager.GetComponent<ReticleController>().StartFeedbackCorrect();
+        promptManager.ShowFeedbackCorrect();
+        yield return new WaitForSeconds(2.0f);
+        promptManager.HideFeedbackCorrect();
+        subStepIsEnding = true;
+    }
+
+    IEnumerator CorrectAnswer2Coroutine()
+    {
+        dataManager.GetComponent<ReticleController>().StartFeedbackCorrect();
+        promptManager.ShowFeedbackCorrect();
+        yield return new WaitForSeconds(2.0f);
+        promptManager.HideFeedbackCorrect();
+        subStepIsEnding = true;
+    }
+
+    IEnumerator CorrectAnswer3Coroutine()
+    {
+        dataManager.GetComponent<ReticleController>().StartFeedbackCorrect();
+        promptManager.ShowFeedbackCorrect(); 
+        yield return new WaitForSeconds(2.0f);
+        promptManager.HideFeedbackCorrect(); 
+        subStepIsEnding = true;
+    }
+
+    IEnumerator WrongAnswer1Coroutine()
+    {
+        dataManager.GetComponent<ReticleController>().StartFeedbackWrong();
+        promptManager.ShowFeedbackWrong();
+        yield return new WaitForSeconds(2.0f);
+        promptManager.HideFeedbackWrong();
+        dataManager.GetComponent<ReticleController>().SetInactive();
+        inputManager.DisableMouseControls();
+        dataManager.SetInvisible();
+        promptManager.HideTextBoxQuestion1();
+        if ((enemyAlive == true) && (enemyDefeated == false))
+        {
+            PunishWrongAnswer();
+            enemyBattleTurnOver = true;
+        }
+        else if ((enemyAlive == false))
+        {
+            subStepIsStarting = true;
+        }
+    }
+
+    IEnumerator WrongAnswer2Coroutine()
+    {
+        dataManager.GetComponent<ReticleController>().StartFeedbackWrong();
+        promptManager.ShowFeedbackWrong();
+        yield return new WaitForSeconds(2.0f);
+        promptManager.HideFeedbackWrong();
+        dataManager.GetComponent<ReticleController>().SetInactive();
+        inputManager.DisableMouseControls();
+        dataManager.SetInvisible();
+        promptManager.HideTextBoxQuestion2();
+        if ((enemyAlive == true) && (enemyDefeated == false))
+        {
+            PunishWrongAnswer();
+            enemyBattleTurnOver = true;
+        }
+        else if ((enemyAlive == false))
+        {
+            subStepIsStarting = true;
+        }
+    }
+
+    IEnumerator WrongAnswer3Coroutine()
+    {
+        dataManager.GetComponent<ReticleController>().StartFeedbackWrong();
+        promptManager.ShowFeedbackWrong();
+        yield return new WaitForSeconds(2.0f);
+        promptManager.HideFeedbackWrong(); 
+        dataManager.GetComponent<ReticleController>().SetInactive();
+        inputManager.DisableMouseControls();
+        dataManager.SetInvisible();
+        promptManager.HideTextBoxQuestion3();
+        if ((enemyAlive == true) && (enemyDefeated == false))
+        {
+            PunishWrongAnswer();
+            enemyBattleTurnOver = true;
+        }
+        else if ((enemyAlive == false))
+        {
+            subStepIsStarting = true;
+        }
+    }
+
     private void PunishWrongAnswer()
     {
+        battleManager.playerCharacter.GetComponent<PlayerController>().IncrementMistakesMade();
+        battleManager.playerCharacter.GetComponent<PlayerController>().StartEmote("Exclaim");
         //Allow the player to be able to dodge the enemy attack--
         battleManager.playerCharacter.GetComponent<PlayerController>().MovementEnabled(true);
         //Enemy attacks player
         battleManager.enemyCharacter.GetComponent<EnemyController>().AttackPlayer();
+    }
+
+
+
+    //NOTE: NEED TO IMPLEMENT!!!
+    IEnumerator VictoryCoroutine()
+    {
+        //Just using code from BattleCoroutine as a template...
+        //  VVVVVVV
+        yield return new WaitForSeconds(0.5f);
+        if (firstTimeVictoryCoroutine)
+        {
+            firstTimeVictoryCoroutine = false;
+
+            //Hide the data structure and disable all objects after victory is achieved--
+            dataManager.GetComponent<ReticleController>().SetInactive();
+            inputManager.DisableMouseControls();
+            dataManager.SetInvisible();
+
+            //Disable the playerCharacter movement during results screen--
+            battleManager.playerCharacter.GetComponent<PlayerController>().MovementEnabled(false);
+
+            //Display a VICTORY message to the player--
+            Debug.Log("Displaying VICTORY Message!!!");
+            promptManager.ShowFeedbackVictory();
+            yield return new WaitForSeconds(3.0f);
+            promptManager.ShowEndResults();
+            
+        }
+
+        if (promptManager.resultsChart_animator.GetBool("isVisible") == false)
+        {
+            endResultsExited = true;
+        }
+
+        if (endResultsExited == true)
+        {
+            endResultsExited = false;
+            //Drop the three reward chests from above--
+
+            //Display message to choose a reward--
+
+            isChoosingReward = true;
+
+        }
+
+        if (isChoosingReward)
+        {
+            isChoosingReward = false; //NOTE:
+            exitingLevel = true;      //  Only temporarily placed here until rewards are implemented
+            Debug.Log("A reward has been chosen! All reward chests should disappear now...");
+
+            //Allow the player to control character movement during results screen--
+            battleManager.playerCharacter.GetComponent<PlayerController>().MovementEnabled(true);
+
+            //Wait for the player to select a reward
+
+            //Reward 1 is chosen:
+            //Show the player has received the reward
+            //isChoosingReward = false;
+            //exitingLevel = true;
+
+            //Reward 2 is chosen:
+            //Show the player has received the reward
+            //isChoosingReward = false;
+            //exitingLevel = true;
+
+            //Reward 3 is chosen:
+            //Show the player has received the reward
+            //isChoosingReward = false;
+            //exitingLevel = true;
+
+            //Decline to take a reward:
+            //Bestow currency upon the player instead and show the increase
+            //isChoosingReward = false;
+            //exitingLevel = true;
+
+            //Disable the playerCharacter movement after a reward has been selected--
+            battleManager.playerCharacter.GetComponent<PlayerController>().MovementEnabled(false);
+        }
+
+        if (exitingLevel)
+        {
+            Debug.Log("Displaying end of level menu...");
+            //Display a menu with various options
+                //An option to return to the level select
+                //An option to check the player's character menu
+                //An option to return to the title screen
+            EndOfLevelMenuCoroutine();
+        }
+
+        //Keep calling the VictoryCoroutine so the player can decide what to do next--
+        isTimeToCelebrate = true;
+    }
+
+    IEnumerator EndOfLevelMenuCoroutine()
+    {
+        yield return new WaitForSeconds(1.5f);
+        promptManager.ShowEndOfLevelMenu();
+    }
+
+    //NOTE: NEED TO IMPLEMENT!!!
+    IEnumerator DefeatCoroutine()
+    {
+        yield return new WaitForSeconds(0.5f);
     }
 
 
@@ -1046,6 +1341,7 @@ public class LevelStartCoroutine : MonoBehaviour
             isTimeToCelebrate = false; //We only want the victory phase to occur once
 
             //Display victory screen with results/rewards earned
+            StartCoroutine(VictoryCoroutine());
             //Then, display the level select scene
         }
     }//End of Update()

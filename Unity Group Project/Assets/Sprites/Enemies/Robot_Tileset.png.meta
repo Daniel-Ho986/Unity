@@ -49,73 +49,73 @@ TextureImporter:
     second: Robot_Tileset_14
   - first:
       213: -4869555573280267956
-    second: Robot_Tileset_15
+    second: Robot_Enemy2_Idle_1
   - first:
       213: 582499656425977815
-    second: Robot_Tileset_16
+    second: Robot_Enemy2_Walk_1
   - first:
       213: 6471214743549292333
-    second: Robot_Tileset_17
+    second: Robot_Enemy2_Walk_5
   - first:
       213: -634492413828247702
     second: Robot_Tileset_18
   - first:
       213: 6546991136825766452
-    second: Robot_Tileset_19
+    second: Robot_Enemy3_Idle_1
   - first:
       213: 5147879175624817555
-    second: Robot_Tileset_20
+    second: Robot_Enemy3_Idle_2
   - first:
       213: -8954746216398121016
-    second: Robot_Tileset_21
+    second: Robot_Enemy3_Idle_3
   - first:
       213: 2353824187490921117
-    second: Robot_Tileset_22
+    second: Robot_Enemy3_Idle_4
   - first:
       213: -8734846658591984003
-    second: Robot_Tileset_23
+    second: Robot_Enemy3_Walk_1
   - first:
       213: -8054173494502969590
-    second: Robot_Tileset_24
+    second: Robot_Enemy3_Walk_2
   - first:
       213: -5980114491864566274
-    second: Robot_Tileset_25
+    second: Robot_Enemy3_Walk_3
   - first:
       213: -2484808916288216530
-    second: Robot_Tileset_26
+    second: Robot_Enemy3_Walk_4
   - first:
       213: -2310330567793904267
-    second: Robot_Tileset_27
+    second: Robot_Enemy3_Walk_5
   - first:
       213: 3601701809174083836
-    second: Robot_Tileset_28
+    second: Robot_Enemy3_Walk_6
   - first:
       213: -8139256989976185575
-    second: Robot_Tileset_29
+    second: Robot_Enemy3_Walk_7
   - first:
       213: -1629267388110913982
-    second: Robot_Tileset_30
+    second: Robot_Enemy3_Walk_8
   - first:
       213: 198709535600381073
-    second: Robot_Tileset_31
+    second: Robot_Enemy4_Idle_1
   - first:
       213: 8241835052794531732
-    second: Robot_Tileset_32
+    second: Robot_Enemy4_Idle_2
   - first:
       213: 2104062176484356307
-    second: Robot_Tileset_33
+    second: Robot_Enemy4_Idle_3
   - first:
       213: 589217977084718317
-    second: Robot_Tileset_34
+    second: Robot_Enemy4_Idle_4
   - first:
       213: 711321259297876171
-    second: Robot_Tileset_35
+    second: Robot_Enemy4_Walk_1
   - first:
       213: 6652512264845816637
-    second: Robot_Tileset_36
+    second: Robot_Enemy4_Walk_3
   - first:
       213: -7110064433098043333
-    second: Robot_Tileset_37
+    second: Robot_Enemy4_Walk_4
   - first:
       213: -3874337911719858313
     second: Robot_Tileset_38
@@ -136,40 +136,40 @@ TextureImporter:
     second: Robot_Tileset_43
   - first:
       213: 8413492820316428062
-    second: Robot_Tileset_44
+    second: Robot_Enemy5_Idle_1
   - first:
       213: -6346252203521635294
-    second: Robot_Tileset_45
+    second: Robot_Enemy5_Idle_2
   - first:
       213: -8910453340664976937
-    second: Robot_Tileset_46
+    second: Robot_Enemy5_Idle_3
   - first:
       213: -7192585853508296537
-    second: Robot_Tileset_47
+    second: Robot_Enemy5_Idle_4
   - first:
       213: -1385117282193420972
-    second: Robot_Tileset_48
+    second: Robot_Enemy5_Walk_1
   - first:
       213: -6721524018378419424
-    second: Robot_Tileset_49
+    second: Robot_Enemy5_Walk_2
   - first:
       213: -3686745340753288825
-    second: Robot_Tileset_50
+    second: Robot_Enemy5_Walk_3
   - first:
       213: 2637910261608654589
-    second: Robot_Tileset_51
+    second: Robot_Enemy5_Walk_4
   - first:
       213: -1110315905657316738
-    second: Robot_Tileset_52
+    second: Robot_Enemy5_Walk_5
   - first:
       213: 2920971748067962857
-    second: Robot_Tileset_53
+    second: Robot_Enemy5_Walk_6
   - first:
       213: -1648305369082832315
-    second: Robot_Tileset_54
+    second: Robot_Enemy5_Walk_7
   - first:
       213: 9031501154137546005
-    second: Robot_Tileset_55
+    second: Robot_Enemy5_Walk_8
   - first:
       213: 158883375396349310
     second: Robot_Tileset_56
@@ -193,40 +193,40 @@ TextureImporter:
     second: Robot_Tileset_62
   - first:
       213: -8366941966696531841
-    second: Robot_Tileset_63
+    second: Robot_Enemy6_Idle_1
   - first:
       213: 447582687133569597
-    second: Robot_Tileset_64
+    second: Robot_Enemy6_Idle_2
   - first:
       213: -2912700279354733616
-    second: Robot_Tileset_65
+    second: Robot_Enemy6_Idle_3
   - first:
       213: 6581607663654134970
-    second: Robot_Tileset_66
+    second: Robot_Enemy6_Idle_4
   - first:
       213: 8753971109549760614
-    second: Robot_Tileset_67
+    second: Robot_Enemy6_Walk_1
   - first:
       213: 9060281007542510005
-    second: Robot_Tileset_68
+    second: Robot_Enemy6_Walk_2
   - first:
       213: -8795934727581061050
-    second: Robot_Tileset_69
+    second: Robot_Enemy6_Walk_3
   - first:
       213: 9027019732263979396
-    second: Robot_Tileset_70
+    second: Robot_Enemy6_Walk_4
   - first:
       213: 4837676983132362019
-    second: Robot_Tileset_71
+    second: Robot_Enemy6_Walk_5
   - first:
       213: -6736123299351785757
-    second: Robot_Tileset_72
+    second: Robot_Enemy6_Walk_6
   - first:
       213: -3593697975742559790
-    second: Robot_Tileset_73
+    second: Robot_Enemy6_Walk_7
   - first:
       213: 2425306368209875163
-    second: Robot_Tileset_74
+    second: Robot_Enemy6_Walk_8
   - first:
       213: -3753139539647191694
     second: Robot_Tileset_75
@@ -241,118 +241,148 @@ TextureImporter:
     second: Robot_Tileset_78
   - first:
       213: 5033473755975202388
-    second: Robot_Tileset_79
+    second: Robot_Enemy7_Idle_1
   - first:
       213: 7177075521804314802
-    second: Robot_Tileset_80
+    second: Robot_Enemy7_Idle_2
   - first:
       213: 7185139991838283739
-    second: Robot_Tileset_81
+    second: Robot_Enemy7_Idle_3
   - first:
       213: -6345959730319222157
-    second: Robot_Tileset_82
+    second: Robot_Enemy7_Idle_4
   - first:
       213: -6920163416807267471
-    second: Robot_Tileset_83
+    second: Robot_Enemy7_Walk_1
   - first:
       213: -6716228592623179925
-    second: Robot_Tileset_84
+    second: Robot_Enemy7_Walk_2
   - first:
       213: -8284383976842596558
-    second: Robot_Tileset_85
+    second: Robot_Enemy7_Walk_3
   - first:
       213: 6327010071203070483
-    second: Robot_Tileset_86
+    second: Robot_Enemy7_Walk_4
   - first:
       213: 4356414794494529310
-    second: Robot_Tileset_87
+    second: Robot_Enemy7_Walk_5
   - first:
       213: 1720165495147725176
-    second: Robot_Tileset_88
+    second: Robot_Enemy7_Walk_6
   - first:
       213: 2318981300135640792
-    second: Robot_Tileset_89
+    second: Robot_Enemy7_Walk_7
   - first:
       213: -8523119685138269957
-    second: Robot_Tileset_90
+    second: Robot_Enemy7_Walk_8
   - first:
       213: -4556237948617081657
-    second: Robot_Tileset_91
+    second: Robot_Enemy8_Idle_1
   - first:
       213: 426731767698776671
-    second: Robot_Tileset_92
+    second: Robot_Enemy8_Idle_2
   - first:
       213: 3938354755259006797
-    second: Robot_Tileset_93
+    second: Robot_Enemy8_Idle_3
   - first:
       213: 5573275961299461368
-    second: Robot_Tileset_94
+    second: Robot_Enemy8_Idle_4
   - first:
       213: 8961588933873407174
-    second: Robot_Tileset_95
+    second: Robot_Enemy8_Walk_1
   - first:
       213: 9097281120579689093
-    second: Robot_Tileset_96
+    second: Robot_Enemy8_Walk_2
   - first:
       213: -6157859982158445972
-    second: Robot_Tileset_97
+    second: Robot_Enemy8_Walk_3
   - first:
       213: 7619206734406446548
-    second: Robot_Tileset_98
+    second: Robot_Enemy8_Walk_4
   - first:
       213: 1631858806893671991
-    second: Robot_Tileset_99
+    second: Robot_Enemy8_Walk_5
   - first:
       213: -7312455844798785374
-    second: Robot_Tileset_100
+    second: Robot_Enemy8_Walk_6
   - first:
       213: 7598669327514089896
-    second: Robot_Tileset_101
+    second: Robot_Enemy8_Walk_7
   - first:
       213: -1688238966495290779
-    second: Robot_Tileset_102
+    second: Robot_Enemy8_Walk_8
   - first:
       213: 6425296546618531870
-    second: Robot_Tileset_103
+    second: Robot_Enemy9_Idle_1
   - first:
       213: -4538673386010433293
-    second: Robot_Tileset_104
+    second: Robot_Enemy9_Idle_2
   - first:
       213: -4877465805794502420
-    second: Robot_Tileset_105
+    second: Robot_Enemy9_Idle_3
   - first:
       213: 5535669362702813109
-    second: Robot_Tileset_106
+    second: Robot_Enemy9_Idle_4
   - first:
       213: 6129989223891801593
-    second: Robot_Tileset_107
+    second: Robot_Enemy9_Walk_1
   - first:
       213: -8126372985993628836
-    second: Robot_Tileset_108
+    second: Robot_Enemy9_Walk_2
   - first:
       213: 8696473530964521781
-    second: Robot_Tileset_109
+    second: Robot_Enemy9_Walk_3
   - first:
       213: 6332290855149597758
-    second: Robot_Tileset_110
+    second: Robot_Enemy9_Walk_4
   - first:
       213: -391824685586881144
-    second: Robot_Tileset_111
+    second: Robot_Enemy9_Walk_5
   - first:
       213: -5516986585839656751
-    second: Robot_Tileset_112
+    second: Robot_Enemy9_Walk_6
   - first:
       213: -3187190572928135987
-    second: Robot_Tileset_113
+    second: Robot_Enemy9_Walk_7
   - first:
       213: 3988488056672303717
-    second: Robot_Tileset_114
+    second: Robot_Enemy9_Walk_8
   - first:
       213: 997929454327966748
     second: Robot_Enemy1_Idle_1
   - first:
       213: -1201764426604707425
     second: Robot_Enemy1_Walk_1
+  - first:
+      213: 8025493534162908196
+    second: Robot_Enemy2_Idle_2
+  - first:
+      213: -2173509604848561370
+    second: Robot_Enemy2_Idle_3
+  - first:
+      213: -6025803498736044681
+    second: Robot_Enemy2_Idle_4
+  - first:
+      213: 6087357212334834087
+    second: Robot_Enemy2_Walk_2
+  - first:
+      213: -8061776812701889915
+    second: Robot_Enemy2_Walk_3
+  - first:
+      213: -6922108610854311113
+    second: Robot_Enemy2_Walk_4
+  - first:
+      213: 5800921342260572455
+    second: Robot_Enemy2_Walk_6
+  - first:
+      213: 2059903235414159631
+    second: Robot_Enemy2_Walk_
+  - first:
+      213: 2748495517846938256
+    second: Robot_Enemy2_Walk_7
+  - first:
+      213: 4393499942721718870
+    second: Robot_Enemy4_Walk_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -458,7 +488,7 @@ TextureImporter:
         width: 5
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -479,7 +509,7 @@ TextureImporter:
         width: 8
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -500,7 +530,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -521,7 +551,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,7 +572,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -563,7 +593,7 @@ TextureImporter:
         width: 14
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -584,7 +614,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -605,7 +635,7 @@ TextureImporter:
         width: 14
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,7 +656,7 @@ TextureImporter:
         width: 14
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -647,7 +677,7 @@ TextureImporter:
         width: 14
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -668,7 +698,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -689,7 +719,7 @@ TextureImporter:
         width: 14
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -710,7 +740,7 @@ TextureImporter:
         width: 14
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -731,7 +761,7 @@ TextureImporter:
         width: 8
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -752,7 +782,7 @@ TextureImporter:
         width: 8
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -765,15 +795,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_15
+      name: Robot_Enemy2_Idle_1
       rect:
         serializedVersion: 2
         x: 208
         y: 432
-        width: 64
+        width: 16
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -786,15 +816,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_16
+      name: Robot_Enemy2_Walk_1
       rect:
         serializedVersion: 2
         x: 288
         y: 432
-        width: 63
-        height: 26
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -807,15 +837,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_17
+      name: Robot_Enemy2_Walk_5
       rect:
         serializedVersion: 2
         x: 352
         y: 432
-        width: 64
-        height: 26
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -836,7 +866,7 @@ TextureImporter:
         width: 8
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -849,7 +879,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_19
+      name: Robot_Enemy3_Idle_1
       rect:
         serializedVersion: 2
         x: 209
@@ -857,7 +887,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -870,15 +900,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_20
+      name: Robot_Enemy3_Idle_2
       rect:
         serializedVersion: 2
         x: 225
         y: 400
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -891,15 +921,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_21
+      name: Robot_Enemy3_Idle_3
       rect:
         serializedVersion: 2
         x: 241
         y: 400
         width: 14
-        height: 23
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -912,15 +942,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_22
+      name: Robot_Enemy3_Idle_4
       rect:
         serializedVersion: 2
         x: 257
         y: 400
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -933,7 +963,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_23
+      name: Robot_Enemy3_Walk_1
       rect:
         serializedVersion: 2
         x: 289
@@ -941,7 +971,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -954,7 +984,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_24
+      name: Robot_Enemy3_Walk_2
       rect:
         serializedVersion: 2
         x: 306
@@ -962,7 +992,7 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -975,7 +1005,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_25
+      name: Robot_Enemy3_Walk_3
       rect:
         serializedVersion: 2
         x: 322
@@ -983,7 +1013,7 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -996,7 +1026,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_26
+      name: Robot_Enemy3_Walk_4
       rect:
         serializedVersion: 2
         x: 338
@@ -1004,7 +1034,7 @@ TextureImporter:
         width: 13
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1017,7 +1047,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_27
+      name: Robot_Enemy3_Walk_5
       rect:
         serializedVersion: 2
         x: 353
@@ -1025,7 +1055,7 @@ TextureImporter:
         width: 14
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1038,7 +1068,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_28
+      name: Robot_Enemy3_Walk_6
       rect:
         serializedVersion: 2
         x: 370
@@ -1046,7 +1076,7 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1059,7 +1089,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_29
+      name: Robot_Enemy3_Walk_7
       rect:
         serializedVersion: 2
         x: 386
@@ -1067,7 +1097,7 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1080,7 +1110,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_30
+      name: Robot_Enemy3_Walk_8
       rect:
         serializedVersion: 2
         x: 402
@@ -1088,7 +1118,7 @@ TextureImporter:
         width: 13
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1101,7 +1131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_31
+      name: Robot_Enemy4_Idle_1
       rect:
         serializedVersion: 2
         x: 209
@@ -1109,7 +1139,7 @@ TextureImporter:
         width: 15
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1122,7 +1152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_32
+      name: Robot_Enemy4_Idle_2
       rect:
         serializedVersion: 2
         x: 225
@@ -1130,7 +1160,7 @@ TextureImporter:
         width: 15
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1143,7 +1173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_33
+      name: Robot_Enemy4_Idle_3
       rect:
         serializedVersion: 2
         x: 241
@@ -1151,7 +1181,7 @@ TextureImporter:
         width: 15
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1164,7 +1194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_34
+      name: Robot_Enemy4_Idle_4
       rect:
         serializedVersion: 2
         x: 257
@@ -1172,7 +1202,7 @@ TextureImporter:
         width: 15
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1185,15 +1215,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_35
+      name: Robot_Enemy4_Walk_1
       rect:
         serializedVersion: 2
         x: 289
         y: 368
-        width: 30
+        width: 15
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1206,7 +1236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_36
+      name: Robot_Enemy4_Walk_3
       rect:
         serializedVersion: 2
         x: 320
@@ -1214,7 +1244,7 @@ TextureImporter:
         width: 15
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1227,7 +1257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_37
+      name: Robot_Enemy4_Walk_4
       rect:
         serializedVersion: 2
         x: 338
@@ -1235,7 +1265,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1256,7 +1286,7 @@ TextureImporter:
         width: 48
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1277,7 +1307,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1298,7 +1328,7 @@ TextureImporter:
         width: 14
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1319,7 +1349,7 @@ TextureImporter:
         width: 9
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1340,7 +1370,7 @@ TextureImporter:
         width: 4
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1361,7 +1391,7 @@ TextureImporter:
         width: 63
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1374,7 +1404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_44
+      name: Robot_Enemy5_Idle_1
       rect:
         serializedVersion: 2
         x: 209
@@ -1382,7 +1412,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1395,7 +1425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_45
+      name: Robot_Enemy5_Idle_2
       rect:
         serializedVersion: 2
         x: 225
@@ -1403,7 +1433,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1416,7 +1446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_46
+      name: Robot_Enemy5_Idle_3
       rect:
         serializedVersion: 2
         x: 241
@@ -1424,7 +1454,7 @@ TextureImporter:
         width: 15
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1437,7 +1467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_47
+      name: Robot_Enemy5_Idle_4
       rect:
         serializedVersion: 2
         x: 257
@@ -1445,7 +1475,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1458,7 +1488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_48
+      name: Robot_Enemy5_Walk_1
       rect:
         serializedVersion: 2
         x: 289
@@ -1466,7 +1496,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1479,7 +1509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_49
+      name: Robot_Enemy5_Walk_2
       rect:
         serializedVersion: 2
         x: 305
@@ -1487,7 +1517,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1500,7 +1530,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_50
+      name: Robot_Enemy5_Walk_3
       rect:
         serializedVersion: 2
         x: 321
@@ -1508,7 +1538,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1521,7 +1551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_51
+      name: Robot_Enemy5_Walk_4
       rect:
         serializedVersion: 2
         x: 337
@@ -1529,7 +1559,7 @@ TextureImporter:
         width: 15
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1542,7 +1572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_52
+      name: Robot_Enemy5_Walk_5
       rect:
         serializedVersion: 2
         x: 353
@@ -1550,7 +1580,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1563,7 +1593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_53
+      name: Robot_Enemy5_Walk_6
       rect:
         serializedVersion: 2
         x: 369
@@ -1571,7 +1601,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1584,7 +1614,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_54
+      name: Robot_Enemy5_Walk_7
       rect:
         serializedVersion: 2
         x: 385
@@ -1592,7 +1622,7 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1605,7 +1635,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_55
+      name: Robot_Enemy5_Walk_8
       rect:
         serializedVersion: 2
         x: 401
@@ -1613,7 +1643,7 @@ TextureImporter:
         width: 15
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1634,7 +1664,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1655,7 +1685,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1676,7 +1706,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1697,7 +1727,7 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1718,7 +1748,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1739,7 +1769,7 @@ TextureImporter:
         width: 28
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1760,7 +1790,7 @@ TextureImporter:
         width: 9
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1773,7 +1803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_63
+      name: Robot_Enemy6_Idle_1
       rect:
         serializedVersion: 2
         x: 210
@@ -1781,7 +1811,7 @@ TextureImporter:
         width: 13
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1794,7 +1824,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_64
+      name: Robot_Enemy6_Idle_2
       rect:
         serializedVersion: 2
         x: 226
@@ -1802,7 +1832,7 @@ TextureImporter:
         width: 13
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1815,7 +1845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_65
+      name: Robot_Enemy6_Idle_3
       rect:
         serializedVersion: 2
         x: 242
@@ -1823,7 +1853,7 @@ TextureImporter:
         width: 13
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1836,7 +1866,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_66
+      name: Robot_Enemy6_Idle_4
       rect:
         serializedVersion: 2
         x: 258
@@ -1844,7 +1874,7 @@ TextureImporter:
         width: 13
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1857,7 +1887,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_67
+      name: Robot_Enemy6_Walk_1
       rect:
         serializedVersion: 2
         x: 290
@@ -1865,7 +1895,7 @@ TextureImporter:
         width: 13
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1878,7 +1908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_68
+      name: Robot_Enemy6_Walk_2
       rect:
         serializedVersion: 2
         x: 307
@@ -1886,7 +1916,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1899,7 +1929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_69
+      name: Robot_Enemy6_Walk_3
       rect:
         serializedVersion: 2
         x: 323
@@ -1907,7 +1937,7 @@ TextureImporter:
         width: 12
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1920,7 +1950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_70
+      name: Robot_Enemy6_Walk_4
       rect:
         serializedVersion: 2
         x: 339
@@ -1928,7 +1958,7 @@ TextureImporter:
         width: 12
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1941,7 +1971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_71
+      name: Robot_Enemy6_Walk_5
       rect:
         serializedVersion: 2
         x: 354
@@ -1949,7 +1979,7 @@ TextureImporter:
         width: 13
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1962,7 +1992,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_72
+      name: Robot_Enemy6_Walk_6
       rect:
         serializedVersion: 2
         x: 371
@@ -1970,7 +2000,7 @@ TextureImporter:
         width: 12
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1983,7 +2013,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_73
+      name: Robot_Enemy6_Walk_7
       rect:
         serializedVersion: 2
         x: 387
@@ -1991,7 +2021,7 @@ TextureImporter:
         width: 12
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2004,7 +2034,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_74
+      name: Robot_Enemy6_Walk_8
       rect:
         serializedVersion: 2
         x: 403
@@ -2012,7 +2042,7 @@ TextureImporter:
         width: 12
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2033,7 +2063,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2054,7 +2084,7 @@ TextureImporter:
         width: 5
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2075,7 +2105,7 @@ TextureImporter:
         width: 12
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2096,7 +2126,7 @@ TextureImporter:
         width: 80
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2109,7 +2139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_79
+      name: Robot_Enemy7_Idle_1
       rect:
         serializedVersion: 2
         x: 210
@@ -2117,7 +2147,7 @@ TextureImporter:
         width: 14
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2130,7 +2160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_80
+      name: Robot_Enemy7_Idle_2
       rect:
         serializedVersion: 2
         x: 226
@@ -2138,7 +2168,7 @@ TextureImporter:
         width: 14
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2151,15 +2181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_81
+      name: Robot_Enemy7_Idle_3
       rect:
         serializedVersion: 2
         x: 242
         y: 272
         width: 14
-        height: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2172,15 +2202,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_82
+      name: Robot_Enemy7_Idle_4
       rect:
         serializedVersion: 2
         x: 258
         y: 272
         width: 14
-        height: 30
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2193,7 +2223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_83
+      name: Robot_Enemy7_Walk_1
       rect:
         serializedVersion: 2
         x: 290
@@ -2201,7 +2231,7 @@ TextureImporter:
         width: 14
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2214,15 +2244,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_84
+      name: Robot_Enemy7_Walk_2
       rect:
         serializedVersion: 2
-        x: 308
+        x: 306
         y: 272
-        width: 12
-        height: 29
+        width: 14
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2235,15 +2265,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_85
+      name: Robot_Enemy7_Walk_3
       rect:
         serializedVersion: 2
-        x: 324
+        x: 322
         y: 272
-        width: 12
-        height: 30
+        width: 14
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2256,15 +2286,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_86
+      name: Robot_Enemy7_Walk_4
       rect:
         serializedVersion: 2
-        x: 339
+        x: 338
         y: 272
-        width: 13
+        width: 14
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2277,7 +2307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_87
+      name: Robot_Enemy7_Walk_5
       rect:
         serializedVersion: 2
         x: 354
@@ -2285,7 +2315,7 @@ TextureImporter:
         width: 14
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2298,15 +2328,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_88
+      name: Robot_Enemy7_Walk_6
       rect:
         serializedVersion: 2
-        x: 372
+        x: 370
         y: 272
-        width: 12
-        height: 29
+        width: 14
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2319,15 +2349,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_89
+      name: Robot_Enemy7_Walk_7
       rect:
         serializedVersion: 2
-        x: 388
+        x: 386
         y: 272
-        width: 12
-        height: 30
+        width: 14
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2340,15 +2370,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_90
+      name: Robot_Enemy7_Walk_8
       rect:
         serializedVersion: 2
-        x: 403
+        x: 402
         y: 272
-        width: 13
+        width: 14
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2361,7 +2391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_91
+      name: Robot_Enemy8_Idle_1
       rect:
         serializedVersion: 2
         x: 211
@@ -2369,7 +2399,7 @@ TextureImporter:
         width: 13
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2382,7 +2412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_92
+      name: Robot_Enemy8_Idle_2
       rect:
         serializedVersion: 2
         x: 227
@@ -2390,7 +2420,7 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2403,7 +2433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_93
+      name: Robot_Enemy8_Idle_3
       rect:
         serializedVersion: 2
         x: 243
@@ -2411,7 +2441,7 @@ TextureImporter:
         width: 13
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2424,7 +2454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_94
+      name: Robot_Enemy8_Idle_4
       rect:
         serializedVersion: 2
         x: 259
@@ -2432,7 +2462,7 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2445,7 +2475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_95
+      name: Robot_Enemy8_Walk_1
       rect:
         serializedVersion: 2
         x: 291
@@ -2453,7 +2483,7 @@ TextureImporter:
         width: 13
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2466,7 +2496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_96
+      name: Robot_Enemy8_Walk_2
       rect:
         serializedVersion: 2
         x: 308
@@ -2474,7 +2504,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2487,7 +2517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_97
+      name: Robot_Enemy8_Walk_3
       rect:
         serializedVersion: 2
         x: 324
@@ -2495,7 +2525,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2508,7 +2538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_98
+      name: Robot_Enemy8_Walk_4
       rect:
         serializedVersion: 2
         x: 340
@@ -2516,7 +2546,7 @@ TextureImporter:
         width: 12
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2529,7 +2559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_99
+      name: Robot_Enemy8_Walk_5
       rect:
         serializedVersion: 2
         x: 355
@@ -2537,7 +2567,7 @@ TextureImporter:
         width: 13
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2550,7 +2580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_100
+      name: Robot_Enemy8_Walk_6
       rect:
         serializedVersion: 2
         x: 372
@@ -2558,7 +2588,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2571,7 +2601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_101
+      name: Robot_Enemy8_Walk_7
       rect:
         serializedVersion: 2
         x: 388
@@ -2579,7 +2609,7 @@ TextureImporter:
         width: 12
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2592,7 +2622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_102
+      name: Robot_Enemy8_Walk_8
       rect:
         serializedVersion: 2
         x: 404
@@ -2600,7 +2630,7 @@ TextureImporter:
         width: 12
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2613,7 +2643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_103
+      name: Robot_Enemy9_Idle_1
       rect:
         serializedVersion: 2
         x: 210
@@ -2621,7 +2651,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2634,15 +2664,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_104
+      name: Robot_Enemy9_Idle_2
       rect:
         serializedVersion: 2
         x: 226
         y: 208
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2655,15 +2685,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_105
+      name: Robot_Enemy9_Idle_3
       rect:
         serializedVersion: 2
         x: 242
         y: 208
         width: 14
-        height: 23
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2676,15 +2706,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_106
+      name: Robot_Enemy9_Idle_4
       rect:
         serializedVersion: 2
         x: 258
         y: 208
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2697,7 +2727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_107
+      name: Robot_Enemy9_Walk_1
       rect:
         serializedVersion: 2
         x: 290
@@ -2705,7 +2735,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2718,15 +2748,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_108
+      name: Robot_Enemy9_Walk_2
       rect:
         serializedVersion: 2
         x: 306
         y: 208
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2739,15 +2769,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_109
+      name: Robot_Enemy9_Walk_3
       rect:
         serializedVersion: 2
         x: 322
         y: 208
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2760,7 +2790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_110
+      name: Robot_Enemy9_Walk_4
       rect:
         serializedVersion: 2
         x: 338
@@ -2768,7 +2798,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2781,7 +2811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_111
+      name: Robot_Enemy9_Walk_5
       rect:
         serializedVersion: 2
         x: 354
@@ -2789,7 +2819,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2802,15 +2832,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_112
+      name: Robot_Enemy9_Walk_6
       rect:
         serializedVersion: 2
         x: 370
         y: 208
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2823,15 +2853,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_113
+      name: Robot_Enemy9_Walk_7
       rect:
         serializedVersion: 2
         x: 386
         y: 208
         width: 14
-        height: 24
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2844,7 +2874,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Robot_Tileset_114
+      name: Robot_Enemy9_Walk_8
       rect:
         serializedVersion: 2
         x: 402
@@ -2852,7 +2882,7 @@ TextureImporter:
         width: 14
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2873,7 +2903,7 @@ TextureImporter:
         width: 14
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2894,7 +2924,7 @@ TextureImporter:
         width: 14
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2902,6 +2932,216 @@ TextureImporter:
       bones: []
       spriteID: f9186880f99725fe0800000000000000
       internalID: -1201764426604707425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42479f239d7406f60800000000000000
+      internalID: 8025493534162908196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6231a17b78426d1e0800000000000000
+      internalID: -2173509604848561370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775388bd4ab006ca0800000000000000
+      internalID: -6025803498736044681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a14126e123aa7450800000000000000
+      internalID: 6087357212334834087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a4c64b3b0de1090800000000000000
+      internalID: -8061776812701889915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b2b51b4eabfef90800000000000000
+      internalID: -6922108610854311113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217c67e933018050800000000000000
+      internalID: 5800921342260572455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01f98a241f369c10800000000000000
+      internalID: 2059903235414159631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 432
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09225008c1e942620800000000000000
+      internalID: 2748495517846938256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a80ae8be8d8fc30800000000000000
+      internalID: 4393499942721718870
       vertices: []
       indices: 
       edges: []
