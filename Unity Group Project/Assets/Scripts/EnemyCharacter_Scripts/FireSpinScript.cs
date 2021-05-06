@@ -5,6 +5,7 @@ using UnityEngine;
 public class FireSpinScript : MonoBehaviour
 {
     public GameObject playerCharacter;
+    public GameObject enemyCharacter;
 
     [SerializeField] float movementSpeed;
     [SerializeField] float damageValue;
@@ -97,6 +98,10 @@ public class FireSpinScript : MonoBehaviour
                     playerCharacter.GetComponent<PlayerController>().SetCurrentHealth(playerHealth);
                     //not necessary: playerCharacter.GetComponent<PlayerController>().AdjustHealthBar();
                     playerCharacter.GetComponent<PlayerController>().DamageTaken(true);
+                }
+                if (enemyCharacter != null)
+                {
+                    enemyCharacter.GetComponent<EnemyController>().IncrementAttacksLanded();
                 }
             }
         }

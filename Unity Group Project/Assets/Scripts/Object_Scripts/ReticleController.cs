@@ -5,6 +5,7 @@ using UnityEngine;
 public class ReticleController : MonoBehaviour
 {
     public InputManager inputManager;
+    public Animator reticleAnimator;
 
     private GameObject selectReticle;
 
@@ -16,6 +17,7 @@ public class ReticleController : MonoBehaviour
 
     private bool isVisible;
     private bool isActive;
+    private bool controlsEnabled;
 
 
     public GameObject GetReticle() { return selectReticle; }
@@ -44,6 +46,52 @@ public class ReticleController : MonoBehaviour
         selectReticle.active = true;
     }
 
+    public void EnableControls() { controlsEnabled = true; }
+    public void DisableControls() { controlsEnabled = false; }
+
+    IEnumerator FeedbackCorrectCoroutine()
+    {
+        yield return new WaitForSeconds(2.0f);
+        EndFeedbackCorrect();
+    }
+
+    IEnumerator FeedbackWrongCoroutine()
+    {
+        yield return new WaitForSeconds(2.0f);
+        EndFeedbackWrong();
+    }
+
+    public void StartFeedbackCorrect()
+    {
+        if (reticleAnimator != null)
+        {
+            reticleAnimator.SetBool("isCorrect", true);
+            StartCoroutine(FeedbackCorrectCoroutine());
+        }
+    }
+    public void EndFeedbackCorrect()
+    {
+        if (reticleAnimator != null)
+        {
+            reticleAnimator.SetBool("isCorrect", false);
+        }
+    }
+
+    public void StartFeedbackWrong()
+    {
+        if (reticleAnimator != null)
+        {
+            reticleAnimator.SetBool("isWrong", true);
+            StartCoroutine(FeedbackWrongCoroutine());
+        }
+    }
+    public void EndFeedbackWrong()
+    {
+        if (reticleAnimator != null)
+        {
+            reticleAnimator.SetBool("isWrong", false);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +103,7 @@ public class ReticleController : MonoBehaviour
 
         isVisible = false;
         isActive = false;
+        controlsEnabled = false;
     }
 
     // Update is called once per frame
@@ -66,25 +115,29 @@ public class ReticleController : MonoBehaviour
         if (makeActive) { SetActive(); }
         else if (makeInactive) { SetInactive(); }
 
-
-        if (isActive && (inputManager.GetKeyDown(KeyBindingActions.Left1)
+        if (controlsEnabled == true)
+        {
+            if (isActive && (inputManager.GetKeyDown(KeyBindingActions.Left1)
                          || inputManager.GetKeyDown(KeyBindingActions.Left2)))
-        {
-            GameObject currentSpace = selectReticle.GetComponent<ReticleScript>().GetCurrentMemorySpace();
-            GameObject leftSpace = currentSpace.GetComponent<BoxScript>().GetLeftNeighborBox();
-            selectReticle.transform.position = leftSpace.transform.position;
-        }
-        else if (isActive && (inputManager.GetKeyDown(KeyBindingActions.Right1)
-                              || inputManager.GetKeyDown(KeyBindingActions.Right2)))
-        {
-            GameObject currentSpace = selectReticle.GetComponent<ReticleScript>().GetCurrentMemorySpace();
-            GameObject rightSpace = currentSpace.GetComponent<BoxScript>().GetRightNeighborBox();
-            selectReticle.transform.position = rightSpace.transform.position;
-        }
-        else if (isActive && (inputManager.GetKeyDown(KeyBindingActions.Select1)
-                              || inputManager.GetKeyDown(KeyBindingActions.Select2)))
-        {
-            selectReticle.GetComponent<ReticleScript>().SetFinalChoice(true);
-        }
-    }
-}
+            {
+                GameObject currentSpace = selectReticle.GetComponent<ReticleScript>().GetCurrentMemorySpace();
+                GameObject leftSpace = currentSpace.GetComponent<BoxScript>().GetLeftNeighborBox();
+                selectReticle.transform.position = leftSpace.transform.position;
+            }
+            else if (isActive && (inputManager.GetKeyDown(KeyBindingActions.Right1)
+                                  || inputManager.GetKeyDown(KeyBindingActions.Right2)))
+            {
+                GameObject currentSpace = selectReticle.GetComponent<ReticleScript>().GetCurrentMemorySpace();
+                GameObject rightSpace = currentSpace.GetComponent<BoxScript>().GetRightNeighborBox();
+                selectReticle.transform.position = rightSpace.transform.position;
+            }
+            else if (isActive && (inputManager.GetKeyDown(KeyBindingActions.Select1)
+                                  || inputManager.GetKeyDown(KeyBindingActions.Select2)))
+            {
+                selectReticle.GetComponent<ReticleScript>().SetFinalChoice(true);
+            }
+        }//End of controlsEnabled if-statement
+    }//End of Update()
+
+
+}//End of ReticleController

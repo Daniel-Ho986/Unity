@@ -13,6 +13,15 @@ public class PlayerController : MonoBehaviour
     public Text textBox;
     public GameObject aimReticle;
     public Animator aimAnimator;
+    public GameObject bubbleEmotes;
+
+    public Text resultStat1;
+    public Text resultStat2;
+    public Text resultStat3;
+    public Text resultStat4;
+    public Text resultStat5;
+    public Text resultStat6;
+    public Text resultStat7;
 
     public GameObject enemyCharacter;
 
@@ -56,9 +65,25 @@ public class PlayerController : MonoBehaviour
     public bool facingLeft;
     public bool facingRight;
     public bool isWaiting;
+    public bool combatEnded;
 
     //Appearance Variables:
     public Color playerColor;
+    public bool isVisible;
+
+    //End Result Stat Variables:
+    public float damageDelt;
+    public float atkAccuracy;
+    public float damageTaken;
+    public float dodgeAccuracy;
+    public float numTurns;
+    public float mistakesMade;
+    public float currencyEarned;
+
+    public float totalAttacksEarned;
+    public float totalAttacksMissed;
+    public float enemyAttacksDodged;
+    public float enemyAttacksPerformed;
 
     //These are set in the editor
     public Transform feet;
@@ -93,11 +118,19 @@ public class PlayerController : MonoBehaviour
             ebarScale = energyBar.transform.localScale;
         }
 
-        textBox.text = timePassed.ToString("F2");
-        textBox.enabled = false;
-        aimAnimator = aimReticle.GetComponent<Animator>();
-        aimReticle.SetActive(false);
-        aimReticleActive = false;
+
+        if (textBox != null)
+        {
+            textBox.text = timePassed.ToString("F2");
+            textBox.enabled = false;
+        }
+
+        if (aimReticle != null)
+        {
+            aimAnimator = aimReticle.GetComponent<Animator>();
+            aimReticle.SetActive(false);
+            aimReticleActive = false;
+        }
 
         tookDamage = false;
         usedEnergy = false;
@@ -121,11 +154,28 @@ public class PlayerController : MonoBehaviour
         facingLeft = false;
         facingRight = true;
 
+        damageDelt = 0.0f;
+        atkAccuracy = 0.0f;
+        damageTaken = 0.0f;
+        dodgeAccuracy = 0.0f;
+        numTurns = 0.0f;
+        mistakesMade = 0.0f;
+        currencyEarned = 0.0f;
+
+        totalAttacksEarned = 0.0f;
+        totalAttacksMissed = 0.0f;
+        enemyAttacksDodged = 0.0f;
+        enemyAttacksPerformed = 0.0f;
+
         playerColor = GetComponent<SpriteRenderer>().color;
+        isVisible = true;
 
         rigid = GetComponent<Rigidbody2D>();
         rigid.freezeRotation = true;
         inputManager = InputManager.instance;
+
+        if (playerAnimator == null) { playerAnimator = gameObject.GetComponent<Animator>(); }
+        if (isVisible == true) { playerAnimator.SetBool("isVisible", true); }
     }//End of Start
 
 
@@ -172,12 +222,18 @@ public class PlayerController : MonoBehaviour
                 textBox.text = timePassed.ToString("F2");
             }
 
-            if (timePassed >= 0.9f && timePassed <= 1.1f
+            if (timePassed >= 0.8f && timePassed <= 1.1f
                 && inputManager.GetKeyDown(KeyBindingActions.Select1))
             {
                 //Locked-on aim
                 Debug.Log("LOCKED-ON TARGET!!!");
                 attacksEarned += 1;
+                totalAttacksEarned += 1;
+                if (totalAttacksEarned != 0 && totalAttacksMissed != 0)
+                {
+                    atkAccuracy = (totalAttacksEarned / (totalAttacksEarned + totalAttacksMissed));
+                    resultStat2.text = atkAccuracy.ToString("F2");
+                }
             }
             else if (timePassed >= 1.6f && timePassed <= 1.98f
 			          && inputManager.GetKeyDown(KeyBindingActions.Select1))
@@ -185,10 +241,16 @@ public class PlayerController : MonoBehaviour
                 //Locked-on aim again
                 Debug.Log("LOCKED-ON TARGET!!!");
                 attacksEarned += 1;
+                totalAttacksEarned += 1;
+                if (totalAttacksEarned != 0 && totalAttacksMissed != 0)
+                {
+                    atkAccuracy = (totalAttacksEarned / (totalAttacksEarned + totalAttacksMissed));
+                    resultStat2.text = atkAccuracy.ToString("F2");
+                }
                 endedAim = true;
             }
 
-            else if ((((timePassed >= 0.1f && timePassed < 0.9f)
+            else if ((((timePassed >= 0.1f && timePassed < 0.8f)
                 || (timePassed > 1.1f && timePassed < 1.6f)
                 || (timePassed > 1.98f))
                 && inputManager.GetKeyDown(KeyBindingActions.Select1))
@@ -204,6 +266,13 @@ public class PlayerController : MonoBehaviour
                 textBox.enabled = false;
                 timePassed = 0.0f;
                 endedAim = true;
+                if (attacksEarned == 1) { totalAttacksMissed += 1; }
+                else if (attacksEarned == 0) { totalAttacksMissed += 2; }
+                if (totalAttacksEarned != 0 && totalAttacksMissed != 0)
+                {
+                    atkAccuracy = (totalAttacksEarned / (totalAttacksEarned + totalAttacksMissed));
+                    resultStat2.text = atkAccuracy.ToString("F2");
+                }
             }
             else if (timePassed > 2.1f && attacksEarned > 0)
             {
@@ -257,6 +326,8 @@ public class PlayerController : MonoBehaviour
                             enemyCharacter.GetComponent<EnemyController>().SetCurrentHealth(enemyHealth - attackPower);
                             enemyCharacter.GetComponent<EnemyController>().DamageTaken(true);
                         }
+                        damageDelt += attackPower;
+                        resultStat1.text = damageDelt.ToString("F2");
                     }
                     allowDamageDecrement = false;
                     if (attacksEarned == 1) { endedAttack = true; }
@@ -281,6 +352,8 @@ public class PlayerController : MonoBehaviour
                             enemyCharacter.GetComponent<EnemyController>().SetCurrentHealth(enemyHealth - (attackPower * 2));
                             enemyCharacter.GetComponent<EnemyController>().DamageTaken(true);
                         }
+                        damageDelt += (attackPower * 2);
+                        resultStat1.text = damageDelt.ToString("F2");
                     }
                     allowDamageDecrement = false;
                     endedAttack = true;
@@ -333,6 +406,18 @@ public class PlayerController : MonoBehaviour
         if (isWaiting == true)
         {
             //Do nothing
+            if (combatEnded)
+            {
+                combatEnded = false; //Only reset player animation to "Idle" once...
+                playerAnimator.SetBool("isVisible", true);
+                playerAnimator.SetBool("isWalking", false);
+                numTurns += 1;
+                resultStat5.text = numTurns.ToString("F2");
+                enemyAttacksPerformed = enemyCharacter.GetComponent<EnemyController>().GetAttacksPerformed();
+                enemyAttacksDodged = enemyCharacter.GetComponent<EnemyController>().GetAttacksMissed();
+                dodgeAccuracy = (enemyAttacksDodged / enemyAttacksPerformed);
+                resultStat4.text = dodgeAccuracy.ToString("F2");
+            }
         }
         else if (isWaiting == false)
         {
@@ -443,12 +528,19 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator DamageCoroutine()
     {
+        enemyAttacksPerformed = enemyCharacter.GetComponent<EnemyController>().GetAttacksPerformed();
+        enemyAttacksDodged = enemyCharacter.GetComponent<EnemyController>().GetAttacksMissed();
+        float prevHealth = currentHealth;
         //Change player color to red
         AdjustHealthBar();
         GetComponent<SpriteRenderer>().color = Color.red;
         yield return new WaitForSeconds(0.25f);
         GetComponent<SpriteRenderer>().color = playerColor;
         tookDamage = false;
+        damageTaken += (prevHealth - currentHealth);
+        dodgeAccuracy = (enemyAttacksDodged / enemyAttacksPerformed);
+        resultStat4.text = dodgeAccuracy.ToString("F2");
+        resultStat3.text = damageTaken.ToString("F2");
     }
 
 
@@ -523,6 +615,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (enable == false)
         {
+            combatEnded = true;
             isWaiting = true;
         }
     }
@@ -532,13 +625,69 @@ public class PlayerController : MonoBehaviour
     public void StartEmote(string emoteName)
     {
         //Display emote bubble based on "emoteName" given
+        if (emoteName == "Ellipses")
+        {
+            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            bubbleEmote.SetActive(true);
+            bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", false);
+            bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
+        }
+        else if (emoteName == "Exclaim")
+        {
+            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            bubbleEmote.SetActive(true);
+            bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
+            bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
+        }
+        else if (emoteName == "Lightbulb")
+        {
+            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            bubbleEmote.SetActive(true);
+            bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
+            bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
+        }
+        else
+        {
+            Debug.Log("ERROR: Emote with name " + emoteName + " could not be found!!!");
+        }
     }
 
     public void EndEmote(string emoteName)
     {
+        GameObject bubbleEmote = null;
         //Hide emote bubble based on "emoteName" given
+        if (emoteName == "Ellipses")
+        {
+            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", true);
+            bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
+        }
+        else if (emoteName == "Exclaim")
+        {
+            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
+            bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
+        }
+        else if (emoteName == "Lightbulb")
+        {
+            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
+            bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
+        }
+        else
+        {
+            Debug.Log("ERROR: Emote with name " + emoteName + " could not be found!!!");
+        }
+            
     }
 
+
+    //Sorting Related Methods:
+    public void IncrementMistakesMade()
+    {
+        mistakesMade += 1;
+        resultStat6.text = mistakesMade.ToString("F2");
+    }
 
 
 }//End of PlayerController
