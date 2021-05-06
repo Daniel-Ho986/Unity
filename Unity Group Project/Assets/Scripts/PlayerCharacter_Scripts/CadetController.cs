@@ -13,11 +13,11 @@ public class CadetController : MonoBehaviour
 	[SerializeField] float groundDistance = 0.3f;
 	[SerializeField] bool grounded;
 
-	[SerializeField] bool doublejump = false;
+	[SerializeField] public bool doublejump = false;
 	[SerializeField] int jumpcount = 1;
 
 	private Rigidbody2D rb;
-	[SerializeField] bool dash = false;
+	[SerializeField] public bool dash = false;
 	[SerializeField] float dashSpeed;
 	[SerializeField] float dashTime;
 	[SerializeField] float startDashTime;
@@ -48,14 +48,7 @@ public class CadetController : MonoBehaviour
 			Flip();
 		}
 
-		if (grounded && doublejump)
-		{
-			jumpcount = 2;
-		}
-		else if (grounded)
-		{
-			jumpcount = 1;
-		}
+
 
 
 
@@ -104,7 +97,14 @@ public class CadetController : MonoBehaviour
 	//called potentially multiple times per frame, best for physics for smooth behavior
 	void FixedUpdate()
 	{
-
+		if (grounded && doublejump)
+		{
+			jumpcount = 2;
+		}
+		else if (grounded)
+		{
+			jumpcount = 1;
+		}
 	}
 	
 	void Flip()

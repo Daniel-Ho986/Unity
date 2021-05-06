@@ -189,6 +189,8 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(DamageCoroutine());
         }
+        //Set health to persistent data
+        PersistentData.Instance.SetHealth((int)currentHealth);
 
         //Player uses energy for abilities--
         if (usedEnergy)

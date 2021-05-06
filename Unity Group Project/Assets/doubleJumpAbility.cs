@@ -9,6 +9,7 @@ public class doubleJumpAbility : MonoBehaviour
     [SerializeField] int cost;
     [SerializeField] string description;
     [SerializeField] Text descriptionAndCost;
+    [SerializeField] bool inRange;
 
 
     // Start is called before the first frame update
@@ -24,6 +25,17 @@ public class doubleJumpAbility : MonoBehaviour
     void Update()
     {
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
+
+        if (inRange && Input.GetKeyDown(KeyCode.E))
+        {
+            if (PersistentData.Instance.GetCoin() >= cost)
+            {
+                GameObject.FindGameObjectWithTag("Player").GetComponent<CadetController>().doublejump = true;
+                PersistentData.Instance.SetCoin(PersistentData.Instance.GetCoin() - cost);
+                descriptionAndCost.gameObject.SetActive(false);
+                gameObject.GetComponent<Renderer>().enabled = false;
+            }
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -31,12 +43,8 @@ public class doubleJumpAbility : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             descriptionAndCost.gameObject.SetActive(true);
+            inRange = true;
 
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-               
-                
-            }
         }
     }
 
@@ -45,6 +53,8 @@ public class doubleJumpAbility : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             descriptionAndCost.gameObject.SetActive(false);
+            inRange = false;
+
         }
     }
 }

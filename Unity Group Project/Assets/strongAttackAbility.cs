@@ -15,7 +15,7 @@ public class strongAttackAbility : MonoBehaviour
     void Start()
     {
         cost = 5;
-        description = "Strong Attack";
+        description = "(Still in progress)Strong Attack";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
     }
