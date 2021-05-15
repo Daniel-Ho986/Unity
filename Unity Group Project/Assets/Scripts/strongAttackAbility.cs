@@ -2,20 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class strongAttackAbility : MonoBehaviour
 {
 
     [SerializeField] int cost;
     [SerializeField] string description;
-    [SerializeField] Text descriptionAndCost;
+    [SerializeField] TextMeshProUGUI descriptionAndCost;
 
 
     // Start is called before the first frame update
     void Start()
     {
         cost = 5;
-        description = "(Still in progress)Strong Attack";
+        description = "(Still in progress) Strong Attack";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
     }
