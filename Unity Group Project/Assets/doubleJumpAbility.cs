@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class doubleJumpAbility : MonoBehaviour
 {
 
     [SerializeField] int cost;
     [SerializeField] string description;
-    [SerializeField] Text descriptionAndCost;
+    [SerializeField] TextMeshProUGUI descriptionAndCost;
     [SerializeField] bool inRange;
 
 
