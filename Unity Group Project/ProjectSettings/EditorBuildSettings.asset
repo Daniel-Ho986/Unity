@@ -62,10 +62,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: 536d214447c104947a953966e3e9d2de
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TransitionToPlatform2.unity
     guid: 2691b7ca8753d374e938733a69191373
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Platform2.unity
+    guid: 3f85ed2de5e80af4cb8c8cc9bb085c74
+  - enabled: 1
     path: Assets/Scenes/TransitionToShop2.unity
     guid: a1b430d0c57b2db47bdf3c5fa5dc76fc
   - enabled: 1
