@@ -12,20 +12,26 @@ public class ScoreCount : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        coin.text = PersistentData.Instance.GetCoin().ToString();
-        displayHealth();
-        displayDamage();
-        displayCoin();
-        displayScore();
+        //if (PersistentData.Instance != null){
+        //}
+            coin.text = PersistentData.Instance.GetCoin().ToString();
+            displayHealth();
+            displayDamage();
+            displayCoin();
+            displayScore();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        displayHealth();
-        displayDamage();
-        displayCoin();
-        displayScore();
+        //if (PersistentData.Instance != null){
+        //}
+            displayHealth();
+            displayDamage();
+            displayCoin();
+            displayScore();
+        
     }
 
     public void IncrementScore(int amount)
@@ -43,6 +49,7 @@ public class ScoreCount : MonoBehaviour
 
     public void displayHealth()
     {
+        
         health.text = "Health: " + PersistentData.Instance.GetHealth();
     }
     public void displayDamage()
