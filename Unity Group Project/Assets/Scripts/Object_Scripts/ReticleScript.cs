@@ -103,13 +103,13 @@ public class ReticleScript : MonoBehaviour
 
         if (other.gameObject.tag == "MemorySpace")
         {
-            if (other.GetComponent<BoxScript>().leftNeighborBox)
+            if (other.GetComponent<BoxScript>().GetLeftNeighborBox())
             {
-                leftMemorySpace = other.GetComponent<BoxScript>().leftNeighborBox;
+                leftMemorySpace = other.GetComponent<BoxScript>().GetLeftNeighborBox();
             }
-            if (other.GetComponent<BoxScript>().rightNeighborBox)
+            if (other.GetComponent<BoxScript>().GetRightNeighborBox())
             {
-                rightMemorySpace = other.GetComponent<BoxScript>().rightNeighborBox;
+                rightMemorySpace = other.GetComponent<BoxScript>().GetRightNeighborBox();
             }
         }
 

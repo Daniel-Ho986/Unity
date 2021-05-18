@@ -8,6 +8,7 @@ public class PersistentData : MonoBehaviour
 {
     [SerializeField] public string playerName;
     [SerializeField] int playerHealth;
+    [SerializeField] int prevPlayerHealth;
     [SerializeField] int playerDamage;
     [SerializeField] List<string> playerAbility = new List<string>();
     [SerializeField] int playerCoin;
@@ -19,6 +20,7 @@ public class PersistentData : MonoBehaviour
     {
         playerName = "";
         playerHealth = 10;
+        prevPlayerHealth = 10;
         playerDamage = 1;
         playerCoin = 0;
         playerScore = 0;
@@ -43,6 +45,10 @@ public class PersistentData : MonoBehaviour
     public void SetHealth(int health)
     {
         playerHealth = health;
+    }
+    public void SetPrevHealth(int prevHealth)
+    {
+        prevPlayerHealth = prevHealth;
     }
     public void SetDamage(int damage)
     {
