@@ -20,6 +20,8 @@ public class FallingDown : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision){
         if (collision.gameObject.tag == "Player"){
+            PlatformManager.Instance.StartCoroutine("SpawnPlatform", 
+                new Vector2 (transform.position.x, transform.position.y));
             Invoke("DropPlatform", 0.5f);
             Destroy(gameObject, 2f);
         }
