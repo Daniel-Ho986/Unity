@@ -22,8 +22,8 @@ public class FallingDown : MonoBehaviour
         if (collision.gameObject.tag == "Player"){
             PlatformManager.Instance.StartCoroutine("SpawnPlatform", 
                 new Vector2 (transform.position.x, transform.position.y));
-            Invoke("DropPlatform", 0.5f);
-            Destroy(gameObject, 2f);
+            Invoke("DropPlatform", 1f);
+            Destroy(gameObject, 2.3f);
         }
     }
 
