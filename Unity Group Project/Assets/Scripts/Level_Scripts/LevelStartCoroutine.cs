@@ -1464,11 +1464,13 @@ public class LevelStartCoroutine : MonoBehaviour
                 //An option to return to the level select
                 //An option to check the player's character menu
                 //An option to return to the title screen
-            EndOfLevelMenuCoroutine();
+            StartCoroutine(EndOfLevelMenuCoroutine());
         }
-
-        //Keep calling the VictoryCoroutine so the player can decide what to do next--
-        isTimeToCelebrate = true;
+        else
+        {
+            //Keep calling the VictoryCoroutine so the player can decide what to do next--
+            isTimeToCelebrate = true;
+        }
     }
 
     IEnumerator EndOfLevelMenuCoroutine()
