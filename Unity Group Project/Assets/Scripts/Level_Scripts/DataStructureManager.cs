@@ -98,7 +98,135 @@ public class DataStructureManager : MonoBehaviour
           { 1, 2, 3, 4, 5 }
         };
         iterationPhasesPosition = 0;
-}
+    }
+
+
+    //Swapping Methods:
+    public void PerformSwap(GameObject numToBubbleSpace, GameObject numToSwapSpace, GameObject tempNumSpace)
+    {
+        if (numToBubbleSpace != null && numToSwapSpace != null)
+        {
+            if (numToBubbleSpace.GetComponent<BoxScript>() != null
+            && numToSwapSpace.GetComponent<BoxScript>() != null)
+            {
+                GameObject dataValueBubble = numToBubbleSpace.GetComponent<BoxScript>().GetDataValue();
+                GameObject dataValueSwap = numToSwapSpace.GetComponent<BoxScript>().GetDataValue();
+                GameObject dataValueTemp = tempNumSpace.GetComponent<BoxScript>().GetDataValue();
+                Debug.Log("Now performing the swap...");
+                StartCoroutine(SwapStep1Coroutine(numToBubbleSpace, numToSwapSpace, dataValueBubble, dataValueSwap, tempNumSpace, dataValueTemp));
+                StartCoroutine(SwapStep2Coroutine(numToBubbleSpace, numToSwapSpace, dataValueBubble, dataValueSwap, tempNumSpace, dataValueTemp));
+                StartCoroutine(SwapStep3Coroutine(numToBubbleSpace, numToSwapSpace, dataValueBubble, dataValueSwap, tempNumSpace, dataValueTemp));
+                StartCoroutine(SwapStep4Coroutine(numToBubbleSpace, numToSwapSpace, dataValueBubble, dataValueSwap, tempNumSpace, dataValueTemp));
+                StartCoroutine(SwapStep5Coroutine(numToBubbleSpace, numToSwapSpace, dataValueBubble, dataValueSwap, tempNumSpace, dataValueTemp));
+                StartCoroutine(SwapStep6Coroutine(numToBubbleSpace, numToSwapSpace, dataValueBubble, dataValueSwap, tempNumSpace, dataValueTemp));
+            }
+        }
+    }
+
+    /* --> NOTE: NOT NECESSARY, THEREFORE NOT USED!!!
+    IEnumerator NumberSwapCoroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap, GameObject tempNumSpace)
+    {
+        Debug.Log("Now performing the swap...");
+        yield return new WaitForSeconds(0.5f);
+
+        tempSpace.GetComponent<BoxScript>().GetDataValue().transform.position = numToBubbleSpace.transform.position;
+        Debug.Log("Step 1: Moved tempValue to numBubbleSpace...");
+        yield return new WaitForSeconds(0.5f);
+        dataValueBubble.transform.position = tempSpace.transform.position;
+        Debug.Log("Step 2: Moved dataValueBubble to tempSpace...");
+        yield return new WaitForSeconds(0.5f);
+
+        tempSpace.GetComponent<BoxScript>().GetDataValue().transform.position = numToSwapSpace.transform.position;
+        Debug.Log("Step 3: Moved tempValue to numSwapSpace...");
+        yield return new WaitForSeconds(0.5f);
+        dataValueSwap.transform.position = numToBubbleSpace.transform.position;
+        Debug.Log("Step 4: Moved dataValueSwap to numBubbleSpace...");
+        yield return new WaitForSeconds(0.5f);
+
+        tempSpace.GetComponent<BoxScript>().GetDataValue().transform.position = tempNumSpace.transform.position;
+        Debug.Log("Step 5: Moved tempValue back to it's original position of tempSpace...");
+        yield return new WaitForSeconds(0.5f);
+        dataValueBubble.transform.position = numToSwapSpace.transform.position;
+        Debug.Log("Step 6: Moved dataValueBubble to numSwapSpace...");
+        yield return new WaitForSeconds(0.5f);
+
+        Debug.Log("Swap has been performed!!!");
+    }
+    */
+
+    IEnumerator SwapStep1Coroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap,
+                                    GameObject tempNumSpace, GameObject dataValueTemp)
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        dataValueTemp.transform.position = numToBubbleSpace.transform.position;
+        Debug.Log("Step 1: Moved tempValue to numBubbleSpace...");
+    }
+    IEnumerator SwapStep2Coroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap,
+                                    GameObject tempNumSpace, GameObject dataValueTemp)
+    {
+        yield return new WaitForSeconds(1.0f);
+
+        dataValueBubble.transform.position = tempNumSpace.transform.position;
+        Debug.Log("Step 2: Moved dataValueBubble to tempSpace...");
+    }
+    IEnumerator SwapStep3Coroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap,
+                                    GameObject tempNumSpace, GameObject dataValueTemp)
+    {
+        yield return new WaitForSeconds(1.5f);
+
+        dataValueTemp.transform.position = numToSwapSpace.transform.position;
+        Debug.Log("Step 3: Moved tempValue to numSwapSpace...");
+    }
+    IEnumerator SwapStep4Coroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap,
+                                    GameObject tempNumSpace, GameObject dataValueTemp)
+    {
+        yield return new WaitForSeconds(2.0f);
+
+        dataValueSwap.transform.position = numToBubbleSpace.transform.position;
+        Debug.Log("Step 4: Moved dataValueSwap to numBubbleSpace...");
+    }
+    IEnumerator SwapStep5Coroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap,
+                                    GameObject tempNumSpace, GameObject dataValueTemp)
+    {
+        yield return new WaitForSeconds(2.5f);
+
+        dataValueBubble.transform.position = numToSwapSpace.transform.position;
+        Debug.Log("Step 5: Moved dataValueBubble back to numSwapSpace...");
+    }
+    IEnumerator SwapStep6Coroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap,
+                                    GameObject tempNumSpace, GameObject dataValueTemp)
+    {
+        yield return new WaitForSeconds(3.0f);
+
+        dataValueTemp.transform.position = tempNumSpace.transform.position;
+        Debug.Log("Step 6: Moved dataValueBubble to numSwapSpace...");
+        yield return new WaitForSeconds(0.5f);
+
+
+        Debug.Log("Swap has been performed!!!");
+    }
+
+    /* --> NOTE: NOT NECESSARY, THEREFORE NOT USED!!!
+    IEnumerator SwapStep7Coroutine(GameObject numToBubbleSpace, GameObject numToSwapSpace,
+                                    GameObject dataValueBubble, GameObject dataValueSwap,
+                                    GameObject tempNumSpace, GameObject dataValueTemp)
+    {
+        yield return new WaitForSeconds(4.5f);
+        dataValueTemp.transform.position = numToSwapSpace.transform.position;
+        yield return new WaitForSeconds(0.5f);
+        dataValueTemp.transform.position = tempSpace.transform.position;
+
+        Debug.Log("Swap has been performed!!!");
+    }
+    */
 
 
     // Update is called once per frame
