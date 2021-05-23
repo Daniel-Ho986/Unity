@@ -130,15 +130,10 @@ public class PersistentData : MonoBehaviour
             playerDefeated = true;
         }
 
-        if (playerDefeated == true && hasDisplayedGameOver == false)
-        {
-            hasDisplayedGameOver = true;
-            Die();
-        }
     }
 
-    void Die()
+    public void Die()
     {
-        //SceneManager.LoadScene("WIP");
+        SceneManager.LoadScene("GameOver");
     }
 }
