@@ -28,6 +28,8 @@ public class EnemyController : MonoBehaviour
 
     //Attack Variables:
     public GameObject fireSpinAttack;
+    public GameObject fireSpinAttack2;
+
     public bool isAttacking;
     public bool attackActivated;
     public bool endedAttack;
@@ -109,13 +111,23 @@ public class EnemyController : MonoBehaviour
             {
                 if (attackActivated == false)
                 {
-                    fireSpinAttack.GetComponent<FireSpinScript>().ActivateAttack();
+                    if(currentHealth <= maxHealth / 2){
+                        fireSpinAttack2.GetComponent<FireSpinScript>().ActivateAttack();
+                    } else 
+                    {
+                        fireSpinAttack.GetComponent<FireSpinScript>().ActivateAttack();
+                    }
                     attackActivated = true;
                     attacksPerformed += 1;
                 }
                 else if (attackActivated == true)
                 {
-                    fireSpinAttack.GetComponent<FireSpinScript>().StartAttack();
+                    if(currentHealth <= maxHealth / 2){
+                        fireSpinAttack2.GetComponent<FireSpinScript>().StartAttack();
+                    } else 
+                    {
+                        fireSpinAttack.GetComponent<FireSpinScript>().StartAttack();
+                    }
                     isAttacking = false;
                     attackActivated = false;
                     StartCoroutine(WaitForAttackEndCoroutine());

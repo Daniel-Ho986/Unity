@@ -762,21 +762,21 @@ public class PlayerController : MonoBehaviour
         //Display emote bubble based on "emoteName" given
         if (emoteName == "Ellipses")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Ellipses").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
         }
         else if (emoteName == "Exclaim")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Exclaim").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
         }
         else if (emoteName == "Lightbulb")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Lightbulb").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
@@ -793,19 +793,19 @@ public class PlayerController : MonoBehaviour
         //Hide emote bubble based on "emoteName" given
         if (emoteName == "Ellipses")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Ellipses").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
         else if (emoteName == "Exclaim")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Exclaim").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
         else if (emoteName == "Lightbulb")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Lightbulb").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
