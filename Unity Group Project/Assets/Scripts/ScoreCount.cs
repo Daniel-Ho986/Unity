@@ -14,7 +14,7 @@ public class ScoreCount : MonoBehaviour
     {
         //if (PersistentData.Instance != null){
         //}
-            coin.text = PersistentData.Instance.GetCurrency().ToString();
+            coin.text = PersistentData.Instance.GetCoin().ToString();
             displayHealth();
             displayDamage();
             displayCoin();
@@ -39,7 +39,7 @@ public class ScoreCount : MonoBehaviour
         if (amount < 0)
             Debug.Log("Invalid; amount may not be less than zero.");
         else
-            PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() + amount);
+            PersistentData.Instance.SetCoin(PersistentData.Instance.GetCoin() + amount);
     }
 
     public void IncrementScore()
@@ -50,7 +50,7 @@ public class ScoreCount : MonoBehaviour
     public void displayHealth()
     {
         
-        health.text = "Health: " + PersistentData.Instance.GetCurrentHealth();
+        health.text = "Health: " + PersistentData.Instance.GetHealth();
     }
     public void displayDamage()
     {
@@ -58,7 +58,7 @@ public class ScoreCount : MonoBehaviour
     }
     public void displayCoin()
     {
-        coin.text = "Coin: " + PersistentData.Instance.GetCurrency();
+        coin.text = "Coin: " + PersistentData.Instance.GetCoin();
     }
     public void displayScore()
     {

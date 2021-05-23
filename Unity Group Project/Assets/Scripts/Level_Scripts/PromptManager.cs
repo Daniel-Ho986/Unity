@@ -16,7 +16,6 @@ public class PromptManager : MonoBehaviour
     public Animator question3_animator;
     public Animator swapIt_animator;
     public Animator question4_animator;
-    public Animator question5_animator;
     public Animator combatStart_animator;
     public Animator actionConfirm_animator;
 
@@ -36,14 +35,6 @@ public class PromptManager : MonoBehaviour
     public Animator greatMessage_animator;
     public Animator oopsMessage_animator;
     public Animator missMessage_animator;
-
-    public Animator goldCoin_animator;
-
-    public Animator reward1_animator;
-    public Animator reward2_animator;
-    public Animator reward3_animator;
-    public GameObject feedbackMessage_ChooseReward;
-    public Animator chooseRewardMessage_animator;
 
     public Animator resultsChart_animator;
     public Animator button_Ok_animator;
@@ -161,18 +152,6 @@ public class PromptManager : MonoBehaviour
     public void HideTextBoxQuestion4()
     {
         question4_animator.SetBool("isVisible", false);
-    }
-
-
-    //TextBox_Question5 Methods--
-    public void ShowTextBoxQuestion5()
-    {
-        question5_animator.SetBool("isVisible", true);
-    }
-
-    public void HideTextBoxQuestion5()
-    {
-        question5_animator.SetBool("isVisible", false);
     }
 
 
@@ -321,35 +300,6 @@ public class PromptManager : MonoBehaviour
 
 
 
-
-    //Currency Animation Methods--
-    IEnumerator WaitForCoinSpinCoroutine()
-    {
-        yield return new WaitForSeconds(1.0f);
-        //Reset the goldCoin increment animation to the idle animation:
-        if (goldCoin_animator.GetBool("earnedCoin") == true)
-        {
-            goldCoin_animator.SetBool("earnedCoin", false);
-        }
-
-        //Reset the goldCoin decrement animation to the idle animation:
-        if (goldCoin_animator.GetBool("lostCoin") == true)
-        {
-            goldCoin_animator.SetBool("lostCoin", false);
-        }
-    }
-    public void ShowCurrencyIncremented()
-    {
-        goldCoin_animator.SetBool("earnedCoin", true);
-        StartCoroutine(WaitForCoinSpinCoroutine());
-    }
-    public void ShowCurrencyDecremented()
-    {
-        goldCoin_animator.SetBool("lostCoin", true);
-        StartCoroutine(WaitForCoinSpinCoroutine());
-    }
-
-
     //End Results Chart Methods--
     public void ShowEndResults()
     {
@@ -380,57 +330,6 @@ public class PromptManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         resultsChart_animator.SetBool("isVisible", false);
-    }
-
-
-    //Reward Related Methods--
-    public void ShowReward1()
-    {
-        reward1_animator.gameObject.GetComponent<RewardScript>().isVisible = true;
-    }
-    public void HideReward1()
-    {
-        reward1_animator.gameObject.GetComponent<RewardScript>().isVisible = false;
-    }
-
-    public void ShowReward2()
-    {
-        reward2_animator.gameObject.GetComponent<RewardScript>().isVisible = true;
-    }
-    public void HideReward2()
-    {
-        reward2_animator.gameObject.GetComponent<RewardScript>().isVisible = false;
-    }
-
-    public void ShowReward3()
-    {
-        reward3_animator.gameObject.GetComponent<RewardScript>().isVisible = true;
-    }
-    public void HideReward3()
-    {
-        reward3_animator.gameObject.GetComponent<RewardScript>().isVisible = false;
-    }
-
-    //***NOTE: NEED TO IMPLEMENT AND INITIALIZE chooseRewardMessage_animator
-    //  - When displaying this message at the end results screen, make sure to hide the victoryMessage
-    //  - Then, after the player has chosen a reward, make the chooseRewardMessage disappear
-    public void ShowChooseRewardMessage()
-    {
-        if (feedbackMessage_ChooseReward != null)
-        {
-            feedbackMessage_ChooseReward.SetActive(true);
-            chooseRewardMessage_animator.SetBool("isVisible", true);
-
-        }
-    }
-    public void HideChooseRewardMessage()
-    {
-        if (feedbackMessage_ChooseReward != null)
-        {
-            feedbackMessage_ChooseReward.SetActive(false);
-            chooseRewardMessage_animator.SetBool("isVisible", false);
-
-        }
     }
 
 

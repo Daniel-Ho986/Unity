@@ -33,15 +33,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float maxEnergy;
     [SerializeField] float movementSpeed;
     [SerializeField] float weight;
-    [SerializeField] int attackPower;
-    [SerializeField] int currency;
+    [SerializeField] float attackPower;
+    [SerializeField] float currency;
 
     public float prevHealth;
     public bool playerDefeated;
-
-    public float streakMultiplier;
-    public int sortingStreakValue;
-    public bool hasSortingStreak;
 
     //Time variables:
     public float timePassed;
@@ -88,7 +84,7 @@ public class PlayerController : MonoBehaviour
     public float dodgeAccuracy;
     public float numTurns;
     public float mistakesMade;
-    public int currencyEarned;
+    public float currencyEarned;
 
     public float totalAttacksEarned;
     public float totalAttacksMissed;
@@ -112,25 +108,27 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*
+        Transform childTransform = gameObject.transform.Find("HealthBar_Player");
+        if (childTransform != null)
+        {
+            healthBar = childTransform.gameObject;
+        }
+        */
+
         //Set currentHealth and prevHealth to the persistent player data "playerHealth" and "prevPlayerHealth":
         if (PersistentData.Instance != null)
         {
             playerData = PersistentData.Instance;
-            currentHealth = playerData.GetCurrentHealth();
-            maxHealth = playerData.GetMaxHealth();
-            prevHealth = playerData.GetPrevHealth();
-            attackPower = playerData.GetDamage();
-            currency = playerData.GetCurrency();
+            playerData.SetHealth((int)currentHealth);
+            playerData.SetPrevHealth((int)currentHealth);
             Debug.Log("PersistentData has been found for playerCharacter!");
         }
         else
         {
             Debug.Log("WARNING!!!: Could not find PersistentData! - currentHealth set to 10 by default...");
             currentHealth = 10.0f;
-            maxHealth = currentHealth;
             prevHealth = currentHealth;
-            attackPower = 1;
-            currency = 0;
         }
 
         if (healthBar != null && healthBar.tag == "ResourceBar")
@@ -165,7 +163,7 @@ public class PlayerController : MonoBehaviour
 
         startedAttack = false;
         endedAttack = false;
-        attackPower = 1;
+        attackPower = 1.0f;
         attacksEarned = 0;
         allowDamageDecrement = false;
         startedAim = false;
@@ -186,11 +184,7 @@ public class PlayerController : MonoBehaviour
         dodgeAccuracy = 0.0f;
         numTurns = 0.0f;
         mistakesMade = 0.0f;
-        currencyEarned = 0;
-
-        streakMultiplier = 1.0f;
-        sortingStreakValue = 0;
-        hasSortingStreak = false;
+        currencyEarned = 0.0f;
 
         totalAttacksEarned = 0.0f;
         totalAttacksMissed = 0.0f;
@@ -217,14 +211,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerData != null)
-        {
-            if (attackPower != playerData.GetDamage())
-            {
-                attackPower = playerData.GetDamage();
-            }
-        }
-
         //Player is attacked--
         if (tookDamage)
         {
@@ -635,12 +621,8 @@ public class PlayerController : MonoBehaviour
 
 
     //Health Related Methods:
-    public void SetMaxHealth(float health) { maxHealth = health; }
-    public float GetMaxHealth() { return maxHealth; }
     public void SetCurrentHealth(float health) { currentHealth = health; }
     public float GetCurrentHealth() { return currentHealth; }
-    public void SetPrevHealth(float health) { prevHealth = health; }
-    public float GetPrevHealth() { return prevHealth; }
     public bool GetPlayerDefeated() { return playerDefeated; }
 
     public void DamageTaken(bool truthValue) { tookDamage = true; }
@@ -655,14 +637,8 @@ public class PlayerController : MonoBehaviour
         GetComponent<SpriteRenderer>().color = Color.red;
         yield return new WaitForSeconds(0.25f);
         GetComponent<SpriteRenderer>().color = playerColor;
-        DecrementCurrencyCount(1);
         damageTaken += (prevHealth - currentHealth);
         prevHealth = currentHealth; //Update previous player's health to equal the current health after taking damage
-        if (playerData != null)
-        {
-            playerData.SetCurrentHealth((int)currentHealth);
-            playerData.SetPrevHealth((int)currentHealth);
-        }
         dodgeAccuracy = (enemyAttacksDodged / enemyAttacksPerformed);
         resultStat4.text = dodgeAccuracy.ToString("F2");
         resultStat3.text = damageTaken.ToString("F2");
@@ -842,15 +818,6 @@ public class PlayerController : MonoBehaviour
 
 
     //Sorting Related Methods:
-    public int GetSortingStreakValue() { return sortingStreakValue; }
-    public void SetSortingStreakValue(int val) { sortingStreakValue = val; }
-
-    public float GetStreakMultiplier() { return streakMultiplier; }
-    public void SetStreakMultiplier(float factor) { streakMultiplier = factor; }
-
-    public bool GetSortingStreakStatus() { return hasSortingStreak; }
-    public void SetSortingStreakStatus(bool truthValue) { hasSortingStreak = truthValue; }
-
     public void IncrementMistakesMade()
     {
         mistakesMade += 1;
@@ -859,37 +826,18 @@ public class PlayerController : MonoBehaviour
 
 
     //Currency Related Methods:
-    public void IncrementCurrencyCount(int value)
+    public void IncrementCurrencyCount(float value)
     {
-        if (promptManager.goldCoin_animator != null)
-        {
-            promptManager.ShowCurrencyIncremented();
-        }
         currency += value;
         currencyCounter.text = currency.ToString();
-        if (playerData != null)
-        {
-            playerData.SetCurrency(playerData.GetCurrency() + value);
-        }
         currencyEarned += value;
         resultStat7.text = currencyEarned.ToString();
     }
-    public void DecrementCurrencyCount(int value)
+    public void DecrementCurrencyCount(float value)
     {
-        if (promptManager.goldCoin_animator != null)
-        {
-            promptManager.ShowCurrencyDecremented(); 
-        }
-        if (currency > 0)
-        {
-            currency -= value;
-            currencyEarned -= value;
-        }
-        if (playerData != null)
-        {
-            if (playerData.GetCurrency() > 0) { playerData.SetCurrency(playerData.GetCurrency() - value); }
-        }
+        currency -= value;
         currencyCounter.text = currency.ToString();
+        currencyEarned -= value;
         resultStat7.text = currencyEarned.ToString();
     }
 
