@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TransitionToPlatform1.unity
     guid: da150eba3a58fa6469b2a45fb38acd1f
+  - enabled: 0
+    path: Assets/Scenes/OldPlatform1.unity
+    guid: 94257855818d70947b3abe8ac07fc643
   - enabled: 1
     path: Assets/Scenes/NewPlatform1.unity
     guid: 7f7fc73e7106def4da406b75450d4c8b
