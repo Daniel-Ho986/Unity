@@ -123,7 +123,11 @@ public class PersistentData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         playerScore = 20 * currentPlayerHealth + 10 * playerCurrency;
+        if(currentPlayerHealth < 0){
+            currentPlayerHealth = 0;
+        }
 
         if(currentPlayerHealth <= 0 && playerDefeated == false)
         {
