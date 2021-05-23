@@ -7,31 +7,23 @@ using UnityEngine.SceneManagement;
 public class PersistentData : MonoBehaviour
 {
     [SerializeField] public string playerName;
-    [SerializeField] int maxPlayerHealth;
-    [SerializeField] int currentPlayerHealth;
+    [SerializeField] int playerHealth;
     [SerializeField] int prevPlayerHealth;
     [SerializeField] int playerDamage;
     [SerializeField] List<string> playerAbility = new List<string>();
-    [SerializeField] int playerCurrency;
+    [SerializeField] int playerCoin;
     [SerializeField] int playerScore;
-
-    public bool playerDefeated;
-    public bool hasDisplayedGameOver;
 
     public static PersistentData Instance;
     // Start is called before the first frame update
     void Start()
     {
         playerName = "";
-        maxPlayerHealth = 10;
-        currentPlayerHealth = 10;
+        playerHealth = 10;
         prevPlayerHealth = 10;
         playerDamage = 1;
-        playerCurrency = 0;
+        playerCoin = 0;
         playerScore = 0;
-
-        playerDefeated = false;
-        hasDisplayedGameOver = false;
     }
     void Awake()
     {
@@ -50,13 +42,9 @@ public class PersistentData : MonoBehaviour
     {
         playerName = name;
     }
-    public void SetMaxHealth(int maxHealth)
+    public void SetHealth(int health)
     {
-        maxPlayerHealth = maxHealth;
-    }
-    public void SetCurrentHealth(int currentHealth)
-    {
-        currentPlayerHealth = currentHealth;
+        playerHealth = health;
     }
     public void SetPrevHealth(int prevHealth)
     {
@@ -66,9 +54,9 @@ public class PersistentData : MonoBehaviour
     {
         playerDamage = damage;
     }
-    public void SetCurrency(int currency)
+    public void SetCoin(int coin)
     {
-        playerCurrency = currency;
+        playerCoin = coin;
     }
     public void SetScore(int score)
     {
@@ -88,25 +76,17 @@ public class PersistentData : MonoBehaviour
     {
        return playerName;
     }
-    public int GetMaxHealth()
+    public int GetHealth()
     {
-        return maxPlayerHealth;
-    }
-    public int GetCurrentHealth()
-    {
-        return currentPlayerHealth;
-    }
-    public int GetPrevHealth()
-    {
-        return prevPlayerHealth;
+        return playerHealth;
     }
     public int GetDamage()
     {
         return playerDamage;
     }
-    public int GetCurrency()
+    public int GetCoin()
     {
-        return playerCurrency;
+        return playerCoin;
     }
     public int GetScore()
     {
@@ -123,22 +103,16 @@ public class PersistentData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerScore = 20 * currentPlayerHealth + 10 * playerCurrency;
+        playerScore = 20 * playerHealth + 10 * playerCoin;
 
-        if(currentPlayerHealth <= 0 && playerDefeated == false)
+        if(playerHealth <= 0)
         {
-            playerDefeated = true;
-        }
-
-        if (playerDefeated == true && hasDisplayedGameOver == false)
-        {
-            hasDisplayedGameOver = true;
             Die();
         }
     }
 
     void Die()
     {
-        //SceneManager.LoadScene("WIP");
+        SceneManager.LoadScene("WIP");
     }
 }

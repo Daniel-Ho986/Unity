@@ -10,8 +10,6 @@ public class RewardScript : MonoBehaviour
     public bool hasOpened;
     public bool hasClosed;
 
-    public bool wasChosen;
-
     public Animator rewardAnimator;
 
     // Start is called before the first frame update
@@ -22,8 +20,6 @@ public class RewardScript : MonoBehaviour
         isOpen = false;
         hasOpened = false;
         hasClosed = false;
-
-        wasChosen = false;
     }
 
     // Update is called once per frame
@@ -111,26 +107,5 @@ public class RewardScript : MonoBehaviour
         isOpen = false;
         rewardAnimator.SetBool("isOpen", false);
         rewardAnimator.SetBool("hasClosed", true);
-    }
-
-
-
-    public bool GetChosenStatus() { return wasChosen; }
-
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            isOpen = true;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            isOpen = false;
-        }
     }
 }
