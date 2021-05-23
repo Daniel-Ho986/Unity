@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     public Text resultStat5;
     public Text resultStat6;
     public Text resultStat7;
+    public Text currencyCounter;
 
     public GameObject enemyCharacter;
 
@@ -32,7 +33,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float maxEnergy;
     [SerializeField] float movementSpeed;
     [SerializeField] float weight;
-    [SerializeField] float attackPower;
+    [SerializeField] int attackPower;
+    [SerializeField] int currency;
+
+    public float prevHealth;
+    public bool playerDefeated;
+
+    public float streakMultiplier;
+    public int sortingStreakValue;
+    public bool hasSortingStreak;
 
     //Time variables:
     public float timePassed;
@@ -56,6 +65,7 @@ public class PlayerController : MonoBehaviour
     public bool startedAim;
     public bool endedAim;
     public bool aimReticleActive;
+    public float numberOfButtonPresses;
 
     //Movement Variables:
     public Vector2 movement;
@@ -78,7 +88,7 @@ public class PlayerController : MonoBehaviour
     public float dodgeAccuracy;
     public float numTurns;
     public float mistakesMade;
-    public float currencyEarned;
+    public int currencyEarned;
 
     public float totalAttacksEarned;
     public float totalAttacksMissed;
@@ -93,20 +103,35 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rigid;
     public Animator playerAnimator;
     public InputManager inputManager;
+    public PromptManager promptManager;
 
-
+    //Persistent Data
+    public static PersistentData playerData;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        /*
-        Transform childTransform = gameObject.transform.Find("HealthBar_Player");
-        if (childTransform != null)
+        //Set currentHealth and prevHealth to the persistent player data "playerHealth" and "prevPlayerHealth":
+        if (PersistentData.Instance != null)
         {
-            healthBar = childTransform.gameObject;
+            playerData = PersistentData.Instance;
+            currentHealth = playerData.GetCurrentHealth();
+            maxHealth = playerData.GetMaxHealth();
+            prevHealth = playerData.GetPrevHealth();
+            attackPower = playerData.GetDamage();
+            currency = playerData.GetCurrency();
+            Debug.Log("PersistentData has been found for playerCharacter!");
         }
-        */
+        else
+        {
+            Debug.Log("WARNING!!!: Could not find PersistentData! - currentHealth set to 10 by default...");
+            currentHealth = 10.0f;
+            maxHealth = currentHealth;
+            prevHealth = currentHealth;
+            attackPower = 1;
+            currency = 0;
+        }
 
         if (healthBar != null && healthBar.tag == "ResourceBar")
         {
@@ -140,11 +165,12 @@ public class PlayerController : MonoBehaviour
 
         startedAttack = false;
         endedAttack = false;
-        attackPower = 1.0f;
+        attackPower = 1;
         attacksEarned = 0;
         allowDamageDecrement = false;
         startedAim = false;
         endedAim = false;
+        numberOfButtonPresses = 0.0f;
 
         movement = new Vector2(0, 0);
         hMovement = 0;
@@ -160,7 +186,11 @@ public class PlayerController : MonoBehaviour
         dodgeAccuracy = 0.0f;
         numTurns = 0.0f;
         mistakesMade = 0.0f;
-        currencyEarned = 0.0f;
+        currencyEarned = 0;
+
+        streakMultiplier = 1.0f;
+        sortingStreakValue = 0;
+        hasSortingStreak = false;
 
         totalAttacksEarned = 0.0f;
         totalAttacksMissed = 0.0f;
@@ -173,9 +203,12 @@ public class PlayerController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         rigid.freezeRotation = true;
         inputManager = InputManager.instance;
+        promptManager = PromptManager.instance;
 
         if (playerAnimator == null) { playerAnimator = gameObject.GetComponent<Animator>(); }
         if (isVisible == true) { playerAnimator.SetBool("isVisible", true); }
+
+        playerDefeated = false;
     }//End of Start
 
 
@@ -184,13 +217,19 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (playerData != null)
+        {
+            if (attackPower != playerData.GetDamage())
+            {
+                attackPower = playerData.GetDamage();
+            }
+        }
+
         //Player is attacked--
         if (tookDamage)
         {
             StartCoroutine(DamageCoroutine());
         }
-        //Set health to persistent data
-        PersistentData.Instance.SetHealth((int)currentHealth);
 
         //Player uses energy for abilities--
         if (usedEnergy)
@@ -207,10 +246,12 @@ public class PlayerController : MonoBehaviour
                 aimReticle.SetActive(true);
                 aimReticleActive = true;
                 startedAim = true;
+                numberOfButtonPresses = 0.0f;
             }
             else if (startedAim)
             {
                 startedAim = false;
+                Debug.Log("Player is aiming an attack...");
                 timePassed = 0.00f;
                 textBox.enabled = true;
                 playerAnimator.SetBool("isAiming", true);
@@ -227,16 +268,36 @@ public class PlayerController : MonoBehaviour
             if (timePassed >= 0.8f && timePassed <= 1.1f
                 && inputManager.GetKeyDown(KeyBindingActions.Select1))
             {
-                //Locked-on aim
-                Debug.Log("LOCKED-ON TARGET!!!");
-                attacksEarned += 1;
-                totalAttacksEarned += 1;
-                if (totalAttacksEarned != 0 && totalAttacksMissed != 0)
+                //Keep track of how many times the player presses the button--
+                numberOfButtonPresses += 1;
+
+                //Pressing the Select1 button once while the aim reticle
+				//  is over the enemy grants 1 attack:
+                if (numberOfButtonPresses <= 1 && numberOfButtonPresses >= 0)
+                {
+                    //Locked-on aim
+                    Debug.Log("LOCKED-ON TARGET!!! - Player gains 1 attack");
+                    StartCoroutine(DisplayFeedbackNiceCoroutine());
+                    attacksEarned += 1;
+                    totalAttacksEarned += 1;
+                }
+                //Pressing the Select1 button more than once while the aim reticle
+				//  is over the enemy will unsteady the player's aim and only grant 1 attack:
+                else if (numberOfButtonPresses > 1)
+                {
+                    Debug.Log("OOPS!!! - Player aim has faltered...");
+                    StartCoroutine(DisplayFeedbackOopsCoroutine());
+                    endedAim = true;
+                }
+
+                //Record the Player's attack accuracy for viewing at the end of the level:
+                if (totalAttacksEarned != 0 || totalAttacksMissed != 0)
                 {
                     atkAccuracy = (totalAttacksEarned / (totalAttacksEarned + totalAttacksMissed));
                     resultStat2.text = atkAccuracy.ToString("F2");
                 }
             }
+
             else if (timePassed >= 1.6f && timePassed <= 1.98f
 			          && inputManager.GetKeyDown(KeyBindingActions.Select1))
             {
@@ -244,11 +305,23 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("LOCKED-ON TARGET!!!");
                 attacksEarned += 1;
                 totalAttacksEarned += 1;
-                if (totalAttacksEarned != 0 && totalAttacksMissed != 0)
+                if (attacksEarned == 1)
+                {
+                    StartCoroutine(DisplayFeedbackNiceCoroutine()); 
+                }
+                else if (attacksEarned == 2)
+                {
+                    StartCoroutine(DisplayFeedbackGreatCoroutine());
+                }
+
+                //Record the Player's attack accuracy for viewing at the end of the level:
+                if (totalAttacksEarned != 0 || totalAttacksMissed != 0)
                 {
                     atkAccuracy = (totalAttacksEarned / (totalAttacksEarned + totalAttacksMissed));
                     resultStat2.text = atkAccuracy.ToString("F2");
                 }
+
+                //The player successfully aimed their weapon at the enemy! Proceed to attack--
                 endedAim = true;
             }
 
@@ -260,22 +333,28 @@ public class PlayerController : MonoBehaviour
             {
                 //Missed aim
                 Debug.Log("NO TARGET IN SIGHTS...");
+                if (attacksEarned == 1) { StartCoroutine(DisplayFeedbackOopsCoroutine()); }
+                else if (attacksEarned == 0) { StartCoroutine(DisplayFeedbackMissCoroutine()); }
+
                 isAiming = false;
-                playerAnimator.SetBool("isAiming", false);
-                aimAnimator.SetBool("isAiming", false);
                 aimReticle.SetActive(false);
                 aimReticleActive = false;
                 textBox.enabled = false;
                 timePassed = 0.0f;
                 endedAim = true;
+
+                //Identify how many attacks the player missed receiving:
                 if (attacksEarned == 1) { totalAttacksMissed += 1; }
                 else if (attacksEarned == 0) { totalAttacksMissed += 2; }
-                if (totalAttacksEarned != 0 && totalAttacksMissed != 0)
+
+                //Record the Player's attack accuracy for viewing at the end of the level:
+                if (totalAttacksEarned != 0 || totalAttacksMissed != 0)
                 {
                     atkAccuracy = (totalAttacksEarned / (totalAttacksEarned + totalAttacksMissed));
                     resultStat2.text = atkAccuracy.ToString("F2");
                 }
             }
+
             else if (timePassed > 2.1f && attacksEarned > 0)
             {
                 Debug.Log("AIM IS READY!!! Beginning attack...");
@@ -293,6 +372,7 @@ public class PlayerController : MonoBehaviour
                 isAttacking = true;
                 startedAttack = true;
                 timePassed = 0.0f;
+                numberOfButtonPresses = 0.0f;
             }
         }
 
@@ -304,8 +384,8 @@ public class PlayerController : MonoBehaviour
                 startedAttack = false;
                 timePassed = 0.00f;
                 textBox.enabled = true;
-                playerAnimator.SetBool("isAttacking", true);
                 playerAnimator.SetBool("isAiming", false);
+                playerAnimator.SetBool("isAttacking", true);
                 if (attacksEarned > 0)
                 {
                     allowDamageDecrement = true;
@@ -405,9 +485,26 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (playerDefeated)
+        {
+            gameObject.SetActive(false);
+        }
+
         if (isWaiting == true)
         {
             //Do nothing
+
+            if (currentHealth < 1 && currentHealth < playerAnimator.GetFloat("playerHealth"))
+            {
+                Debug.Log("DEFEAT...Player health has reached 0!!! YOU LOSE!!!");
+
+                gameObject.transform.Find("BubbleEmotes_Player").gameObject.SetActive(false);
+                //The playerCharacter's health should have reached 0. If so, the player has lost!
+                playerAnimator.SetFloat("playerHealth", currentHealth);
+                StartCoroutine(WaitForPlayerDefeat());
+            }
+
+            
             if (combatEnded)
             {
                 combatEnded = false; //Only reset player animation to "Idle" once...
@@ -419,6 +516,21 @@ public class PlayerController : MonoBehaviour
                 enemyAttacksDodged = enemyCharacter.GetComponent<EnemyController>().GetAttacksMissed();
                 dodgeAccuracy = (enemyAttacksDodged / enemyAttacksPerformed);
                 resultStat4.text = dodgeAccuracy.ToString("F2");
+
+                if (currentHealth >= 1 &&
+                    currentHealth < playerAnimator.GetFloat("playerHealth"))
+                {
+                    playerAnimator.SetFloat("playerHealth", currentHealth);
+                }
+                if (currentHealth < 1 && currentHealth < playerAnimator.GetFloat("playerHealth"))
+                {
+                    Debug.Log("DEFEAT...Player health has reached 0!!! YOU LOSE!!!");
+
+                    gameObject.transform.Find("BubbleEmotes_Player").gameObject.SetActive(false);
+                    //The playerCharacter's health should have reached 0. If so, the player has lost!
+                    playerAnimator.SetFloat("playerHealth", currentHealth);
+                    StartCoroutine(WaitForPlayerDefeat());
+                }
             }
         }
         else if (isWaiting == false)
@@ -523,23 +635,34 @@ public class PlayerController : MonoBehaviour
 
 
     //Health Related Methods:
+    public void SetMaxHealth(float health) { maxHealth = health; }
+    public float GetMaxHealth() { return maxHealth; }
     public void SetCurrentHealth(float health) { currentHealth = health; }
     public float GetCurrentHealth() { return currentHealth; }
+    public void SetPrevHealth(float health) { prevHealth = health; }
+    public float GetPrevHealth() { return prevHealth; }
+    public bool GetPlayerDefeated() { return playerDefeated; }
 
     public void DamageTaken(bool truthValue) { tookDamage = true; }
 
     IEnumerator DamageCoroutine()
     {
+        tookDamage = false;
         enemyAttacksPerformed = enemyCharacter.GetComponent<EnemyController>().GetAttacksPerformed();
         enemyAttacksDodged = enemyCharacter.GetComponent<EnemyController>().GetAttacksMissed();
-        float prevHealth = currentHealth;
         //Change player color to red
         AdjustHealthBar();
         GetComponent<SpriteRenderer>().color = Color.red;
         yield return new WaitForSeconds(0.25f);
         GetComponent<SpriteRenderer>().color = playerColor;
-        tookDamage = false;
+        DecrementCurrencyCount(1);
         damageTaken += (prevHealth - currentHealth);
+        prevHealth = currentHealth; //Update previous player's health to equal the current health after taking damage
+        if (playerData != null)
+        {
+            playerData.SetCurrentHealth((int)currentHealth);
+            playerData.SetPrevHealth((int)currentHealth);
+        }
         dodgeAccuracy = (enemyAttacksDodged / enemyAttacksPerformed);
         resultStat4.text = dodgeAccuracy.ToString("F2");
         resultStat3.text = damageTaken.ToString("F2");
@@ -607,6 +730,40 @@ public class PlayerController : MonoBehaviour
         endedAttack = false;
     }
 
+    IEnumerator WaitForPlayerDefeat()
+    {
+        yield return new WaitForSeconds(3.0f);
+        playerDefeated = true;
+    }
+
+    IEnumerator DisplayFeedbackNiceCoroutine()
+    {
+        promptManager.ShowFeedbackNice(); 
+        yield return new WaitForSeconds(1.0f);
+        promptManager.HideFeedbackNice(); 
+    }
+
+    IEnumerator DisplayFeedbackGreatCoroutine()
+    {
+        promptManager.ShowFeedbackGreat();
+        yield return new WaitForSeconds(1.0f);
+        promptManager.HideFeedbackGreat();
+    }
+
+    IEnumerator DisplayFeedbackOopsCoroutine()
+    {
+        promptManager.ShowFeedbackOops();
+        yield return new WaitForSeconds(1.0f);
+        promptManager.HideFeedbackOops();
+    }
+
+    IEnumerator DisplayFeedbackMissCoroutine()
+    {
+        promptManager.ShowFeedbackMiss();
+        yield return new WaitForSeconds(1.0f);
+        promptManager.HideFeedbackMiss();
+    }
+
 
     //Movement Related Methods:
     public void MovementEnabled(bool enable)
@@ -629,21 +786,21 @@ public class PlayerController : MonoBehaviour
         //Display emote bubble based on "emoteName" given
         if (emoteName == "Ellipses")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Ellipses").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
         }
         else if (emoteName == "Exclaim")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Exclaim").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
         }
         else if (emoteName == "Lightbulb")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Lightbulb").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
@@ -660,19 +817,19 @@ public class PlayerController : MonoBehaviour
         //Hide emote bubble based on "emoteName" given
         if (emoteName == "Ellipses")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Ellipses").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
         else if (emoteName == "Exclaim")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Exclaim").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
         else if (emoteName == "Lightbulb")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Lightbulb").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
@@ -685,11 +842,55 @@ public class PlayerController : MonoBehaviour
 
 
     //Sorting Related Methods:
+    public int GetSortingStreakValue() { return sortingStreakValue; }
+    public void SetSortingStreakValue(int val) { sortingStreakValue = val; }
+
+    public float GetStreakMultiplier() { return streakMultiplier; }
+    public void SetStreakMultiplier(float factor) { streakMultiplier = factor; }
+
+    public bool GetSortingStreakStatus() { return hasSortingStreak; }
+    public void SetSortingStreakStatus(bool truthValue) { hasSortingStreak = truthValue; }
+
     public void IncrementMistakesMade()
     {
         mistakesMade += 1;
         resultStat6.text = mistakesMade.ToString("F2");
     }
 
+
+    //Currency Related Methods:
+    public void IncrementCurrencyCount(int value)
+    {
+        if (promptManager.goldCoin_animator != null)
+        {
+            promptManager.ShowCurrencyIncremented();
+        }
+        currency += value;
+        currencyCounter.text = currency.ToString();
+        if (playerData != null)
+        {
+            playerData.SetCurrency(playerData.GetCurrency() + value);
+        }
+        currencyEarned += value;
+        resultStat7.text = currencyEarned.ToString();
+    }
+    public void DecrementCurrencyCount(int value)
+    {
+        if (promptManager.goldCoin_animator != null)
+        {
+            promptManager.ShowCurrencyDecremented(); 
+        }
+        if (currency > 0)
+        {
+            currency -= value;
+            currencyEarned -= value;
+        }
+        if (playerData != null)
+        {
+            if (playerData.GetCurrency() > 0) { playerData.SetCurrency(playerData.GetCurrency() - value); }
+        }
+        currencyCounter.text = currency.ToString();
+        resultStat7.text = currencyEarned.ToString();
+    }
 
 }//End of PlayerController

@@ -68,6 +68,20 @@ public class ReticleScript : MonoBehaviour
         madeFinalChoice = false; //Resets the boolean flag indicating a temporary choice has been made
     }
 
+    public void AnswerConfirmSwap()
+    {
+        Debug.Log("An answer was chosen: Swap Them");
+        madeFinalChoice = true;
+        answerBool = true; //A value of "true" corresponds with a decision to perform a swap
+    }
+
+    public void AnswerDeclineSwap()
+    {
+        Debug.Log("An answer was chosen: Don't Swap");
+        madeFinalChoice = true;
+        answerBool = false; //A value of "true" corresponds with a decision to not swap the numbers
+    }
+
     public void AnswerContinueIteration()
     {
         Debug.Log("An answer was chosen: Continue Iteration");
@@ -103,13 +117,13 @@ public class ReticleScript : MonoBehaviour
 
         if (other.gameObject.tag == "MemorySpace")
         {
-            if (other.GetComponent<BoxScript>().leftNeighborBox)
+            if (other.GetComponent<BoxScript>().GetLeftNeighborBox())
             {
-                leftMemorySpace = other.GetComponent<BoxScript>().leftNeighborBox;
+                leftMemorySpace = other.GetComponent<BoxScript>().GetLeftNeighborBox();
             }
-            if (other.GetComponent<BoxScript>().rightNeighborBox)
+            if (other.GetComponent<BoxScript>().GetRightNeighborBox())
             {
-                rightMemorySpace = other.GetComponent<BoxScript>().rightNeighborBox;
+                rightMemorySpace = other.GetComponent<BoxScript>().GetRightNeighborBox();
             }
         }
 
