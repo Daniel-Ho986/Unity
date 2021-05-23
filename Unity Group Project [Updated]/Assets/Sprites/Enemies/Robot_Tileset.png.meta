@@ -1,0 +1,3164 @@
+fileFormatVersion: 2
+guid: d421870a8d45148e38943a8b3711e52f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1056897147604681932
+    second: Robot_Tileset_0
+  - first:
+      213: -8573302311171344217
+    second: Robot_Tileset_1
+  - first:
+      213: 8713500081923180914
+    second: Robot_Enemy1_Idle_2
+  - first:
+      213: -1929625949970268037
+    second: Robot_Enemy1_Walk_2
+  - first:
+      213: 4667501840779904724
+    second: Robot_Tileset_4
+  - first:
+      213: 9044598717500776694
+    second: Robot_Enemy1_Idle_3
+  - first:
+      213: -4616325904112014917
+    second: Robot_Enemy1_Idle_4
+  - first:
+      213: 7552165492790781402
+    second: Robot_Enemy1_Walk_3
+  - first:
+      213: -868448508519626484
+    second: Robot_Enemy1_Walk_4
+  - first:
+      213: 6836195722370235498
+    second: Robot_Enemy1_Walk_5
+  - first:
+      213: 3143065177706048487
+    second: Robot_Enemy1_Walk_6
+  - first:
+      213: 9165615161861854005
+    second: Robot_Enemy1_Walk_7
+  - first:
+      213: 2254827415027173454
+    second: Robot_Enemy1_Walk_8
+  - first:
+      213: 1136630582909332656
+    second: Robot_Tileset_13
+  - first:
+      213: 256433363175108521
+    second: Robot_Tileset_14
+  - first:
+      213: -4869555573280267956
+    second: Robot_Enemy2_Idle_1
+  - first:
+      213: 582499656425977815
+    second: Robot_Enemy2_Walk_1
+  - first:
+      213: 6471214743549292333
+    second: Robot_Enemy2_Walk_5
+  - first:
+      213: -634492413828247702
+    second: Robot_Tileset_18
+  - first:
+      213: 6546991136825766452
+    second: Robot_Enemy3_Idle_1
+  - first:
+      213: 5147879175624817555
+    second: Robot_Enemy3_Idle_2
+  - first:
+      213: -8954746216398121016
+    second: Robot_Enemy3_Idle_3
+  - first:
+      213: 2353824187490921117
+    second: Robot_Enemy3_Idle_4
+  - first:
+      213: -8734846658591984003
+    second: Robot_Enemy3_Walk_1
+  - first:
+      213: -8054173494502969590
+    second: Robot_Enemy3_Walk_2
+  - first:
+      213: -5980114491864566274
+    second: Robot_Enemy3_Walk_3
+  - first:
+      213: -2484808916288216530
+    second: Robot_Enemy3_Walk_4
+  - first:
+      213: -2310330567793904267
+    second: Robot_Enemy3_Walk_5
+  - first:
+      213: 3601701809174083836
+    second: Robot_Enemy3_Walk_6
+  - first:
+      213: -8139256989976185575
+    second: Robot_Enemy3_Walk_7
+  - first:
+      213: -1629267388110913982
+    second: Robot_Enemy3_Walk_8
+  - first:
+      213: 198709535600381073
+    second: Robot_Enemy4_Idle_1
+  - first:
+      213: 8241835052794531732
+    second: Robot_Enemy4_Idle_2
+  - first:
+      213: 2104062176484356307
+    second: Robot_Enemy4_Idle_3
+  - first:
+      213: 589217977084718317
+    second: Robot_Enemy4_Idle_4
+  - first:
+      213: 711321259297876171
+    second: Robot_Enemy4_Walk_1
+  - first:
+      213: 6652512264845816637
+    second: Robot_Enemy4_Walk_3
+  - first:
+      213: -7110064433098043333
+    second: Robot_Enemy4_Walk_4
+  - first:
+      213: -3874337911719858313
+    second: Robot_Tileset_38
+  - first:
+      213: -6768115279326713557
+    second: Robot_Tileset_39
+  - first:
+      213: 601818565294749562
+    second: Robot_Tileset_40
+  - first:
+      213: -585690815036384775
+    second: Robot_Tileset_41
+  - first:
+      213: 1283217030977927727
+    second: Robot_Tileset_42
+  - first:
+      213: 214147457967093399
+    second: Robot_Tileset_43
+  - first:
+      213: 8413492820316428062
+    second: Robot_Enemy5_Idle_1
+  - first:
+      213: -6346252203521635294
+    second: Robot_Enemy5_Idle_2
+  - first:
+      213: -8910453340664976937
+    second: Robot_Enemy5_Idle_3
+  - first:
+      213: -7192585853508296537
+    second: Robot_Enemy5_Idle_4
+  - first:
+      213: -1385117282193420972
+    second: Robot_Enemy5_Walk_1
+  - first:
+      213: -6721524018378419424
+    second: Robot_Enemy5_Walk_2
+  - first:
+      213: -3686745340753288825
+    second: Robot_Enemy5_Walk_3
+  - first:
+      213: 2637910261608654589
+    second: Robot_Enemy5_Walk_4
+  - first:
+      213: -1110315905657316738
+    second: Robot_Enemy5_Walk_5
+  - first:
+      213: 2920971748067962857
+    second: Robot_Enemy5_Walk_6
+  - first:
+      213: -1648305369082832315
+    second: Robot_Enemy5_Walk_7
+  - first:
+      213: 9031501154137546005
+    second: Robot_Enemy5_Walk_8
+  - first:
+      213: 158883375396349310
+    second: Robot_Tileset_56
+  - first:
+      213: -550908299168654084
+    second: Robot_Tileset_57
+  - first:
+      213: 7286752718708596048
+    second: Robot_Tileset_58
+  - first:
+      213: -4587158166815222265
+    second: Robot_Tileset_59
+  - first:
+      213: -4282499013934998685
+    second: Robot_Tileset_60
+  - first:
+      213: -3466635658155109885
+    second: Robot_Tileset_61
+  - first:
+      213: -7504846276854637008
+    second: Robot_Tileset_62
+  - first:
+      213: -8366941966696531841
+    second: Robot_Enemy6_Idle_1
+  - first:
+      213: 447582687133569597
+    second: Robot_Enemy6_Idle_2
+  - first:
+      213: -2912700279354733616
+    second: Robot_Enemy6_Idle_3
+  - first:
+      213: 6581607663654134970
+    second: Robot_Enemy6_Idle_4
+  - first:
+      213: 8753971109549760614
+    second: Robot_Enemy6_Walk_1
+  - first:
+      213: 9060281007542510005
+    second: Robot_Enemy6_Walk_2
+  - first:
+      213: -8795934727581061050
+    second: Robot_Enemy6_Walk_3
+  - first:
+      213: 9027019732263979396
+    second: Robot_Enemy6_Walk_4
+  - first:
+      213: 4837676983132362019
+    second: Robot_Enemy6_Walk_5
+  - first:
+      213: -6736123299351785757
+    second: Robot_Enemy6_Walk_6
+  - first:
+      213: -3593697975742559790
+    second: Robot_Enemy6_Walk_7
+  - first:
+      213: 2425306368209875163
+    second: Robot_Enemy6_Walk_8
+  - first:
+      213: -3753139539647191694
+    second: Robot_Tileset_75
+  - first:
+      213: -4740324388279494139
+    second: Robot_Tileset_76
+  - first:
+      213: -7638375859087219692
+    second: Robot_Tileset_77
+  - first:
+      213: 1698579510030238672
+    second: Robot_Tileset_78
+  - first:
+      213: 5033473755975202388
+    second: Robot_Enemy7_Idle_1
+  - first:
+      213: 7177075521804314802
+    second: Robot_Enemy7_Idle_2
+  - first:
+      213: 7185139991838283739
+    second: Robot_Enemy7_Idle_3
+  - first:
+      213: -6345959730319222157
+    second: Robot_Enemy7_Idle_4
+  - first:
+      213: -6920163416807267471
+    second: Robot_Enemy7_Walk_1
+  - first:
+      213: -6716228592623179925
+    second: Robot_Enemy7_Walk_2
+  - first:
+      213: -8284383976842596558
+    second: Robot_Enemy7_Walk_3
+  - first:
+      213: 6327010071203070483
+    second: Robot_Enemy7_Walk_4
+  - first:
+      213: 4356414794494529310
+    second: Robot_Enemy7_Walk_5
+  - first:
+      213: 1720165495147725176
+    second: Robot_Enemy7_Walk_6
+  - first:
+      213: 2318981300135640792
+    second: Robot_Enemy7_Walk_7
+  - first:
+      213: -8523119685138269957
+    second: Robot_Enemy7_Walk_8
+  - first:
+      213: -4556237948617081657
+    second: Robot_Enemy8_Idle_1
+  - first:
+      213: 426731767698776671
+    second: Robot_Enemy8_Idle_2
+  - first:
+      213: 3938354755259006797
+    second: Robot_Enemy8_Idle_3
+  - first:
+      213: 5573275961299461368
+    second: Robot_Enemy8_Idle_4
+  - first:
+      213: 8961588933873407174
+    second: Robot_Enemy8_Walk_1
+  - first:
+      213: 9097281120579689093
+    second: Robot_Enemy8_Walk_2
+  - first:
+      213: -6157859982158445972
+    second: Robot_Enemy8_Walk_3
+  - first:
+      213: 7619206734406446548
+    second: Robot_Enemy8_Walk_4
+  - first:
+      213: 1631858806893671991
+    second: Robot_Enemy8_Walk_5
+  - first:
+      213: -7312455844798785374
+    second: Robot_Enemy8_Walk_6
+  - first:
+      213: 7598669327514089896
+    second: Robot_Enemy8_Walk_7
+  - first:
+      213: -1688238966495290779
+    second: Robot_Enemy8_Walk_8
+  - first:
+      213: 6425296546618531870
+    second: Robot_Enemy9_Idle_1
+  - first:
+      213: -4538673386010433293
+    second: Robot_Enemy9_Idle_2
+  - first:
+      213: -4877465805794502420
+    second: Robot_Enemy9_Idle_3
+  - first:
+      213: 5535669362702813109
+    second: Robot_Enemy9_Idle_4
+  - first:
+      213: 6129989223891801593
+    second: Robot_Enemy9_Walk_1
+  - first:
+      213: -8126372985993628836
+    second: Robot_Enemy9_Walk_2
+  - first:
+      213: 8696473530964521781
+    second: Robot_Enemy9_Walk_3
+  - first:
+      213: 6332290855149597758
+    second: Robot_Enemy9_Walk_4
+  - first:
+      213: -391824685586881144
+    second: Robot_Enemy9_Walk_5
+  - first:
+      213: -5516986585839656751
+    second: Robot_Enemy9_Walk_6
+  - first:
+      213: -3187190572928135987
+    second: Robot_Enemy9_Walk_7
+  - first:
+      213: 3988488056672303717
+    second: Robot_Enemy9_Walk_8
+  - first:
+      213: 997929454327966748
+    second: Robot_Enemy1_Idle_1
+  - first:
+      213: -1201764426604707425
+    second: Robot_Enemy1_Walk_1
+  - first:
+      213: 8025493534162908196
+    second: Robot_Enemy2_Idle_2
+  - first:
+      213: -2173509604848561370
+    second: Robot_Enemy2_Idle_3
+  - first:
+      213: -6025803498736044681
+    second: Robot_Enemy2_Idle_4
+  - first:
+      213: 6087357212334834087
+    second: Robot_Enemy2_Walk_2
+  - first:
+      213: -8061776812701889915
+    second: Robot_Enemy2_Walk_3
+  - first:
+      213: -6922108610854311113
+    second: Robot_Enemy2_Walk_4
+  - first:
+      213: 5800921342260572455
+    second: Robot_Enemy2_Walk_6
+  - first:
+      213: 2059903235414159631
+    second: Robot_Enemy2_Walk_
+  - first:
+      213: 2748495517846938256
+    second: Robot_Enemy2_Walk_7
+  - first:
+      213: 4393499942721718870
+    second: Robot_Enemy4_Walk_2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 368
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b36e8d4a52551f0800000000000000
+      internalID: -1056897147604681932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 496
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8b896a8f2850980800000000000000
+      internalID: -8573302311171344217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 464
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2794e5d88229ce870800000000000000
+      internalID: 8713500081923180914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 464
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7085ae0c679835e0800000000000000
+      internalID: -1929625949970268037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 480
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d60b28d13c46c040800000000000000
+      internalID: 4667501840779904724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 464
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0669cfc9ed48d70800000000000000
+      internalID: 9044598717500776694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 464
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb928fd6c048fefb0800000000000000
+      internalID: -4616325904112014917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 464
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5e1caa08eaec860800000000000000
+      internalID: 7552165492790781402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 464
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0948f7cea6a2f3f0800000000000000
+      internalID: -868448508519626484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 464
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c3cee2acb0fde50800000000000000
+      internalID: 6836195722370235498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 464
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eba11f50296e9b20800000000000000
+      internalID: 3143065177706048487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 464
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533d5be9d6ec23f70800000000000000
+      internalID: 9165615161861854005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 464
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48c18e5691ca4f10800000000000000
+      internalID: 2254827415027173454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 464
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce7273e7f16cf00800000000000000
+      internalID: 1136630582909332656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 448
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af6c9009c80f8300800000000000000
+      internalID: 256433363175108521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c412b90910ddb6cb0800000000000000
+      internalID: -4869555573280267956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7be0fe954751800800000000000000
+      internalID: 582499656425977815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fa686f58f5ec950800000000000000
+      internalID: 6471214743549292333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 432
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f4615e284d137f0800000000000000
+      internalID: -634492413828247702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 400
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432712260c59bda50800000000000000
+      internalID: 6546991136825766452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 400
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b7fb9e5d0f07740800000000000000
+      internalID: 5147879175624817555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 400
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c711dda2c95ab380800000000000000
+      internalID: -8954746216398121016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 400
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a6e1f90a67aa020800000000000000
+      internalID: 2353824187490921117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 400
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76fd134e3797c680800000000000000
+      internalID: -8734846658591984003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 400
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa8cc21e3d93090800000000000000
+      internalID: -8054173494502969590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 400
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef53f3cbd8d520da0800000000000000
+      internalID: -5980114491864566274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 400
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22eae9a47f248dd0800000000000000
+      internalID: -2484808916288216530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 400
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575fae8d69e00ffd0800000000000000
+      internalID: -2310330567793904267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 400
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8f3ba76b0dbf130800000000000000
+      internalID: 3601701809174083836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 400
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915bad824ec8b0f80800000000000000
+      internalID: -8139256989976185575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy3_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 400
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e358751fda369e0800000000000000
+      internalID: -1629267388110913982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 368
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c81f21545f1c200800000000000000
+      internalID: 198709535600381073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 368
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f4e2b3051e06270800000000000000
+      internalID: 8241835052794531732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 368
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d07fa6d661233d10800000000000000
+      internalID: 2104062176484356307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 368
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deca86bd0a25d2800800000000000000
+      internalID: 589217977084718317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 368
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc822a5aaee1fd900800000000000000
+      internalID: 711321259297876171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33701a88a8725c50800000000000000
+      internalID: 6652512264845816637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 368
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b305d0f911af35d90800000000000000
+      internalID: -7110064433098043333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 362
+        width: 48
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77feb1842369b3ac0800000000000000
+      internalID: -3874337911719858313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2966d03303d212a0800000000000000
+      internalID: -6768115279326713557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 347
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f0abebc61a5800800000000000000
+      internalID: 601818565294749562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 345
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f91c8d8e453fd7f0800000000000000
+      internalID: -585690815036384775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 316
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2abb254717eec110800000000000000
+      internalID: 1283217030977927727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 328
+        width: 63
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7967ea97afdc8f200800000000000000
+      internalID: 214147457967093399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17924bb42bb2c470800000000000000
+      internalID: 8413492820316428062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c8d0aae359de7a0800000000000000
+      internalID: -6346252203521635294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9a8f175e5b75480800000000000000
+      internalID: -8910453340664976937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a06321364dce2c90800000000000000
+      internalID: -7192585853508296537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d4b96ab2317cce0800000000000000
+      internalID: -1385117282193420972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 336
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0235c47748958b2a0800000000000000
+      internalID: -6721524018378419424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781e21355ac06dcc0800000000000000
+      internalID: -3686745340753288825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 336
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6aa8c186dbb9420800000000000000
+      internalID: 2637910261608654589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a54d6019d5790f0800000000000000
+      internalID: -1110315905657316738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 336
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efea823450698820800000000000000
+      internalID: 2920971748067962857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 336
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ad27afffa0029e0800000000000000
+      internalID: -1648305369082832315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy5_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 336
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d16e0e276565d70800000000000000
+      internalID: 9031501154137546005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e63f8697743200800000000000000
+      internalID: 158883375396349310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcdc3c12d7ca58f0800000000000000
+      internalID: -550908299168654084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ddcb4adfebf1560800000000000000
+      internalID: 7286752718708596048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706527a73f32750c0800000000000000
+      internalID: -4587158166815222265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 305
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b917326d18194c0800000000000000
+      internalID: -4282499013934998685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 288
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30256f56c3904efc0800000000000000
+      internalID: -3466635658155109885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 288
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e9a26d21e69d790800000000000000
+      internalID: -7504846276854637008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 304
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78beba7c96a2eb80800000000000000
+      internalID: -8366941966696531841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 304
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3216322512263600800000000000000
+      internalID: 447582687133569597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 304
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db41ef27820497d0800000000000000
+      internalID: -2912700279354733616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 304
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4e71b9c41965b50800000000000000
+      internalID: 6581607663654134970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 304
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660eeb6f75a5c7970800000000000000
+      internalID: 8753971109549760614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 304
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b12acba2959cbd70800000000000000
+      internalID: 9060281007542510005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 304
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6403207d7ff8ee580800000000000000
+      internalID: -8795934727581061050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 304
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489490a8e9a664d70800000000000000
+      internalID: 9027019732263979396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 304
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32510b5c591e22340800000000000000
+      internalID: 4837676983132362019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 304
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee87ea7c8b7482a0800000000000000
+      internalID: -6736123299351785757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 304
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d903d53bbe902ec0800000000000000
+      internalID: -3593697975742559790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy6_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 304
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd074a4ca4b68a120800000000000000
+      internalID: 2425306368209875163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 289
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2752bd2497b2aebc0800000000000000
+      internalID: -3753139539647191694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_76
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 288
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ada7c851cf63eb0800000000000000
+      internalID: -4740324388279494139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_77
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 290
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414ef2240a90ff590800000000000000
+      internalID: -7638375859087219692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 80
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d30c1e9011929710800000000000000
+      internalID: 1698579510030238672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456372b66bd7ad540800000000000000
+      internalID: 5033473755975202388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b82c4b49281a9360800000000000000
+      internalID: 7177075521804314802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd759fa01ceb6b360800000000000000
+      internalID: 7185139991838283739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a93636f3f9ee7a0800000000000000
+      internalID: -6345959730319222157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173ac897904a6ff90800000000000000
+      internalID: -6920163416807267471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67af5adda92bc2a0800000000000000
+      internalID: -6716228592623179925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23feb556aa4f70d80800000000000000
+      internalID: -8284383976842596558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312c068432e0ec750800000000000000
+      internalID: 6327010071203070483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f4a10ac28157c30800000000000000
+      internalID: 4356414794494529310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8710a2d67614fd710800000000000000
+      internalID: 1720165495147725176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8debb5bb43dae2020800000000000000
+      internalID: 2318981300135640792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy7_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 272
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8b135cdcbc7b980800000000000000
+      internalID: -8523119685138269957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 240
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc3688c9bdf4c0c0800000000000000
+      internalID: -4556237948617081657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 240
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f526f04284e0ce500800000000000000
+      internalID: 426731767698776671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 240
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ffeaa98c8d7a630800000000000000
+      internalID: 3938354755259006797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 240
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f46a7455f0485d40800000000000000
+      internalID: 5573275961299461368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 240
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c49892a7a5fd5c70800000000000000
+      internalID: 8961588933873407174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 240
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a150ecaf8004e70800000000000000
+      internalID: 9097281120579689093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 240
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c624ad2d8f2ea8aa0800000000000000
+      internalID: -6157859982158445972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 240
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd6f8a182cdcb960800000000000000
+      internalID: 7619206734406446548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 240
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7367d7c50f685a610800000000000000
+      internalID: 1631858806893671991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 240
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a81a07f620f48a90800000000000000
+      internalID: -7312455844798785374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 240
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a932207e75e37960800000000000000
+      internalID: 7598669327514089896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy8_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 240
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a531aca9b2298e0800000000000000
+      internalID: -1688238966495290779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10edbd9a2d3b2950800000000000000
+      internalID: 6425296546618531870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f824533a946301c0800000000000000
+      internalID: -4538673386010433293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8118901b2cf4cb0800000000000000
+      internalID: -4877465805794502420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b70ae5c4f5a2dc40800000000000000
+      internalID: 5535669362702813109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f51b0798b8121550800000000000000
+      internalID: 6129989223891801593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53f48913d2593f80800000000000000
+      internalID: -8126372985993628836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5333abbb99410b870800000000000000
+      internalID: 8696473530964521781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3475ab9bf0d0e750800000000000000
+      internalID: 6332290855149597758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8856d514685ff8af0800000000000000
+      internalID: -391824685586881144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0ae603ee9bf63b0800000000000000
+      internalID: -5516986585839656751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc05257f03d4c3d0800000000000000
+      internalID: -3187190572928135987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy9_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 208
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a37d071c4f95730800000000000000
+      internalID: 3988488056672303717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 464
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c2e1c2d8b59dd00800000000000000
+      internalID: 997929454327966748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy1_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 464
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9186880f99725fe0800000000000000
+      internalID: -1201764426604707425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42479f239d7406f60800000000000000
+      internalID: 8025493534162908196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6231a17b78426d1e0800000000000000
+      internalID: -2173509604848561370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775388bd4ab006ca0800000000000000
+      internalID: -6025803498736044681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a14126e123aa7450800000000000000
+      internalID: 6087357212334834087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a4c64b3b0de1090800000000000000
+      internalID: -8061776812701889915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b2b51b4eabfef90800000000000000
+      internalID: -6922108610854311113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 432
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217c67e933018050800000000000000
+      internalID: 5800921342260572455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01f98a241f369c10800000000000000
+      internalID: 2059903235414159631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy2_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 432
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09225008c1e942620800000000000000
+      internalID: 2748495517846938256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robot_Enemy4_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a80ae8be8d8fc30800000000000000
+      internalID: 4393499942721718870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
