@@ -35,6 +35,10 @@ public class CadetController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if(PersistentData.Instance.GetCurrentHealth() <= 0){
+			PersistentData.Instance.Die();
+		}
+
         movement = Input.GetAxis("Horizontal");
 		if(Input.GetButtonDown("Jump") && jumpcount > 0)
 		{

@@ -495,6 +495,7 @@ public class PlayerController : MonoBehaviour
         if (playerDefeated)
         {
             gameObject.SetActive(false);
+
         }
 
         if (isWaiting == true)
@@ -744,6 +745,8 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(3.0f);
         playerDefeated = true;
+        PersistentData.Instance.Die();
+
     }
 
     IEnumerator DisplayFeedbackNiceCoroutine()

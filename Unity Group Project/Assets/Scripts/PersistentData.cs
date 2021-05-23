@@ -123,22 +123,21 @@ public class PersistentData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         playerScore = 20 * currentPlayerHealth + 10 * playerCurrency;
+        if(currentPlayerHealth < 0){
+            currentPlayerHealth = 0;
+        }
 
         if(currentPlayerHealth <= 0 && playerDefeated == false)
         {
             playerDefeated = true;
         }
 
-        if (playerDefeated == true && hasDisplayedGameOver == false)
-        {
-            hasDisplayedGameOver = true;
-            Die();
-        }
     }
 
-    void Die()
+    public void Die()
     {
-        //SceneManager.LoadScene("WIP");
+        SceneManager.LoadScene("GameOver");
     }
 }
