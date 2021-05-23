@@ -2151,7 +2151,9 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+
           m_StringArgument: ChapterSelect
+
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1612477070
@@ -2497,8 +2499,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: 
+
   maxPlayerHealth: 0
   currentPlayerHealth: 0
+
   prevPlayerHealth: 0
   playerDamage: 1
   playerAbility: []
