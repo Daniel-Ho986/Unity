@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public interface EnemyController
 {
+    /*
     //These are set in the editor
     public GameObject healthBar;
     private Vector3 hbarScale;
@@ -49,6 +50,7 @@ public class EnemyController : MonoBehaviour
     private string phrase5;
     private string phrase6;
     private string phrase7;
+
 
     // Start is called before the first frame update
     void Start()
@@ -139,118 +141,37 @@ public class EnemyController : MonoBehaviour
     }//End of Update()
 
 
+
     //GetPhrase():
     //  - returns the enemy phrase depending on the number entered
-    public string GetPhrase(int phraseNum)
-    {
-        if (phraseNum == 1) { return phrase1; }
-        else if (phraseNum == 2) { return phrase2; }
-        else if (phraseNum == 3) { return phrase3; }
-        else if (phraseNum == 4) { return phrase4; }
-        else if (phraseNum == 5) { return phrase5; }
-        else if (phraseNum == 6) { return phrase6; }
-        else if (phraseNum == 7) { return phrase7; }
-        else { return "I'm speechless (literally)!"; }
-    }
+    string GetPhrase(int phraseNum);
 
 
     //Health Related Methods:
-    public void SetCurrentHealth(float health) { currentHealth = health; }
-    public float GetCurrentHealth() { return currentHealth; }
+    void SetCurrentHealth(float health);
+    float GetCurrentHealth();
+    void DamageTaken(bool truthValue);
+    //IEnumerator DamageCoroutine();
 
-    public void DamageTaken(bool truthValue) { tookDamage = true; }
-
-    IEnumerator DamageCoroutine()
-    {
-        //Change Enemy color to red
-        AdjustHealthBar();
-        GetComponent<SpriteRenderer>().color = Color.red;
-        yield return new WaitForSeconds(0.18f);
-        GetComponent<SpriteRenderer>().color = enemyColor;
-        tookDamage = false;
-    }
 
     //Resource Related Methods:
-    public void AdjustHealthBar()
-    {
-        float healthRatio = currentHealth / maxHealth;
-        if (healthBar.tag == "ResourceBar")
-        {
-            if (healthRatio == 1)
-            {
-                healthBar.transform.localScale = hbarScale;
-            }
-            else if (healthRatio < 1 && healthRatio >= 0)
-            {
-                Vector3 barScale = hbarScale; //Enemy maximum health (represented by bar)
-                healthRatio = barScale.x * healthRatio; //Enemy remaining health (represented by bar)
-                float lostHealth = barScale.x - healthRatio;
-                Vector3 adjustment = new Vector3(lostHealth, 0, 0);
-                healthBar.transform.localScale = hbarScale - adjustment;
-            }
-            else if (healthRatio < 0)
-            {
-                healthBar.transform.localScale = new Vector3(0, 0, 0);
-            }
-        }
-    }
-
-    public void AdjustEnergyBar()
-    {
-        float energyRatio = currentEnergy / maxEnergy;
-        if (energyBar.tag == "ResourceBar")
-        {
-            if (energyRatio == 1)
-            {
-                energyBar.transform.localScale = ebarScale;
-            }
-            else if (energyRatio < 1 && energyRatio >= 0)
-            {
-                Vector3 barScale = ebarScale; //Enemy maximum energy (represented by bar)
-                energyRatio = barScale.x * energyRatio; //Enemy remaining energy (represented by bar)
-                float lostEnergy = barScale.x - energyRatio;
-                Vector3 adjustment = new Vector3(lostEnergy, 0, 0);
-                energyBar.transform.localScale = ebarScale - adjustment;
-            }
-        }
-    }
+    void AdjustHealthBar();
+    void AdjustEnergyBar();
 
 
     //Attack Related Methods:
-    public void AttackPlayer() { isAttacking = true; }
-
-    public bool AttackHasEnded() { return endedAttack; }
-
-    public float GetAttacksPerformed() { return attacksPerformed; }
-    public float GetAttacksMissed() { return attacksMissed; }
-
-    public void IncrementAttacksLanded() { attacksLanded += 1; }
-    public void CalculateAttacksMissed() { attacksMissed = attacksPerformed - attacksLanded; }
-
-    IEnumerator WaitForAttackEndCoroutine()
-    {
-        yield return new WaitForSeconds(5.0f);
-        endedAttack = true;
-        CalculateAttacksMissed();
-    }
-
-    IEnumerator ResetEndedAttackCoroutine()
-    {
-        yield return new WaitForSeconds(5.5f);
-        endedAttack = false;
-    }
+    void AttackPlayer();
+    bool AttackHasEnded();
+    float GetAttacksPerformed();
+    float GetAttacksMissed();
+    void IncrementAttacksLanded();
+    void CalculateAttacksMissed();
+    //IEnumerator WaitForAttackEndCoroutine();
+    //IEnumerator ResetEndedAttackCoroutine();
 
 
     //Emote Related Methods:
-    public void StartEmote(string emoteName)
-    {
-        //Display emote bubble based on "emoteName" given
-    }
-
-    public void EndEmote(string emoteName)
-    {
-        //Hide emote bubble based on "emoteName" given
-    }
-
+    void StartEmote(string emoteName);
+    void EndEmote(string emoteName);
 
 }

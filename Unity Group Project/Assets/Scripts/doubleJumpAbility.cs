@@ -29,10 +29,10 @@ public class doubleJumpAbility : MonoBehaviour
 
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (PersistentData.Instance.GetCoin() >= cost)
+            if (PersistentData.Instance.GetCurrency() >= cost)
             {
                 GameObject.FindGameObjectWithTag("Player").GetComponent<CadetController>().doublejump = true;
-                PersistentData.Instance.SetCoin(PersistentData.Instance.GetCoin() - cost);
+                PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
                 descriptionAndCost.gameObject.SetActive(false);
                 gameObject.GetComponent<Renderer>().enabled = false;
             }

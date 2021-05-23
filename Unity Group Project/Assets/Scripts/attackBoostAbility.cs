@@ -28,10 +28,10 @@ public class attackBoostAbility : MonoBehaviour
 
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (PersistentData.Instance.GetCoin() >= cost)
+            if (PersistentData.Instance.GetCurrency() >= cost)
             {
                 PersistentData.Instance.SetDamage(PersistentData.Instance.GetDamage() + 1);
-                PersistentData.Instance.SetCoin(PersistentData.Instance.GetCoin() - cost);
+                PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
                 descriptionAndCost.gameObject.SetActive(false);
                 gameObject.GetComponent<Renderer>().enabled = false;
             }
