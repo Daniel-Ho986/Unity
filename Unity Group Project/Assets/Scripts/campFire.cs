@@ -28,10 +28,10 @@ public class campFire : MonoBehaviour
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (PersistentData.Instance.GetCurrency() >= cost)
+            if (PersistentData.Instance.GetCoin() >= cost)
             {
-                PersistentData.Instance.SetCurrentHealth(PersistentData.Instance.GetCurrentHealth() + 5);
-                PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
+                PersistentData.Instance.SetHealth(PersistentData.Instance.GetHealth() + 5);
+                PersistentData.Instance.SetCoin(PersistentData.Instance.GetCoin() - cost);
                 descriptionAndCost.gameObject.SetActive(false);
                 gameObject.GetComponent<Renderer>().enabled = false;
             }
