@@ -28,6 +28,8 @@ public class EnemyController : MonoBehaviour
 
     //Attack Variables:
     public GameObject fireSpinAttack;
+    public GameObject fireSpinAttack2;
+
     public bool isAttacking;
     public bool attackActivated;
     public bool endedAttack;
@@ -47,9 +49,6 @@ public class EnemyController : MonoBehaviour
     private string phrase5;
     private string phrase6;
     private string phrase7;
-<<<<<<< HEAD
-    */
-=======
 
     // Start is called before the first frame update
     void Start()
@@ -139,7 +138,6 @@ public class EnemyController : MonoBehaviour
         }
     }//End of Update()
 
->>>>>>> 64cf3c8e00798fab538d77bb0454f0ce2ad00fa0
 
     //GetPhrase():
     //  - returns the enemy phrase depending on the number entered
