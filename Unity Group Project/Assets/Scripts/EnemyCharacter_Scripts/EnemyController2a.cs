@@ -48,6 +48,9 @@ public class EnemyController2a : MonoBehaviour, EnemyController
     private string phrase6;
     private string phrase7;
 
+    // Damage Sound Effect
+    public AudioSource audio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +62,10 @@ public class EnemyController2a : MonoBehaviour, EnemyController
         if (energyBar != null && energyBar.tag == "ResourceBar")
         {
             ebarScale = energyBar.transform.localScale;
+        }
+
+        if (audio == null){
+            audio = GetComponent<AudioSource>();
         }
 
         tookDamage = false;
@@ -150,6 +157,9 @@ public class EnemyController2a : MonoBehaviour, EnemyController
 
     IEnumerator DamageCoroutine()
     {
+        // Play Damage Sound Effect
+        AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+
         //Change Enemy color to red
         AdjustHealthBar();
         GetComponent<SpriteRenderer>().color = Color.red;
