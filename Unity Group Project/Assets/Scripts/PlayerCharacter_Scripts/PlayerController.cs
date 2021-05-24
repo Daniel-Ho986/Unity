@@ -216,6 +216,9 @@ public class PlayerController : MonoBehaviour
         if (audio == null){
             audio = GetComponent<AudioSource>();
         }
+
+        currencyCounter.text = currency.ToString();
+
     }//End of Start
 
 

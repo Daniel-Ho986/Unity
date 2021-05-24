@@ -19,14 +19,14 @@ public class RewardHealthBoostScript : MonoBehaviour
     {
         cost = 0;
         description = "Increase health points by 5";
-        descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to choose";
+        descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + System.Environment.NewLine + "Press E to choose";
         descriptionAndCost.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to choose";
+        descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + System.Environment.NewLine + "Press E to choose";
 
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
