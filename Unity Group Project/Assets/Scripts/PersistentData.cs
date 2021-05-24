@@ -11,7 +11,7 @@ public class PersistentData : MonoBehaviour
     [SerializeField] int currentPlayerHealth;
     [SerializeField] int prevPlayerHealth;
     [SerializeField] int playerDamage;
-    [SerializeField] List<string> playerAbility = new List<string>();
+    [SerializeField] public List<string> playerAbility = new List<string>();
     [SerializeField] int playerCurrency;
     [SerializeField] int playerScore;
 
@@ -28,7 +28,6 @@ public class PersistentData : MonoBehaviour
         prevPlayerHealth = 10;
         playerDamage = 1;
         playerCurrency = 0;
-        playerScore = 0;
 
         playerDefeated = false;
         hasDisplayedGameOver = false;
@@ -123,8 +122,19 @@ public class PersistentData : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(SceneManager.GetActiveScene().name == "Title"){
+            maxPlayerHealth = 10;
+            currentPlayerHealth = 10;
+            prevPlayerHealth = 10;
+            playerDamage = 1;
+            playerCurrency = 0;
+            playerAbility.Clear();
 
-        playerScore = 20 * currentPlayerHealth + 10 * playerCurrency;
+            playerDefeated = false;
+            hasDisplayedGameOver = false;
+        }
+
+        playerScore = 300 + 20 * currentPlayerHealth + 10 * playerCurrency;
         if(currentPlayerHealth < 0){
             currentPlayerHealth = 0;
         }

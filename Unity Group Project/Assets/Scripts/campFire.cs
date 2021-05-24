@@ -23,8 +23,8 @@ public class campFire : MonoBehaviour
             audio = GetComponent<AudioSource>();
         }
 
-        cost = 3;
-        description = "Add 5 to the health total";
+        cost = 10;
+        description = "Restore 5 health (Maximum 10 hp)";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
     }
@@ -39,11 +39,14 @@ public class campFire : MonoBehaviour
             {
                 //Play Item Sound Effect
                 AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+                if(PersistentData.Instance.GetCurrentHealth() >= 5){
+                    PersistentData.Instance.SetCurrentHealth(10);
+                } else{
+                    PersistentData.Instance.SetCurrentHealth(PersistentData.Instance.GetCurrentHealth() + 5);
+                }
                 
-                PersistentData.Instance.SetCurrentHealth(PersistentData.Instance.GetCurrentHealth() + 5);
                 PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
-                descriptionAndCost.gameObject.SetActive(false);
-                gameObject.GetComponent<Renderer>().enabled = false;
+
             }
         }
     }

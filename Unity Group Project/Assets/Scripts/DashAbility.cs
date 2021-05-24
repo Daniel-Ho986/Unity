@@ -18,11 +18,14 @@ public class DashAbility : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (PersistentData.Instance.playerAbility.Contains("Dash")){
+            gameObject.GetComponent<Renderer>().enabled = false;
+        }
         if (audio == null){
             audio = GetComponent<AudioSource>();
         }
 
-        cost = 7;
+        cost = 30;
         description = "Dash";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
@@ -42,6 +45,7 @@ public class DashAbility : MonoBehaviour
                 
                 GameObject.FindGameObjectWithTag("Player").GetComponent<CadetController>().dash = true;
                 PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
+                PersistentData.Instance.playerAbility.Add("Dash");
                 descriptionAndCost.gameObject.SetActive(false);
                 gameObject.GetComponent<Renderer>().enabled = false;
             }

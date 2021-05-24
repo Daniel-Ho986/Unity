@@ -22,7 +22,7 @@ public class attackBoostAbility : MonoBehaviour
             audio = GetComponent<AudioSource>();
         }
         
-        cost = 5;
+        cost = 10;
         description = "Boost attack by 1";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
@@ -42,8 +42,7 @@ public class attackBoostAbility : MonoBehaviour
 
                 PersistentData.Instance.SetDamage(PersistentData.Instance.GetDamage() + 1);
                 PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
-                descriptionAndCost.gameObject.SetActive(false);
-                gameObject.GetComponent<Renderer>().enabled = false;
+
             }
         }
     }

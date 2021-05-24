@@ -8967,7 +8967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCharacter: {fileID: 580847210}
   enemyCharacter: {fileID: 97594677}
-  movementSpeed: 0.1
+  movementSpeed: 0.04
   damageValue: 2
   attackSpawned: 0
   attackStarted: 0
