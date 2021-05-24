@@ -13,9 +13,16 @@ public class campFire : MonoBehaviour
     [SerializeField] bool inRange;
 
 
+    //Item Sound Effect
+    public AudioSource audio;
+
     // Start is called before the first frame update
     void Start()
     {
+        if (audio == null){
+            audio = GetComponent<AudioSource>();
+        }
+
         cost = 3;
         description = "Add 5 to the health total";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
@@ -30,6 +37,9 @@ public class campFire : MonoBehaviour
         {
             if (PersistentData.Instance.GetCurrency() >= cost)
             {
+                //Play Item Sound Effect
+                AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+                
                 PersistentData.Instance.SetCurrentHealth(PersistentData.Instance.GetCurrentHealth() + 5);
                 PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
                 descriptionAndCost.gameObject.SetActive(false);

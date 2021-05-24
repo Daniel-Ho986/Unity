@@ -12,10 +12,16 @@ public class DashAbility : MonoBehaviour
     [SerializeField] TextMeshProUGUI descriptionAndCost;
     [SerializeField] bool inRange;
 
+    //Item Sound Effect
+    public AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (audio == null){
+            audio = GetComponent<AudioSource>();
+        }
+
         cost = 7;
         description = "Dash";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
@@ -31,6 +37,9 @@ public class DashAbility : MonoBehaviour
         {
             if (PersistentData.Instance.GetCurrency() >= cost)
             {
+                //Play Item Sound Effect
+                AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+                
                 GameObject.FindGameObjectWithTag("Player").GetComponent<CadetController>().dash = true;
                 PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
                 descriptionAndCost.gameObject.SetActive(false);
