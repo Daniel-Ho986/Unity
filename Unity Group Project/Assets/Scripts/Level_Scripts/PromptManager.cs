@@ -353,7 +353,7 @@ public class PromptManager : MonoBehaviour
     //End Results Chart Methods--
     public void ShowEndResults()
     {
-        resultsChart_animator.SetBool("isVisible", true);
+        resultsChart_animator.SetBool("isVisible", false);
         StartCoroutine(ShowResultsStatsCoroutine());
         StartCoroutine(ShowButtonOkCoroutine());
     }
