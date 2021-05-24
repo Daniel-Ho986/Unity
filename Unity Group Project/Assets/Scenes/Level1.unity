@@ -8506,10 +8506,10 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 256
-  rigid: {fileID: 0}
-  playerAnimator: {fileID: 0}
-  inputManager: {fileID: 0}
-  promptManager: {fileID: 0}
+  rigid: {fileID: 580847215}
+  playerAnimator: {fileID: 580847214}
+  inputManager: {fileID: 188816562}
+  promptManager: {fileID: 1974365023}
   audio: {fileID: 580847217}
 --- !u!95 &580847214
 Animator:
