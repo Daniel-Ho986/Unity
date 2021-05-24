@@ -19,12 +19,18 @@ public class ViewHighScore : MonoBehaviour
         {
             nameTexts[i].text = PlayerPrefs.GetString(NAME_KEY + i);
             scoreTexts[i].text = PlayerPrefs.GetInt(SCORE_KEY + i).ToString();
+            if(scoreTexts[i].text == "0"){
+                scoreTexts[i].gameObject.SetActive(false);
+            } else {
+                scoreTexts[i].gameObject.SetActive(true);
+            }
+
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
