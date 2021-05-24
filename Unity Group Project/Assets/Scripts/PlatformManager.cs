@@ -25,7 +25,7 @@ public class PlatformManager : MonoBehaviour
         Instantiate (platformPrefab, new Vector2(-0.98f, 0.63f), platformPrefab.transform.rotation);
         Instantiate (platformPrefab, new Vector2(0.03999996f, 0.9599999f), platformPrefab.transform.rotation);
         Instantiate (platformPrefab, new Vector2(1.16f, 0.49f), platformPrefab.transform.rotation);
-        Instantiate (platformPrefab, new Vector2(2.1f, 0.9199999f), platformPrefab.transform.rotation);
+        Instantiate (platformPrefab, new Vector2(2.1f, 0.8899999f), platformPrefab.transform.rotation);
     }
 
     IEnumerator SpawnPlatform(Vector2 spawnPosition){
