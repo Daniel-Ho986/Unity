@@ -109,6 +109,9 @@ public class PlayerController : MonoBehaviour
     //Persistent Data
     public static PersistentData playerData;
 
+    // Damage Sound Effect
+    public AudioSource audio;
+
 
     // Start is called before the first frame update
     void Start()
@@ -220,6 +223,13 @@ public class PlayerController : MonoBehaviour
         if (isVisible == true) { playerAnimator.SetBool("isVisible", true); }
 
         playerDefeated = false;
+
+        if (audio == null){
+            audio = GetComponent<AudioSource>();
+        }
+
+        currencyCounter.text = currency.ToString();
+
     }//End of Start
 
 
@@ -499,6 +509,7 @@ public class PlayerController : MonoBehaviour
         if (playerDefeated)
         {
             gameObject.SetActive(false);
+
         }
 
         if (isWaiting == true)
@@ -658,6 +669,9 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator DamageCoroutine()
     {
+        // Play Damage Sound Effect
+        AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+
         tookDamage = false;
         enemyAttacksPerformed = enemyCharacter.GetComponent<EnemyController>().GetAttacksPerformed();
         enemyAttacksDodged = enemyCharacter.GetComponent<EnemyController>().GetAttacksMissed();
@@ -745,6 +759,8 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(3.0f);
         playerDefeated = true;
+        PersistentData.Instance.Die();
+
     }
 
     IEnumerator DisplayFeedbackNiceCoroutine()

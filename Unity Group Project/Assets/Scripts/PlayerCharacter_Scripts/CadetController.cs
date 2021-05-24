@@ -30,11 +30,22 @@ public class CadetController : MonoBehaviour
 		{
 			rigid = GetComponent<Rigidbody2D>();
 		}
+		if(PersistentData.Instance.playerAbility.Contains("Dash")){
+			dash = true;
+		}
+		if(PersistentData.Instance.playerAbility.Contains("Double Jump")){
+			doublejump = true;
+		}
+		dashSpeed = 10f;
+		startDashTime = 0.1f;
+
 	}
 
     // Update is called once per frame
     void Update()
     {
+
+
         movement = Input.GetAxis("Horizontal");
 		if(Input.GetButtonDown("Jump") && jumpcount > 0)
 		{
@@ -121,7 +132,6 @@ public class CadetController : MonoBehaviour
 		rigid.velocity = new Vector2 (rigid.velocity.x, 0);
 		rigid.AddForce(new Vector2(0, jumpForce));
 		grounded = false;
-		jumpcount -= 1;
 		
 	}
 
@@ -140,6 +150,9 @@ public class CadetController : MonoBehaviour
 		if (collider.gameObject.tag == "Ground")
 		{
 			grounded = false;
+			if (jumpcount == 1){
+				jumpcount = 0;
+			}
 		}
 	}
 
