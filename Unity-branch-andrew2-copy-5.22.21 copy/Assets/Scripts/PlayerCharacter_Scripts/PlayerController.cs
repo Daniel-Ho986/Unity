@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -103,7 +104,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rigid;
     public Animator playerAnimator;
     public InputManager inputManager;
-    public PromptManager promptManager;
+    public GameObject promptManager;
 
     //Persistent Data
     public static PersistentData playerData;
@@ -203,7 +204,17 @@ public class PlayerController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         rigid.freezeRotation = true;
         inputManager = InputManager.instance;
-        promptManager = PromptManager.instance;
+        if (promptManager == null)
+        {
+            GameObject[] gameObjects = SceneManager.GetActiveScene().GetRootGameObjects();
+            for (int i = 0; i < gameObjects.Length; i++)
+            {
+                if (gameObjects[i].name == "PromptManager")
+                {
+                    promptManager = gameObjects[i];
+                }
+            }
+        }
 
         if (playerAnimator == null) { playerAnimator = gameObject.GetComponent<Animator>(); }
         if (isVisible == true) { playerAnimator.SetBool("isVisible", true); }
@@ -738,30 +749,30 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator DisplayFeedbackNiceCoroutine()
     {
-        promptManager.ShowFeedbackNice(); 
+        promptManager.GetComponent<PromptManager>().ShowFeedbackNice(); 
         yield return new WaitForSeconds(1.0f);
-        promptManager.HideFeedbackNice(); 
+        promptManager.GetComponent<PromptManager>().HideFeedbackNice(); 
     }
 
     IEnumerator DisplayFeedbackGreatCoroutine()
     {
-        promptManager.ShowFeedbackGreat();
+        promptManager.GetComponent<PromptManager>().ShowFeedbackGreat();
         yield return new WaitForSeconds(1.0f);
-        promptManager.HideFeedbackGreat();
+        promptManager.GetComponent<PromptManager>().HideFeedbackGreat();
     }
 
     IEnumerator DisplayFeedbackOopsCoroutine()
     {
-        promptManager.ShowFeedbackOops();
+        promptManager.GetComponent<PromptManager>().ShowFeedbackOops();
         yield return new WaitForSeconds(1.0f);
-        promptManager.HideFeedbackOops();
+        promptManager.GetComponent<PromptManager>().HideFeedbackOops();
     }
 
     IEnumerator DisplayFeedbackMissCoroutine()
     {
-        promptManager.ShowFeedbackMiss();
+        promptManager.GetComponent<PromptManager>().ShowFeedbackMiss();
         yield return new WaitForSeconds(1.0f);
-        promptManager.HideFeedbackMiss();
+        promptManager.GetComponent<PromptManager>().HideFeedbackMiss();
     }
 
 
@@ -786,21 +797,21 @@ public class PlayerController : MonoBehaviour
         //Display emote bubble based on "emoteName" given
         if (emoteName == "Ellipses")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Ellipses").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
         }
         else if (emoteName == "Exclaim")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Exclaim").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
         }
         else if (emoteName == "Lightbulb")
         {
-            GameObject bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            GameObject bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Lightbulb").gameObject;
             bubbleEmote.SetActive(true);
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", false);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", true);
@@ -817,19 +828,19 @@ public class PlayerController : MonoBehaviour
         //Hide emote bubble based on "emoteName" given
         if (emoteName == "Ellipses")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Ellipses").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Ellipses").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("madeChoice", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
         else if (emoteName == "Exclaim")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Exclaim").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Exclaim").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
         else if (emoteName == "Lightbulb")
         {
-            bubbleEmote = bubbleEmotes.transform.FindChild("BubbleEmote_Lightbulb").gameObject;
+            bubbleEmote = bubbleEmotes.transform.Find("BubbleEmote_Lightbulb").gameObject;
             bubbleEmote.GetComponent<Animator>().SetBool("hasEnded", true);
             bubbleEmote.GetComponent<Animator>().SetBool("isVisible", false);
         }
@@ -861,9 +872,9 @@ public class PlayerController : MonoBehaviour
     //Currency Related Methods:
     public void IncrementCurrencyCount(int value)
     {
-        if (promptManager.goldCoin_animator != null)
+        if (promptManager.GetComponent<PromptManager>().goldCoin_animator != null)
         {
-            promptManager.ShowCurrencyIncremented();
+            promptManager.GetComponent<PromptManager>().ShowCurrencyIncremented();
         }
         currency += value;
         currencyCounter.text = currency.ToString();
@@ -876,9 +887,9 @@ public class PlayerController : MonoBehaviour
     }
     public void DecrementCurrencyCount(int value)
     {
-        if (promptManager.goldCoin_animator != null)
+        if (promptManager.GetComponent<PromptManager>().goldCoin_animator != null)
         {
-            promptManager.ShowCurrencyDecremented(); 
+            promptManager.GetComponent<PromptManager>().ShowCurrencyDecremented(); 
         }
         if (currency > 0)
         {

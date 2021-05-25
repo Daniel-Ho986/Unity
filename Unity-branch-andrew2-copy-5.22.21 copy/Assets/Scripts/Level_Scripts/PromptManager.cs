@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PromptManager : MonoBehaviour
 {
-    public static PromptManager instance;
+    //public static PromptManager instance;
 
     public GameObject aimReticle;
 
@@ -50,7 +50,7 @@ public class PromptManager : MonoBehaviour
     public Animator resultsStats_animator;
     public Animator endOfLevelMenu_animator;
 
-
+    /*
     private void Awake()
     {
         if (instance == null)
@@ -63,6 +63,7 @@ public class PromptManager : MonoBehaviour
         }
         DontDestroyOnLoad(this);
     }
+    */
 
     // Start is called before the first frame update
     void Start()
@@ -78,7 +79,7 @@ public class PromptManager : MonoBehaviour
                 }
             }
         }
-    }
+    }//End of Start()
 
     //TextBox_Intro Methods--
     public void ShowTextBoxIntro()
