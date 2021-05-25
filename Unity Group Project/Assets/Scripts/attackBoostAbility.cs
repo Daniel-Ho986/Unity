@@ -11,11 +11,18 @@ public class attackBoostAbility : MonoBehaviour
     [SerializeField] TextMeshProUGUI descriptionAndCost;
     [SerializeField] bool inRange;
 
+    //Item Sound Effect
+    public AudioSource audio;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        cost = 5;
+        if (audio == null){
+            audio = GetComponent<AudioSource>();
+        }
+        
+        cost = 10;
         description = "Boost attack by 1";
         descriptionAndCost.text = description + System.Environment.NewLine + "Cost: " + cost + System.Environment.NewLine + "Press E to buy";
         descriptionAndCost.gameObject.SetActive(false);
@@ -28,12 +35,14 @@ public class attackBoostAbility : MonoBehaviour
 
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (PersistentData.Instance.GetCoin() >= cost)
+            if (PersistentData.Instance.GetCurrency() >= cost)
             {
+                //Play Item Sound Effect
+                AudioSource.PlayClipAtPoint(audio.clip, transform.position);
+
                 PersistentData.Instance.SetDamage(PersistentData.Instance.GetDamage() + 1);
-                PersistentData.Instance.SetCoin(PersistentData.Instance.GetCoin() - cost);
-                descriptionAndCost.gameObject.SetActive(false);
-                gameObject.GetComponent<Renderer>().enabled = false;
+                PersistentData.Instance.SetCurrency(PersistentData.Instance.GetCurrency() - cost);
+
             }
         }
     }

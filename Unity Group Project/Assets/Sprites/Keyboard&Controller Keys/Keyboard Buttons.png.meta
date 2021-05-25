@@ -53,6 +53,21 @@ TextureImporter:
   - first:
       213: 2207031855845381651
     second: keyboard_pressed_0
+  - first:
+      213: -1949501855926108568
+    second: keyboardButton_SHIFT
+  - first:
+      213: 1837549234219723216
+    second: keyboardButton_E
+  - first:
+      213: -7101057440481442333
+    second: keyboardButton_SPACE
+  - first:
+      213: 7099458520691280448
+    second: keyboardButton_leftArrow
+  - first:
+      213: -5433530541095153125
+    second: keyboardButton_rightArrow
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -565,6 +580,111 @@ TextureImporter:
       bones: []
       spriteID: 31692af87c3f0ae10800000000000000
       internalID: 2207031855845381651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardButton_SHIFT
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 176
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e3f84146af1f4e0800000000000000
+      internalID: -1949501855926108568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardButton_E
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d925f2fa49408910800000000000000
+      internalID: 1837549234219723216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardButton_SPACE
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5857281e9f37d90800000000000000
+      internalID: -7101057440481442333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardButton_leftArrow
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a8c67f8e7568260800000000000000
+      internalID: 7099458520691280448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardButton_rightArrow
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1299cdc2c83894b0800000000000000
+      internalID: -5433530541095153125
       vertices: []
       indices: 
       edges: []

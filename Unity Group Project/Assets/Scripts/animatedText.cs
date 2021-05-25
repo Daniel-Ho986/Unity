@@ -8,7 +8,7 @@ public class animatedText : MonoBehaviour
 {
     //Time taken for each letter to appear 
     //(The lower it is, the faster each letter appear)
-    public float letterPaused = 0.01f;
+    public float letterPaused = 0.005f;
 
     //Message that will display till the end that will come out letter by letter
     public string message;

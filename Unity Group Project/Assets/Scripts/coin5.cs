@@ -5,13 +5,14 @@ using UnityEngine;
 public class coin5 : MonoBehaviour
 {
     public GameObject controller;
-    // public AudioSource audio;
+    public AudioSource audio;
+
     // Start is called before the first frame update
     void Start()
     {
         if (controller == null)
             controller = GameObject.FindGameObjectWithTag("GameController");
-        //if (audio == null) audio = GetComponent<AudioSource>();
+        if (audio == null) audio = GetComponent<AudioSource>();
 
     }
 
@@ -27,7 +28,7 @@ public class coin5 : MonoBehaviour
         {
             Debug.Log("collided with coin");
             controller.GetComponent<ScoreCount>().IncrementScore(5);
-            //AudioSource.PlayClipAtPoint(audio.clip, transform.position); //figure out if that is the best way of handling audio source/clip
+            AudioSource.PlayClipAtPoint(audio.clip, transform.position); //figure out if that is the best way of handling audio source/clip
             Destroy(gameObject);
         }
     }

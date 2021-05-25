@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PromptManager : MonoBehaviour
 {
-    public static PromptManager instance;
+    //public static PromptManager instance;
 
     public GameObject aimReticle;
 
@@ -41,7 +41,7 @@ public class PromptManager : MonoBehaviour
     public Animator resultsStats_animator;
     public Animator endOfLevelMenu_animator;
 
-
+    /*
     private void Awake()
     {
         if (instance == null)
@@ -54,6 +54,7 @@ public class PromptManager : MonoBehaviour
         }
         DontDestroyOnLoad(this);
     }
+    */
 
     // Start is called before the first frame update
     void Start()
@@ -69,7 +70,7 @@ public class PromptManager : MonoBehaviour
                 }
             }
         }
-    }
+    }//End of Start()
 
     //TextBox_Intro Methods--
     public void ShowTextBoxIntro()
@@ -303,7 +304,7 @@ public class PromptManager : MonoBehaviour
     //End Results Chart Methods--
     public void ShowEndResults()
     {
-        resultsChart_animator.SetBool("isVisible", true);
+        resultsChart_animator.SetBool("isVisible", false);
         StartCoroutine(ShowResultsStatsCoroutine());
         StartCoroutine(ShowButtonOkCoroutine());
     }

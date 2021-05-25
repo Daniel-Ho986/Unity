@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edde674bee029c841971a8149bb40440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPaused: 0.01
+  letterPaused: 0.005
   message: 
   messageDisplay: {fileID: 0}
   typingAudio: {fileID: 0}
